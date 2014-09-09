@@ -5,6 +5,7 @@ Created on Thu Jun 19 22:44:23 2014
 @author: Lanfear
 """
 import numpy as np
+import scipy as sp
 from numpy.linalg import svd
 
 class CA(object):
@@ -21,21 +22,22 @@ class CA(object):
         self.cols = ct.columns.values if hasattr(ct, 'columns') else None
 
         # contingency table
-        N = np.matrix(ct, dtype=float)
+        self.N = np.matrix(ct, dtype=float)
 
         # correspondence matrix from contingency table
-        P = N / N.sum()
+        self.P = self.N / self.N.sum()
 
+    def ComputeCA(self):
         # row and column marginal totals of P as vectors
-        r = P.sum(axis = 1)
-        c = P.sum(axis = 0).T
+        r = self.P.sum(axis = 1)
+        c = self.P.sum(axis = 0).T
 
         # diagonal matrices of row/column sums
         D_r_rsq = np.diag(1./ np.sqrt(r.A1))
         D_c_rsq = np.diag(1./ np.sqrt(c.A1))
 
         # the matrix of standarized residuals
-        S = D_r_rsq * (P - r * c.T) * D_c_rsq
+        S = D_r_rsq * (self.P - r * c.T) * D_c_rsq
 
         # compute the SVD
         U, D_a, V = svd(S, full_matrices=False)
@@ -55,9 +57,9 @@ class CA(object):
         Y = D_c_rsq * V
 
         # the total variance of the data matrix
-        inertia = sum([(P[i,j] - r[i,0] * c[j,0])**2 / (r[i,0] * c[j,0])
-                       for i in range(N.shape[0])
-                       for j in range(N.shape[1])])
+        inertia = sum([(self.P[i,j] - r[i,0] * c[j,0])**2 / (r[i,0] * c[j,0])
+                       for i in range(self.N.shape[0])
+                       for j in range(self.N.shape[1])])
 
         self.F = F.A
         self.G = G.A
@@ -65,9 +67,9 @@ class CA(object):
         self.Y = Y.A
         self.inertia = inertia
         self.eigenvals = np.diag(D_a)**2
-        P = self.X
+        
         Del = D_a
-        F = np.around(P * Del, decimals=4)
+        F = np.around(self.X * Del, decimals=4)
         print F
 
 
