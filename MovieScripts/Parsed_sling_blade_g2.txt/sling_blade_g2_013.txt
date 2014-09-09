@@ -1,0 +1,18 @@
+	int. hallway - day
+	
+	theresa stands on one side of the door, melvin on the other.
+	
+	                    theresa
+	          can i just sneak in there? i won't
+	          take any pictures, i promise. i
+	          just want to listen.
+	
+	                    melvin
+	          no ma'am. i'm sorry you can't.
+	
+	theresa takes a cigarette from her purse and starts to light
+	it.
+	
+	                    melvin (cont'd)
+	          you can't smoke in here. i'm sorry.
+	

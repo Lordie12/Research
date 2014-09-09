@@ -1,0 +1,9 @@
+     int.  second floor hallway -- day
+
+     welles comes up from the stairs, arrives at a closed door.
+     he opens the door.  it's a linen closet, with towels and
+     sheets on shelves, and a shelf of medicine.
+
+     welles shuts the door and moves on.  there are two doors
+     ahead, both closed.  welles takes the one to the right...
+

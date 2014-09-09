@@ -1,0 +1,21 @@
+	int.  control room - destroyer selfridge - night
+
+	the watch officer listens to a report on his headset and
+	turns to the captain.
+
+					watch officer
+			captain, lookouts report a sighting, two
+			points off the starboard beam.
+
+	the sonar operator looks up and nods.
+
+					selfridge captain
+			how big?
+
+					sonar operator
+			...i've lost it.
+
+					selfridge captain
+			probably a blackfish.  i've seen them
+			look like subs.
+

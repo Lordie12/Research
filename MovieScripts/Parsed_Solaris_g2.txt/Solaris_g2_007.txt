@@ -1,0 +1,12 @@
+int.  prometheus
+
+kelvin, in a space suit, climbs with some difficulty out of
+the athena 7, which has come to rest in the docking bay of
+the prometheus.  several exploratory pods fill the remainder
+of the area.
+
+kelvin gets his bearings and looks around, but sees no sign
+of life.
+
+                                                  cut to:
+

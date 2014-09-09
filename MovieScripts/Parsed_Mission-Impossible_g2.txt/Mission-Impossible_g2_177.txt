@@ -1,0 +1,9 @@
+     int. waterloo station platform - day
+
+     the sleek front power car, looking like the nose of an sst,
+     gets its 25,000 volt charge from the overhead catenary.
+
+     the rear power car gets its jolt.
+
+     the tgv starts to move, pulling out of the station.
+

@@ -1,0 +1,17 @@
+	int. bus station - day
+	
+	karl stands at the counter. a middle-aged man is selling
+	tickets.
+	
+	                    karl 
+	          how does a feller go about gettin'
+	          up to the state hospital?
+	
+	                    man 
+	          you buy a ticket for fourteen
+	          dollars and then set and wait for
+	          the four-fifteen bus to kelton.
+	
+	                    karl 
+	          all right then.
+	

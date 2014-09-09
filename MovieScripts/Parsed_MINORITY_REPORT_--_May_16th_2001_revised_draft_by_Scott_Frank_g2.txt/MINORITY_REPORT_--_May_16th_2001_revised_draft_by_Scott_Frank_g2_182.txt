@@ -1,0 +1,5 @@
+		int.  precrime ready room - day
+		
+		as the precops get ready, ride the chairs up to the
+		hovership.
+		

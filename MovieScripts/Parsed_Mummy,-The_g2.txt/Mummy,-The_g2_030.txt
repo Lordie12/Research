@@ -1,0 +1,9 @@
+               int. scarab chamber - day
+
+               the warden crawls into a dark chamber and lights a torch.
+
+               a mural wall comes alive. embedded into it are dozens of 
+               black amethyst scarabs; glittering images of the sacred 
+               beetles. awestruck, the warden pulls out a pocket knife and 
+               starts prying away at one of the precious bugs.
+

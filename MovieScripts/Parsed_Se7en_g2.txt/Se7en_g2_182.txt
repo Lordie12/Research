@@ -1,0 +1,6 @@
+     int.  underground waterway -- night
+
+     an underground pipe-way.  mills tries to swim, is mostly carried
+     in the flow.  he's battered against the sides of the pipe,
+     holding his breath desperately.
+

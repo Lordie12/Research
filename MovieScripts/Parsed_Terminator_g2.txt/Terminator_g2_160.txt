@@ -1,0 +1,11 @@
+171     int. main corridor                                     171
+
+        terminator stops before another door.  he blasts the lock
+        with the riot-gun.  flings open the door, scanning.
+        moves on.
+        he is hit twice, chest and leg.
+        firelight flickers from an office doorway as he passes.
+
+                                               cut to:
+
+

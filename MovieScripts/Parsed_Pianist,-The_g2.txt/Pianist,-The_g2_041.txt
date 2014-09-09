@@ -1,0 +1,8 @@
+               int. warehouse - day
+
+               szpilman and the others bring their piles of things into 
+               the warehouse, which is crammed with similar objects, an 
+               aladdin's cave.
+
+               the activity continuous.
+

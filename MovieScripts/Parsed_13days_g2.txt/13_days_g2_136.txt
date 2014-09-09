@@ -1,0 +1,23 @@
+	int. west wing hall - night
+
+	kenny joins the president and general taylor in the hallway
+	as they head for the oval office.
+
+				general taylor
+		it appears our low-level flights are
+		getting back okay.  some unconfirmed
+		reports of small-arms fire from some of
+		the missions, but that's it.
+
+	slightly behind them, kenny looks sidelong at taylor.
+
+				the president
+		guess we can't blame khruschev for a few
+		patriotic farmers.  and the ships?
+
+				general taylor
+		still heading for cuba.
+
+				the president
+		all right.  then i guess it's time.
+

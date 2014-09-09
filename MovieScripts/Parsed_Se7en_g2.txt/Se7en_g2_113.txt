@@ -1,0 +1,15 @@
+     int.  apartment 604, bathroom -- night
+
+     somerset looks around this femininely decorated bathroom.
+
+     in the sink, objects covered in blood: a pair of scissors, a
+     hypodermic needle, first-aid tape and gauze bandages, a bottle
+     of anesthetic for use with the needle, a straight razor.
+
+     somerset moves from the sink, looks in the bathtub.  the tub and
+     shower walls are splattered with blood.  the tub has a few
+     inches of water in it.  the water is cloudy red and bits of
+     gauze float in it.  somerset jiggles the drain's knob.
+
+     some bubbles pop up from the clogged drain.
+

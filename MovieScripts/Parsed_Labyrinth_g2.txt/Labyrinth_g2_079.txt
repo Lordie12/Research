@@ -1,0 +1,25 @@
+79	ext: castle - night
+
+the main entrance to the castle. two-goblin guards stand outside the
+large wooden doors. the results of the threesome's escape can be
+heard in the distance. a figure staggers out of the dark, singing
+drunkenly. it is hoggle.
+
+hoggle: " ... it's so cold in the night with no gold to keep me warm
+... "
+
+he trips over his feet as he approaches the guard.
+
+guard: who goes there?
+
+hoggle " ... so cold, oh so cold ... "
+
+guard 2: don't worry about him. he's on jareth's payroll now.
+
+hoggle falls to the ground, then picks himself up.
+
+hoggle: thash right. jareth owes me sumthin' ... an' i'm here ta
+collect ...
+
+they laugh at him, then step aside and let him enter.
+

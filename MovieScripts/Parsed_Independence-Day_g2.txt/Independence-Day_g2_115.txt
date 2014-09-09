@@ -1,0 +1,12 @@
+	int. helicopter - continuous
+
+	the president steps inside, turns to general grey.
+
+				president
+		is my wife in the air?
+
+				general grey
+		she should be shortly.
+
+	david flips open his laptop which reads: 09:07. 09:96...
+

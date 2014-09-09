@@ -1,0 +1,6 @@
+     int.  kitchen -- day
+
+     welles comes up from the basement, slow, hurting.  he looks
+     around at the damage done, looks down to see he's still
+     holding machine's mask.  he drops it.
+

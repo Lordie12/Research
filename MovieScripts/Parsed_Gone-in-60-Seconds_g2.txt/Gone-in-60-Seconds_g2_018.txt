@@ -1,0 +1,5 @@
+	int. garage - chop shop
+
+	a car is chopped ... pulled apart ... fenders, doors, panels,
+	interiors, air bags ...
+

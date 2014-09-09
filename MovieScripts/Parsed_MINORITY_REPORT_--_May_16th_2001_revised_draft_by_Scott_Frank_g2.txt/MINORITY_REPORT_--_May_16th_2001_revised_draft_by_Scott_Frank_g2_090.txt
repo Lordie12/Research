@@ -1,0 +1,7 @@
+		int.  subway - day
+		
+		anderton rides the train, avoiding the eyes of other
+		passengers.  a nearby passenger is flipping pages in the
+		digital post, where the headline changes to "precrime hunts
+		its own".
+		

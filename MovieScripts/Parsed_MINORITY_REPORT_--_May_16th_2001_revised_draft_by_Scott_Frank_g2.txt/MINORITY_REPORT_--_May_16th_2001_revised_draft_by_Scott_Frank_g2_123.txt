@@ -1,0 +1,4 @@
+		int.  hallway - night
+		
+		two spyders exit the stairwell and move to the nearest doors.
+		

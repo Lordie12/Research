@@ -1,0 +1,11 @@
+100	int. hotel lobby - night
+
+	karla and nancy go to the area near the check-in and behind the desk.
+
+					nancy
+			look up there. i'll look over here.
+
+	karla looks behind the desk. nancy is searching the shelves.
+
+									cut to:
+

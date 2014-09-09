@@ -1,0 +1,6 @@
+24   int. kitchen - day                                        24
+     michael is throwing a heap of used cotton and dirty
+     diapers into the garbage can. he's rather disgusted by
+     them.
+
+

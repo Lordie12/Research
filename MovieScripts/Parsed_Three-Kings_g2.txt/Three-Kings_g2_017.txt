@@ -1,0 +1,5 @@
+     int. stairwell - bunker
+
+     archie runs down the narrow stairs of the bunker, followed by
+     troy and doc.
+

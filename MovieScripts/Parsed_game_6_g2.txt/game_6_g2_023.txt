@@ -1,0 +1,54 @@
+int. taxi
+
+the driver re-enters.
+
+                         driver
+               we must abandon.
+
+                         nicky
+               what do you mean, we must abandon?
+
+                         driver
+               ruptured steam pipe.
+
+                         elliot
+               ruptured steam pipe.
+
+                         driver
+               asbestos lining. do not inhale.
+
+                         nicky
+               we must abandon.
+
+                         driver
+               contaminated substance. very
+               dangerous. shooting mud.
+
+                         nicky
+               do not inhale.
+
+                         elliot
+               we must abandon.
+
+                         driver
+               ruptured steam pipe.
+
+                         nicky
+               very dangerous.
+
+                         elliot
+               asbestos lining.
+
+                         nicky
+               we must abandon.
+
+                         elliot
+               do not inhale.
+
+driver's name plate --
+
+                         bodenheim
+                         yehoshafat
+
+nicky pays him.
+

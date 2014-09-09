@@ -1,0 +1,19 @@
+119  int bunker - control room
+
+controllers watch the main viewscreen on which a vague figure of an 
+imperial walker pilot can be seen. there is a great deal of static and 
+interference.
+
+han/pilot	 (vo)
+it's over, commander. the rebels have been routed. they're fleeing into 
+the woods. we
+need reinforcements to continue the pursuit.
+
+the controllers cheer.
+
+control room commander
+send three squads to help. open the back door.
+
+second commander
+yes, sir.
+

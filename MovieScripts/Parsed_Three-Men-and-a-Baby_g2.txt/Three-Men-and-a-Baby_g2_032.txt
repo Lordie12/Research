@@ -1,0 +1,7 @@
+32   int. kitchen - day                                           32
+     peter is making the bottle, michael is holding mary, who
+     is crying.
+                             michael
+               make it snappy, will ya, she's
+               famished.
+

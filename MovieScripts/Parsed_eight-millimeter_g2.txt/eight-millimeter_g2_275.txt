@@ -1,0 +1,6 @@
+     int.  bedroom -- night
+
+     welles and amy are in bed.  amy's asleep, on her side,
+     facing away from welles.  welles lays awake, on his back,
+     staring up at the ceiling.
+

@@ -1,0 +1,22 @@
+471	ext. batblade
+
+	the skiers are closing fast.  batgirl hits a key and a 
+	status panel displays a menu of the batblade's special
+	modifications.
+
+				batgirl
+		nice extras package.
+
+472	panel - close.  barbara selects a setting called ice
+	cutter.
+
+473	the batblade scythe peels back, revealing a sharper blade.
+
+474	batgirl uses her deft driving skills to spin and side-
+	skid, her blade sending a wave of frozen ice into the
+	faces of the icemen, the villains tumbling in backwards
+	somersaults across the ice.
+
+				batgirl
+		that's what i call a close shave.
+

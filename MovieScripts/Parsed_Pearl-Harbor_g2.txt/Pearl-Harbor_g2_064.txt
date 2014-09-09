@@ -1,0 +1,34 @@
+	int.  pentagon - day
+
+	admirals and other officers are gathered around a giant map
+	of the pacific.
+
+					admiral
+			the attack seems inevitable.  the
+			question is where?  the way to answer
+			that question is to ask:  if we were the
+			japanese, how would we do it?
+
+	he nods to a vice admiral, who stands over the map.
+
+					vice admiral
+			between america and the far east are the
+			sea lanes where the winds and the
+			currents make the best route for
+			shipping.  far above is the northern
+			route, between canada and russia.
+			between these two is something they call
+			the vacant sea.  if i were the japs, i'd
+			send a task force there.  you could hide
+			the entire land mass of asia in the
+			vacant sea, and nobody would know.
+
+					admiral
+			so they pop out and attack where?
+
+					vice admiral
+			that's the problem, admiral.  they could
+			hit anywhere they want.
+
+	nobody has any solution.
+

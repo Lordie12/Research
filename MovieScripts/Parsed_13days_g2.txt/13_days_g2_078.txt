@@ -1,0 +1,9 @@
+	int. missile silo - continuous
+
+	-- into the depths of a missile silo.  the camera speeds down
+	the side of the titan missile, through clouds of steaming
+	liquid hydrogen, past fueling hoses which clamp one by one to
+	the rocket's side, past gantry arms pulling away.  the camera
+	hurtles all the way to the bottom, smashing through the floor
+	to:
+

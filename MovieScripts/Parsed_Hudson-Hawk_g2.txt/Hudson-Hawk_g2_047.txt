@@ -1,0 +1,8 @@
+     ext. indoor train track
+
+     one of the small vatican mail trains bullets across an
+     indoor track.  the viewer's viewpoint whooshes to catch
+     up, focusing on a very large package, addressed to the
+     pope, that has hawk's sheath of stamps slapped onto it.
+     the train zips into a tunnel.
+

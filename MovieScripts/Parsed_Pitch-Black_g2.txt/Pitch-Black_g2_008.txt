@@ -1,0 +1,5 @@
+     int. ship - day
+
+     as jettison doors close around the ship.
+
+

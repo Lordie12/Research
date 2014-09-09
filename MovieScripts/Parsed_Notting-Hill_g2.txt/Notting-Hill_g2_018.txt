@@ -1,0 +1,24 @@
+  int. manhattan art gallery - day
+
+  anna's character -- woody anna -- is walking around the gallery
+  with her famous co-star, michael.  they should be the perfect
+  couple, but there is tension.  anna is not happy.
+
+        michael
+    smile.
+
+        anna
+    no.
+
+        michael
+    smile.
+
+        anna
+    i've got nothing to smile about.
+
+        michael
+    okay in about 7 seconds, i'm going to
+    ask you to marry me.
+
+  and after a couple of seconds -- wow -- she smiles.
+

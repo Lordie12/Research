@@ -1,0 +1,8 @@
+145	int.  spaceship
+
+	in the admiral's starship, scientists watch the measuring device.  one of
+the devices suddenly starts working.
+
+						technician
+				all right! we're finally getting something!
+

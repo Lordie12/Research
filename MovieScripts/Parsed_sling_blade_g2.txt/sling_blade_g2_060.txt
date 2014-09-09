@@ -1,0 +1,11 @@
+	int. shop - day
+	
+	karl is cleaning some parts in a bucket of gasoline. bill
+	comes to the door.
+	
+	                    bill 
+	          hey there karl, can you come unload
+	          a generator for me?
+	
+	karl wipes his hands on a shop towel and starts outside.
+	

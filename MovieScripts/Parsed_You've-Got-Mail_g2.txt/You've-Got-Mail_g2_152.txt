@@ -1,0 +1,42 @@
+	int. joe's lobby - continuous
+
+	as they enter the lobby and walk toward the elevator.
+
+			     joe
+		so you're going to offer her a job?
+
+			     patricia
+		why not?  what else has she got to do?
+
+			     joe
+		now that she's destitute --
+
+			     patricia
+		thanks to you.
+
+			     joe
+		well, i can't imagine her working for
+		you.
+
+			     patricia
+		why not?
+
+			     joe
+		she has a horrible personality, she's...
+		nice to everyone all the time.  it's
+		exhausting.  and her staff turnover is
+		... non-existent.  they've been there
+		forever.  until... recently, when they
+		all found out they were going to lose
+		their jobs.
+
+			     patricia
+		thanks to you.
+
+	the elevator door is closing.
+
+			     patricia (cont'd)
+		hold the elevator!
+
+	they get in.
+

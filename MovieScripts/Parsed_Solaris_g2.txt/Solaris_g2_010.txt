@@ -1,0 +1,5 @@
+int.  corridor
+
+empty.  but there is a door at the end of it, slightly open. 
+kelvin moves toward it.
+

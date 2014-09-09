@@ -1,0 +1,4 @@
+               int. stairwell
+
+               merlin reaches the second floor, steps into the hall.
+

@@ -1,0 +1,11 @@
+35   int. taxi (moving) - estate streets - night                 35
+
+     calvin riding in the back of a driverless taxi cab. staring
+     out the window, lost in thought. the cab pulls up to a curb.
+
+                           taxi voice
+                 we have arrived at your
+                 destination.
+
+     calvin.   takes a beat.   then swipes her card.
+

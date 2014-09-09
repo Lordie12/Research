@@ -1,0 +1,5 @@
+		int.  hallway - night
+		
+		the spyder comes out of the apartment next door, moves down
+		towards anderton's door.
+		

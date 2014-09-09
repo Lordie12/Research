@@ -1,0 +1,7 @@
+     int. the guards' station
+
+     two security guards sit before a console of seven
+     security screens still chuckling over an unheard joke.
+     wires coming out of the security console run across the
+     floor and through the wall into...
+

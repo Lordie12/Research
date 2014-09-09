@@ -1,0 +1,40 @@
+176	int.  fhloston  paradise  opera - night
+
+	loc rhod and korben enter what turns out to be a replica of the garnier
+opera in paris.  a hostess escorts them to their seats.
+
+						loc rhod
+					(broadcasting)
+				we have just walked into what is probably
+				the most beautiful concert hall in the universe.
+				totally awesome! magnificent paintings on the
+				ceiling. i don't know who painted them, but he
+				must have busted his balls! i see a row of former
+				ministers, more sinister than minister! a few generals
+				practicing how to sleep. and there's baby ray, star
+				of stage and screen, drowning in a sea of nymphets.
+				he's not gonna get much out of this concert, he's
+				stone-deaf!
+
+	angle on:
+
+	baby ray bending his ear to a girl asking for an autograph.
+
+						baby ray
+				...to who?
+
+						loc rhod
+					(moving down the aisle)
+				...and over there is roy von bacon, the king
+				of laserball and the best paid player in the league.
+					(shakes hands as he goes by)
+				...and over there is the emperor kodar japhet
+				whose daughter aachen is still at the bar.
+				"i love to sing, too, but in the shower", she
+				recently confessed to me. she will no doubt
+				prove to be as generous tonight as she always is.
+
+	a waiter gives them two glasses of champagne.  track with the waiter an
+he leaves the hall with his empty tray.  he enters a small room reserved for
+staff.
+

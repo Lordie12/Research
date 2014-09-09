@@ -1,0 +1,10 @@
+     int. duct - day 
+
+     ethan and krieger crawl quickly through the ducts, moving 
+     horizontally now.  they reach a juncture and turn right. 
+
+                          ethan 
+                1 - 2 - 3 - toast, toast.  luther, i'm 
+                going in.  don't disappoint me...krieger, 
+                from here on in, absolute silence. 
+

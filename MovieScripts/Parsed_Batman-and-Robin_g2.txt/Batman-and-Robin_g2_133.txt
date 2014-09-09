@@ -1,0 +1,33 @@
+480	int. bathammer
+
+	batman hits a control stud.
+
+482a	ext. bathammer
+
+	two torpedoes shoot out of the bathammer chassis, hitting
+	the frozen river directly in front of freeze's truck, ice
+	flying skyward in a tremendous explosion.
+
+482b	ext. freeze truck
+
+	the driver can't swerve in time, the hole in the ice dead
+	ahead.
+
+482c	ext. freeze truck
+
+	the truck hits the steaming pool, flipping up, nose
+	first, and begins to sink into the icy waters.
+
+482d	int. bathammer
+
+	batman races past the sinking truck, icemen crawling to
+	safety.
+
+				batman
+		don't sink and drive.
+
+482e	ext. frozen river
+
+	under the pulse of freeze's beams hitting the city, the
+	batvehciles fire turbos, closing in on the observatory.
+

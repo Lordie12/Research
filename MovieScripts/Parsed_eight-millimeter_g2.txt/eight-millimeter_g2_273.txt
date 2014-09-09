@@ -1,0 +1,6 @@
+     int.  basement -- day
+
+     welles works on the water heater, wrench in hand, reading an
+     instruction sheet.  he puts the sheet aside, uses the wrench
+     to begin loosening one of the pipe fittings.
+

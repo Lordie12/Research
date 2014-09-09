@@ -1,0 +1,4 @@
+12	int.  room 1  temple - day
+
+	billy staggers across the floor, struggling to stay awake.
+

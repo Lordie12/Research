@@ -1,0 +1,27 @@
+	int.  barber shop - day
+
+	admiral kimmel is settling into the barber chair when his
+	aide enters and nods for the barber to move a few paces away,
+	so that he can speak privately.
+
+					aide
+			sir, we just had an intelligence
+			intercept.  someone from tokyo called a
+			local dentist whose office looks over
+			pearl.  they wanted to know the exact
+			location of the ships.
+
+					admiral kimmel
+			someone from tokyo asks a dentist how the
+			ships are sitting... what are we supposed
+			to do about that?
+
+					aide
+			i...don't know, sir.  but it just seemed
+			significant.
+
+					admiral kimmel
+			have intelligence keep monitoring him.
+
+	the admiral sinks back into the chair.
+

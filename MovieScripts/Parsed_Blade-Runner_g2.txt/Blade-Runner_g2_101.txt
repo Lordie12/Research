@@ -1,0 +1,5 @@
+        int. corridor - night                                   100
+
+        laser in hand, deckard kicks open the swinging doors
+        and walks into the corridor, a dangerous man.
+

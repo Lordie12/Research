@@ -1,0 +1,6 @@
+     int. nell's car - day
+
+     nell, in a rust-wormed old buick, glances from the road to 
+     computer-drawn directions to hill house.  she hums a tune, soft, 
+     lonely, like a lullaby but eerie, off-key.
+

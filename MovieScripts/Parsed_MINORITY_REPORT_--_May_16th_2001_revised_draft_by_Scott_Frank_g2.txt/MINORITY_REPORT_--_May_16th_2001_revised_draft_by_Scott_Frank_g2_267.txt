@@ -1,0 +1,4 @@
+		int.  corridor - night
+		
+		as burgess hears the sound, starts down the corridor for it.
+		

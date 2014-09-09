@@ -1,0 +1,11 @@
+     int. confusing series of rooms (the maze) - night
+
+     nell winds through the pitch-dark halls, rooms gaping black left and
+     right, searching for the voices which seems to come from just around
+     the next bend, leading her around corner after corner.
+
+     the hallways peel past nell as she runs, slamming through doors, 
+     ever darker.  the house's hellish carvings glare as she passes, 
+     grinning, taunting.  she rages on, oblivious until she rounds a 
+     final corner --
+

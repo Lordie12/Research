@@ -1,0 +1,5 @@
+	int. screened-in porch - day
+	
+	karl goes onto the screened-in porch, looks through the
+	kitchen window and goes inside.
+	

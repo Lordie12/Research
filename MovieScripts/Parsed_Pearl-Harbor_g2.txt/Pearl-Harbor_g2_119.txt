@@ -1,0 +1,23 @@
+	int.  army headquarters - dawn
+
+	the phone rings and an officer answers.
+
+					officer
+			watch command... coming from which
+			direction?... hold on.
+
+	he covers the phone and tells his commander --
+
+					officer
+			radar station has picked up a cloud of
+			blips, coming in from the northeast.
+
+	he switches on the radio, and tunes it to kgmb; hearing the
+	hawaiian music reassures him something...
+
+					commander
+			kgmb is on early.  that means we've got a
+			flight of b-17's coming in from the
+			mainland, they use the radio music for a
+			homing beacon.
+

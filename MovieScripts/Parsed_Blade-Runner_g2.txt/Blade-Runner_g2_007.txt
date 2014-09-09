@@ -1,0 +1,6 @@
+        int. corridor - night                                   8
+
+        deckard has got his coat swung over his shoulder, his
+        shirt already damp, as he walks down the long, hollow
+        passage under orbs of yellow light.
+

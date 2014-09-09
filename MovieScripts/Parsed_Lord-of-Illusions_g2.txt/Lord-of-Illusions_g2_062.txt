@@ -1,0 +1,8 @@
+	int. wiltern theatre - lobby - night
+
+	the doors squeak as a gust of wind blows through them. 
+
+	butterfield stands in the lobby, listening to the muted
+	sounds of music and applause.  then he offers his ticket to
+	the ticket-collector and steps inside.
+

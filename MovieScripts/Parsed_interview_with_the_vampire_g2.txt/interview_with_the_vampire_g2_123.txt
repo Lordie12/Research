@@ -1,0 +1,8 @@
+	int. cell
+
+	empty. the hearth is cold. the old coffin is gone.
+	louis silently closes the door to the passage and
+	blocks it with an immense bar. he goes in the other
+	door.
+
+

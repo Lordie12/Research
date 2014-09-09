@@ -1,0 +1,6 @@
+int. union station - subway station
+50
+... the subway squeals to a stop.  linus jumps out,
+leaving his prey aboard, and a few moments later, danny
+steps off, too.
+51

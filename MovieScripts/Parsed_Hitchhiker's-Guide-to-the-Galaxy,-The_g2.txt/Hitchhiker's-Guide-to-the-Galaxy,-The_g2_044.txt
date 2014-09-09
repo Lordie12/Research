@@ -1,0 +1,31 @@
+54      int. vogon destroyer ship. bridge - night                          54
+
+        vogon crew quickly enter data. a flight engineer gets
+        something on his screen, shows it to the captain.
+
+                             vogon captain
+                     sir, the heart of gold has just requested
+                     permission to land on viltvodle 6. should
+                     i pursue?
+
+                             kwaltz (on monitor)
+                     that is not a request to which i can
+                     respond, captain. should i pursue what?
+                     are you requesting hyperspace clearance so
+                     that you may pursue the fugitive?
+
+                             vogon captain
+                     yes, commander.
+
+                             kwaltz (on monitor)
+                     then you must say that, captain -- in
+                     request form.
+
+                             vogon captain
+                     requesting hyperspace clearance to pursue
+                     the fugitive, sir.
+
+                             kwaltz (on monitor)
+                     thank you. request acknowledged.   await
+                     response.
+

@@ -1,0 +1,9 @@
+     int. 2nd floor hallway, north wing - day
+
+     nell emerges from her room in her new clothes.  the hallway curves 
+     away into the distance, lined with massive, ornate doorframes like 
+     the one to her room.
+
+     trying to get a better look, nell searches the walls for a light
+     switch, but can't find one.  she follows the chair rail back to --
+

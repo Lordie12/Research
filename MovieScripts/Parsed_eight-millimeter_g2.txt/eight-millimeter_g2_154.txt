@@ -1,0 +1,6 @@
+     ext.  1204 warehouse -- day
+
+     the elevator opens on the first floor.  welles gets out,
+     instead of leaving the way he came, heads towards the
+     rear... follow him down a hallway, past a service elevator...
+

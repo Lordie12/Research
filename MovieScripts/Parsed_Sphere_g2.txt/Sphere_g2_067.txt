@@ -1,0 +1,39 @@
+     int.  habitat corridor
+
+     a long, empty corridor.  all is quiet.
+
+                                                            cut to:
+
+     close on a monitor -- a series of numbers:
+
+     00032125262632  032629  301321  04261037  18  3016  06180
+     82132  2903305  1822  04261013  0830162137  1604  4298756
+     08301632125262632  032629  301321  04261037  18  3016  06
+     82132  2903305  1822  04261013  0830162137  1604  4268756
+     08301632125262632  032629  301321  04261037  18  3016  06
+     82132  2903305  1822  04261013  0830162137  1604  0830164
+
+                         norman
+               when did it come across?
+
+                         edmunds
+               minutes ago.  harry's trying to
+               decode it in his room now.
+
+                         norman
+               where's it coming from?
+
+                         edmunds
+               no idea.  we have no surface support.
+               it transmitted too fast to be coming
+               from underwater.
+
+                         norman
+               is it coming from our own computer?
+
+                         edmunds
+               harry thinks it's some sort of
+               discharge from our own system, but
+               i've seen it discharge before -- and
+               it didn't look anything like this.
+

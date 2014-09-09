@@ -1,0 +1,23 @@
+326	int. freeze's cell
+
+	the two guards stand by the console as the door seals
+	behind pam.
+
+				guard
+		don't mind us, ma'am.  you can converse
+		freely.
+
+	but pam isn't interested in freeze, instead walks to the
+	guards.
+
+				pamela
+		oh, i don't mind you at all.
+
+	pam begins a saunter around the room, shedding her cloak
+	to reveal her skintight ivy costume.
+
+				pamela
+		you're not that attractive.  pretty
+		average i'd say.  but your fantasies
+		aren't average, are they?
+

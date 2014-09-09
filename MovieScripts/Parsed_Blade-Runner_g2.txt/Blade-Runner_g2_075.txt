@@ -1,0 +1,5 @@
+        int. corridor - sebastian's floor - morning             75
+
+        sebastian arrives on his floor, walks down the hall to
+        his apartment, opens the door, walks in.
+

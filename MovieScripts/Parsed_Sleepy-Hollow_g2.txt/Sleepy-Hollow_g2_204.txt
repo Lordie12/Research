@@ -1,0 +1,9 @@
+     int.  windmill -- night
+
+     the lantern hits the ground and shatters.  flames explode!
+
+     grain dust is consumed instantaneously -- flames roar
+     upwards, filling the windmill...
+
+     engulfing the horseman.
+

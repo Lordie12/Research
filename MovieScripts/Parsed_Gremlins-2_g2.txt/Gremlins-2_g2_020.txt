@@ -1,0 +1,108 @@
+          24 int. genetics lab - reception area 24
+
+          with its cheerful wall sign reading splice-o-life inc., this
+          reception area seems normal, except for the animal noises that
+          drift in from the back rooms.
+          a messenger with a package, finding no one at the rception
+          desk, goes past it, into an inner corridor...
+
+          24a int. corridor/genetics lab 24a
+
+          .to the fringe of a laboratory so high-tech it makes the rest
+          of the building look down-home. as he looks into the lab,
+          peering curiously at scientists, gadgets, potted plants and
+          caged animals, his attention is captured by a sound from the
+          0 back -- gizmo's song, in that sad minor key.
+          half-consciously, the messenger picks up the melody, and starts
+          whistling it to himself -- until peggy, the lab's receptionist,
+          comes over to his.
+
+          lcn
+
+          peggy 11.0
+          can i help you?
+
+          c )
+
+          messenger
+          yeah, got a delivery here..
+          he follows her back to
+
+          24b int.reception area 24b
+
+
+          messenger
+          what kind of stuff do they do-ft
+          there, anyway?
+
+          peggy
+          we're not supposed to talk about
+          it.
+
+          messenger
+          huh. this is for doctor catheter.
+
+          0
+
+          peggy
+          i can sign for it.
+
+          (continued)
+
+          
+
+          
+
+          
+
+          
+
+          revised 3/15/89
+
+          21.
+
+          24b continued: 24b
+
+          0
+          peggy's got a bad case of the sniffles -- she blows her nose as
+          she signs the paperwork and hands it back.
+
+          messenger
+          okay. this copy's yours. thanks.
+          whistling gizmo's tune again, the messenger leaves the office
+          -- almost running into dr. catheter, splice-o-life's chief
+          scientist, who's on his way in.
+
+          peggy
+          doctor catheter, this just came
+          for you.
+
+          dr. catheter
+          (taking package)
+          oh, good. this might be my
+          malaria...
+          (opening package)
+          no, this is just rabies. i have
+          rabies. and i was supposed to get
+          the flu this week.
+
+          lr
+
+          peggy
+           i think the flu is on b;eo -order.
+           she takes out a kleenex, blows he(;z>nose again. dr. catheter
+          holds his hand out. q
+
+           dr. cathete 
+           may i have that, peg
+
+           peggy q)
+          oh, uh -- sure...
+          dr. catheter takes the kleenex, and heads for the inner office.
+
+          dr. catheter
+          (shakes his head)
+          back order. all a man wants is
+          some fresh germs...
+          follow catheter back to
+

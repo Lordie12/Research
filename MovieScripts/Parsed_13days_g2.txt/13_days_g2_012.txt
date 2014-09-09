@@ -1,0 +1,7 @@
+	int. west wing - continuous
+
+	kenny, briefcase in hand, weaves his way through the empty,
+	ornate hallways of the west wing.  past magnificent doorways,
+	early american furniture, paintings.  he finally reaches a
+	doorway, goes through into:
+

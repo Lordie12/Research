@@ -1,0 +1,11 @@
+252	ext. freeze's truck - night
+
+	the freeze-gun fires its deadly blast, hitting the
+	batmobile.
+
+252a	ext. statue's hand - night
+
+	robin watches as the flying batmobile begins to ice over
+	from freeze's cryonic blast.
+
+

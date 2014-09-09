@@ -1,0 +1,10 @@
+int. hallway - day
+
+joel walks with his bags behind mary.
+
+		mary
+		(not looking back)
+	how are you today?
+		(at lab)
+	here we are.
+

@@ -1,0 +1,5 @@
+	int. bathroom
+
+	julie turns off the water -- and klunk-klunk -- and noise at her door.
+	the sound stops.
+

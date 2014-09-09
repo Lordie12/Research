@@ -1,0 +1,5 @@
+     int. taurus - continuous
+
+     brill dumps the car into low gear and the taurus comes
+     alive.
+

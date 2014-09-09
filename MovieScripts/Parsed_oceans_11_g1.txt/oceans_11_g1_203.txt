@@ -1,0 +1,10 @@
+int. vault
+a226
+yen catches his breath on the far end of the room.  he
+hears the slap, rolls his eyes, and ducks out of the
+line of fire.
+b226
+outside vault
+b226
+danny presses the detonator.
+c226

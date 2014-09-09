@@ -1,0 +1,14 @@
+     int.  bank, safe deposit vault -- day
+
+     welles and the safe deposit manager enter.  they go to put
+     their keys in one drawer, unlocking it a pulling it out.
+
+                             manager
+                 may i show you to a booth...
+
+                             welles
+                 no, i've got it.
+
+     welles pulls the drawer open, takes the 8mm film out and
+     hands the empty drawer to the manager, exiting.
+

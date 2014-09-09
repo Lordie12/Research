@@ -1,0 +1,6 @@
+               int. bar. night
+
+               terry sits at the bar, drinking beer. there are a few locals 
+               in the place, but it's pretty dead. he looks around; his 
+               energy is too restless for the near-empty bar.
+

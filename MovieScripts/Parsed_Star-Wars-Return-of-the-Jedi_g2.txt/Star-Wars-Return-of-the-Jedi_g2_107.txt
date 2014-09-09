@@ -1,0 +1,18 @@
+110  int rebel star cruiser - bridge
+
+ackbar stands amid the confusion on the wide bridge and speaks into the 
+comlink.
+
+ackbar
+we saw it. all craft prepare to retreat.
+
+lando
+you won't get another chance at this, admiral.
+
+ackbar
+we have no choice, general calrissian. our cruisers can't repel 
+firepower of that magnitude.
+
+lando
+han will have that shield down. we've got to give him more time.
+

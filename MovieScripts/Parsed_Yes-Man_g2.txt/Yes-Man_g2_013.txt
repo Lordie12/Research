@@ -1,0 +1,17 @@
+          int. dunkin donuts
+          
+          carl walks into dunkin donuts.
+          
+                              dunkin donuts cashier
+                    would you like an italian --
+          
+                                 carl
+                    no thanks.
+          
+                              dunkin donuts cashier
+                    how about --
+          
+                                 carl
+                    no.
+          
+          

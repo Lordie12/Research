@@ -1,0 +1,20 @@
+int. cockpit - night 
+
+the pilot and co-pilot are surrounded by an array of dimly lit gauges 
+and switches. before the co-pilot is a radar screen and an infra-red 
+display terminal on which the two helicopters appear as heat sources.
+
+pilot number one
+... roger bird two, two. reconfirm insertion at tango, charlie, delta 
+one, zero, niner on the grid at zero, two, two, mark four by zero. 
+over.
+
+pilot number two (v.o.)
+two, two, leader. roger your insert coord. over.
+
+pilot number one
+leader to bird two two. i bear two minutes to landing zone.
+
+the pilot throws a switch on the panel before him
+
+

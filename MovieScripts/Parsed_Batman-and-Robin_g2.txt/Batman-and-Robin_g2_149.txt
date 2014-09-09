@@ -1,0 +1,33 @@
+554	int. observatory - telescope control platform
+
+	freeze is scrambling for his gun.  suddenly a figure looms
+	above him.  batman.
+
+555	freeze draws.  batman kicks the gun out of his hand.  the
+	two begin to fight on the twirling platform.  a battle of
+	titans.
+
+				batman
+		you've turned gotham to ice.
+				(a right)
+		you've endangered countless lives.
+				(a left)
+		it's payback time.
+
+555a	batman knocks freeze with a mighty punch, hurling him
+	onto the back of the telescope.  batman turns towards the
+	console, typing commands.
+
+555b	monitor - close.  targeting.  graphic satellites flash
+	green.  clock reads:  11:58
+
+555c	the mirrors overhead open, beginning to glow with ambient
+	sunlight.
+
+555d	freeze screams at the emerging light, leaping onto
+	batman, sending the caped crusader sprawling onto the
+	barrel of the telescope.  he advances on the fallen bat.
+
+555e	freeze kicks batman hard in the face, the hero rolling
+	down the telescope towards the opening and gotham beyond.
+

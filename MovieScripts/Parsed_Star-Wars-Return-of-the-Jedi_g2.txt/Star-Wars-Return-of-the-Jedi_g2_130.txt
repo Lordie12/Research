@@ -1,0 +1,9 @@
+133  int rebel star cruiser - bridge
+
+ackbar and other mon calamari lean on the railing of the bridge, 
+watching the large screen showing the death star in the main briefing 
+room.
+
+ackbar
+move the fleet away from the death star.
+

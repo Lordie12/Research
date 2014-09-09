@@ -1,0 +1,4 @@
+     int.  welles' car -- day
+
+     welles checks his gun, returns it to his holster.
+

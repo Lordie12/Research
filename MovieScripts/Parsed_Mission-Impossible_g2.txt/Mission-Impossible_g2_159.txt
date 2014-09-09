@@ -1,0 +1,14 @@
+     int. cia - computer room - day                               
+
+     the technician enters the room and shuts the door.  he sees 
+     the knife, picks it up, looks at it and then puts it down. 
+     he resumes his work at the computer but when he punches up 
+     his program, something prints out on his screen.  its header: 
+
+                keystroke log -- file download 
+                    11/18/95 9.58 am
+
+     and it goes on.  the technician's eyes widen in disbelief. 
+     he spins back in his chair and reaches for the nearest 
+     telephone. 
+

@@ -1,0 +1,28 @@
+	int. hospital corridor & room - day
+
+	the nurse leads peter and liz and harry into the room.
+
+				nurse
+		doctor octavius? you have visitors.
+		doctor octavius?
+
+	we hold for a beat. when liz takes a step forward to look
+	around we expect the worst. but nothing grabs her.
+	peter sees a pile of plaster on the floor. he looks up
+	and sees the hole in the ceiling. liz and harry look up
+	too. ock is not there.
+
+				peter
+		ock is not here!
+
+				liz
+		my god, what happened?
+
+				nurse
+		i'd better call the doctor!
+
+				harry
+		you'd better call the police!
+
+	kim screams.
+

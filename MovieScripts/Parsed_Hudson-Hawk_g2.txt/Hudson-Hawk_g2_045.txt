@@ -1,0 +1,5 @@
+     int. alex's restaurant--night
+
+     it is late night in new york.  a phone rings atop the
+     bar of alex's restaurant with no one in sight.
+

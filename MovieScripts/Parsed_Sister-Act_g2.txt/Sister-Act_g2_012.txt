@@ -1,0 +1,7 @@
+     int. corridor
+
+     christy steps out of the elevator and faces a maze of 
+     office cubicles with half-wall partitions.  the floor is 
+     deserted and dark as she makes her way through the 
+     cubicles.
+

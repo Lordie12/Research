@@ -1,0 +1,148 @@
+173	ext.    garden.    night.
+
+kip is in the tent, looking out of the flap, waiting for hana.
+
+
+174*.	int.    the monastery kitchen.    night.
+
+kip walks in looking for hana.
+
+
+174a*.	int.    the patient's room.    night.
+
+kip enters, sees hana is not with the patient, hears his uneven 
+breathing, then goes out.  from the shadows of the room, caravaggio 
+shifts position.   he's slumped on the floor, staring at the man prone 
+in the bed.
+
+
+174b*.	int.    hana's room.    night.
+
+into her bedroom, kip can't find her there either.  he turns to go, 
+walking down the wooden stairs, until her voice stops him in his 
+tracks.  she's in the shadows of the eaves.
+
+			hana
+		sometimes i need you to find me.
+
+
+175*.	int.    the patient's room.     night.
+
+the patient's eyes open to see caravaggio at the morphine.
+
+			the patient
+		hana tells me you're leaving.
+
+			caravaggio
+				(preparing the injection)
+		there are going to be trials, they
+		want me to interpret, don't they
+		know i'm allergic to courtrooms?
+
+			the patient
+		we shall miss you.
+
+he delivers the injection.  the patient sighs.  caravaggio takes off 
+his jacket.  a pistol is stuck in his waistband.  the patient sees it.
+
+			caravaggio
+		so, i come across the hospital convoy
+				(holds up the syringe)
+		i was looking for this stuff, and some
+		nurse, mary, hana's friend, tells me
+		about you and hana, hiding in a
+		monastery, in purdah, whatever it is -
+		retreat -
+				(he administers his own injection, 
+using his teeth grip the sleeve)
+		how you'd come in from the desert
+		and you were burned and you didn't
+		know your name but you knew the
+		words to every song there was and
+		you had one possession -
+				(picks it up)
+		#name?
+		full of letters and cuttings, and then
+		i knew it must be you.
+
+			the patient
+		me?
+
+			caravaggio
+		i'd seen you writing in that book.  
+		at the embassy in cairo, when i
+		had thumbs and you had a face.
+		and a name.
+
+			the patient
+		i see.
+
+			caravaggio
+		before you went over to the germans,
+		before you got rommel's spy across the
+		desert and inside british headquarters.
+		he took some pretty good photographs -
+		i saw mine in that torture room in 
+		tobruk, so they made an impression.  
+
+			the patient
+		and you thought you'd come and
+		settle the score?
+
+			caravaggio
+		you were the only man who knew
+		the desert well enough, the only
+		man who would cross seventeen
+		hundred miles of nothing.
+
+			the patient
+		i had to get back to the desert. i made a
+		promise.  the rest meant nothing to me.
+
+			caravaggio
+		what did you say?
+
+			the patient
+		the rest meant nothing to me.
+
+			caravaggio
+		there was a result to what you did.
+		it wasn't just another expedition.
+				(holds up hands)
+		it did this.  if the british hadn't
+		unearthed your nosey photographer
+		in cairo thousands of people could
+		have died.
+
+			the patient
+		thousands of people did die, just
+		different people.
+
+			caravaggio
+		but you were among the british, they 
+		were your friends - why betray them?
+
+			the patient
+				(a bitter laugh)
+		is that what you thought?  that i
+		betrayed the british?  the british
+		betrayed me.  the british betrayed me.
+
+
+176*.	ext.   basecamp at cave of swimmers.   1939.   day.
+
+almásy sits on a ridge transferring map of information from his 
+herodotus onto a sheet of paper.  he looks up at the sound of clifton's 
+approaching steerman.  he folds up the map and sticks it inside one of 
+clifton's champagne bottles and lodges it between the rocks.
+
+ 
+176a*.	int.    steerman.    day.
+
+clifton is flying the steerman up to gilf kebir.  from the air it's 
+possible to make out almásy scrambling down from the ridge towards 
+where the stones indicate a landing area, carrying the last of the 
+materials from the cave of swimmers.  almásy waves in recognition and 
+welcome.
+
+

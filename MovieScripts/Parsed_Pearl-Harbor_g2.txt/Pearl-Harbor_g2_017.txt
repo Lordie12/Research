@@ -1,0 +1,5 @@
+	int.  train - dawn
+
+	rafe finds a seat and sits down.  he's the only one in the
+	car, and he's deeply alone.
+

@@ -1,0 +1,6 @@
+61   int. supermarket - day                                     61
+     michael is buying a pair of scissors, glue and a roll of
+     scotch tape. then he buys a box of large diapers -- he
+     chooses the ones that come in a box. michael leaves the
+     supermarket, whistling.
+

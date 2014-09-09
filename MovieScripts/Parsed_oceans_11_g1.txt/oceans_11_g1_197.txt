@@ -1,0 +1,12 @@
+int. vault
+d224
+yen tries to free himself, but he can't use his other
+hand lest he drop to the floor.  he tries gnawing at
+his bandage, which brings his face within inches of a
+plastic explosive.
+e224
+outside vault
+e224
+danny
+-- eleven, ten, nine --
+f224

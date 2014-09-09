@@ -1,0 +1,17 @@
+          96 int. elevator - ,,.. 96
+
+          kate's elevator, still str d between floors, begins to rock
+          violently. kate jams on ten alarm button, but the only sound
+          she hears is that of countless claws outside, pounding and
+          scraping at the elevator car.
+          the automated elevator voice talks on through the chaos.
+
+          elevator voice (v.0.)
+          you have requested a floor that is
+          not part of the building at this
+          time...
+          and now kate sees claws tearing at the corners of the elevator
+          car, trying to gouge their way inside. the o.s. sound of
+          gremlin laughter echoes in the elevator shaft. kate shrinks
+          into the middle of the floor, her hands braced against the walls --
+

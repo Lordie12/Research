@@ -1,0 +1,20 @@
+31	int.  control  room / president's  office
+
+	staedert looks worried.
+
+						staedert
+				load a series of 740 missiles. maximum
+				shield protection.
+
+						captain
+				yes, sir.
+
+	the president is growing ever more worried.
+
+						president
+				staedert?  what's going on?  did you
+				destroy it?
+
+						staedert
+				i'm about to, mr. president.
+

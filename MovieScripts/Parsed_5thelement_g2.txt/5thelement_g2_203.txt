@@ -1,0 +1,12 @@
+206	int.  concert  hall
+
+	fighting rages all around in the concert hall, but korben is oblivious to
+it.  he sets the diva's head delicately on the floor.  loc rhod is hidden
+nearby, still on the air.
+
+						loc rhod
+					(voice low, panicked)
+				they're hideous. they've got a crest on
+				the head, the eyes of a toad and fingers
+				all over their hands. totally hideous!
+

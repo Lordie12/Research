@@ -1,0 +1,16 @@
+int. waiting room - day
+
+joel enters the lacuna waiting room.  mary sits in the
+reception area.
+
+		mary
+	may i help you?
+
+		joel
+	my name is joel barish.  i have an
+	appointment.
+
+		mary
+	please have a seat.  dr. mierzwiak will
+	be right with you.
+

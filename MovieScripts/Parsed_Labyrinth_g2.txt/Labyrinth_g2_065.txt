@@ -1,0 +1,10 @@
+65	int: tavern tent - night
+
+hoggle sits at a bar, drowning his sorrows. a junk man/bartender
+works behind the bar. hoggle slams his cup down.
+
+hoggle: another!
+
+the bartender holds out his hand greedily. hoggle pulls a treasure
+off his belt and slams it on the bar. the bartender pours.
+

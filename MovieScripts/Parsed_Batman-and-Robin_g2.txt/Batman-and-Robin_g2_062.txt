@@ -1,0 +1,10 @@
+239	int. batmobile
+
+				batman
+		redbird control codes.
+
+240	monitor - close.  schematics for the redbird flash.
+
+				batman
+		disable engine.
+

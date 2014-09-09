@@ -1,0 +1,7 @@
+45.	int: hole - day
+
+hoggle is in a pool at the bottom of a deep hole in the ground. there
+is a ledge just above him and he splashes violently trying to reach it.
+
+hoggle: somebody help me! i can't swim!
+

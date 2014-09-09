@@ -1,0 +1,13 @@
+185	int -- library -- day (1965) 185
+
+	tommy writes a sentence on the blackboard. andy steps in, 
+	shows him how to reconstruct it. 
+
+				red (v.o.) 
+		before long, andy started him on 
+		his course requirements. he really 
+		liked the kid, that was part of it. 
+		gave him a thrill to help a 
+		youngster crawl off the shitheap. 
+		but that wasn't the only reason... 
+

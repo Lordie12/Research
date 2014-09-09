@@ -1,0 +1,19 @@
+93   int millennium falcon - cockpit
+
+lando flips switches, checks his screen, and speaks into the radio.
+
+lando
+all wings report in.
+
+wedge
+red leader standing by.
+
+gray leader
+gray leader standing by.
+
+green leader
+green leader standing by.
+
+wedge
+lock s-foils in attack positions.
+

@@ -1,0 +1,25 @@
+ext. weatherhills -- night
+
+strider is jogging grimly, carrying an ailing frodo on his
+back. sam, merry, and pippin are running to keep up. the
+hobbits are carrying flaming torches for protection.
+
+                    strider
+          hurry!
+
+                    sam
+          we are six days from rivendell. frodo
+          groans.
+
+                    strider
+          hold on, frodo.
+
+                     sam
+          he'll never make it! close on:
+          frodo...head lolling about, barely
+          conscious.
+
+                    frodo
+              (fevered calling)
+          gandalf...gandalf?
+

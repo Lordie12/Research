@@ -1,0 +1,62 @@
+342	int. wayne manor - night - walking
+
+	bruce walks with alfred through the old house, shutting out
+	lights.
+
+				bruce
+		are you well, old friend?
+
+	alfred stops, stares into his charge's eyes, then turns
+	away.
+
+				alfred
+		i am as well as can be expected.
+
+				bruce
+		alfred, i know you're sick -- i
+		can get you the best doctors.
+
+				alfred
+		i've seen the best doctors--! a
+		gentleman does not discuss his
+		health.  it's not civilized.  i
+		hope i've taught you at least
+		that much, young man.
+
+	bruce bites back a bitter smile.  he knows better than to
+	push him when he's like this.
+
+				bruce
+		have you ever regretted your life
+		working here, alfred?
+
+				alfred
+		attending to heroes?  no sir.  my
+		only regret is that i was never
+		able to be out there with you.
+
+				bruce
+		not all heroes wear masks.
+
+	alfred smiles.
+
+				bruce
+		alfred, if i've never told you...i
+		just want to say...
+
+				alfred
+		yes?
+
+	bruce looks away, fighting tears, unable to say the words.
+
+342a	bruce - pov.  out the window, a young bruce plays hide
+	and seek with alfred, the old butler gone behind a hedge,
+	then back again.
+
+342b	back to scene
+				dick
+			(running in)
+		freeze has escaped.
+
+	out the window.  the batsignal shines in the night sky.
+

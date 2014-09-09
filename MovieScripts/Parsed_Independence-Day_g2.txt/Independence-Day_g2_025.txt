@@ -1,0 +1,57 @@
+	int. david's cubicle - compact cable - day
+
+	david retrieves his home-make cup-a-soup.  we see this cubicle
+	clearly has the david touch; ecology posters, plants, tons of
+	computers and electronic gizmos.
+
+				marty
+		please, tell me you're getting
+		something.
+
+	marty enters, looking over david's shoulder as he eats.
+
+				david
+		there's good news and bad news.
+
+				marty
+		what's the bad news?
+
+				david
+		you're in meal penalty for
+		disturbing my lunch.
+
+				marty
+		and the good news is you won't
+		charge me.
+
+				david
+		no.  the good news is i found the
+		problem and it's not our
+		equipment.  there's some weird
+		signal embedded within the
+		satellite feed.
+
+				marty
+		that's the good news?
+
+	david slides over to another computer and turns on an
+	intricate computation program.
+
+				david
+		yes, because the analog signal has
+		a definite sequential digital
+		patterns embedded within it.  when
+		i find the exact binary sequence
+		and i apply a phase reversed
+		signal to that calculated spectra
+		analyzer i built you last
+		christmas, we should be able to
+		block out the overlay completely...
+
+				marty
+		...and we'll be the only guys in
+		town with a clear picture?  that's
+		my man.
+
+							cut to:
+

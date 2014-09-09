@@ -1,0 +1,23 @@
+534	int. observatory - telescope platform
+
+	freeze has reached the main telescope control.  he hits
+	a switch.
+
+535	monitor - close.  graphic satellites blink red under the
+	flashing message:  target lock disabled.  clock reads: 11:56
+
+535a	ext. space
+
+	thrusters quit as the satellites stop turning.
+
+535b	int. observatory - telescope
+
+	batman is struggling up the slope of the telescope towards
+	freeze.
+
+535c	freeze pulls the control level.  the telescope begins
+	to tilt and spin madly, the ambient condensation creating
+	an indoor snowstorm.
+
+	batman goes down, hanging from the telescope frame.
+

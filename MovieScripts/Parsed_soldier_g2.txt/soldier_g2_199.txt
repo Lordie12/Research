@@ -1,0 +1,5 @@
+     int.  corridor
+
+     red rushes through a smoky corridor.  wherever shells have
+     punctured the roof, the wind whips debris about.
+

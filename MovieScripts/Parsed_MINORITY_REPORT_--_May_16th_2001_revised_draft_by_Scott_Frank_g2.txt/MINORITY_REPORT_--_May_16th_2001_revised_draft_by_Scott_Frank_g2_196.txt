@@ -1,0 +1,6 @@
+		int.  hallway - day
+		
+		anderton and agatha walk up the hall, stopping at a door
+		marked 1006.  anderton knocks.  no answer.  he tries the
+		door.  it's open.
+		

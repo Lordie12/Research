@@ -1,0 +1,41 @@
+	int.  carrier hornet - briefing room - day
+
+	the ships is rolling; most of the fliers are green.
+	doolittle stands at the podium.
+
+					doolittle
+			since we'll be on our own once we're in
+			the air, i thought i had a good idea
+			letting each crew select it's own target.
+
+	he looks at a pile of paper slips in front of him.
+
+					doolittle
+			now we have fifteen requests for the
+			emperor's palace...and one for tokyo
+			baseball stadium.
+
+					red
+			i d-don't think japs ought'a be allowed
+			to p-play baseball.
+
+					doolittle
+			i'd like to bomb their emperor too.  but
+			i think that'd just piss 'em off.  the
+			idea here, gentlemen, is not revenge.
+			we're here to prove to them that they're
+			neither invincible nor superior.  so
+			let's try this again.  military targets
+			only.
+
+					red
+			colonel, to f-fight you need strategy.
+			to have strategy, ya gotta practice.  and
+			to practice it, ya gotta play --
+
+					doolittle
+			no baseball diamonds, red.
+
+					red
+			y-yes sir.
+

@@ -1,0 +1,197 @@
+6	int. julie's apartment doorway - day
+
+	julie opens the door and steps inside. she locks three deadbolts. she
+	stands there, alone, listening to the silence. she doesn't even have a
+	cat. a faucet drips in the kitchen.
+
+6a	int. julie's kitchen - day
+
+	the faucet drips. julie turns the handle. no success. she checks the
+	lock on each window. she stands for a moment.
+
+	she picks up a bag of chips and eats a handful. she opens the fridge
+	and takes out a can of nacho cheese sauce. she grabs a soft drink and
+	a jar of bread-and-butter pickles. she gets some cookies from a shelf.
+	she thinks. opens the freezer, pulls out some fat-free sorbet.
+
+	she takes the whole mess toward her bedroom.
+
+6b	int. julie's bedroom - day
+
+	she hits the light switch. a bedside light goes on. it's a sparsely
+	furnished room. the bed is pilled high with pillows. she checks the
+	windows, then climbs into bed with the food.
+
+	on the bedside table are pictures of family and friends. she looks at
+	one of helen and barry. she looks around the room. it's depressing.
+
+	outside we hear young people having fun, slamming car doors, going
+	places. she picks at the food, then puts it on the table. she turns
+	off the bedside light and enjoys the golden late afternoon glow in the
+	room.
+
+									dissove to:
+
+6c	int. julie's bedroom - night
+
+	julie, sound asleep, is curled into fetal position on the bed.
+
+	there's a click in the front hall. and another.
+
+	julie's eyes shoot open. she listens. another sound, almost like the
+	front door being closed.
+
+	her arm reaches for the bedside light. she hits the switch. the bulb
+	pops.
+
+					julie
+				(whispers)
+			okay. okay. face your fears...
+
+	she gets off the bed and stands still.
+
+					julie (cont'd)
+				(whisper)
+			there's nothing...
+
+	there's another noise down the hall.
+
+					julie (cont'd)
+				(whisper)
+			quiet.
+
+	julie silently scoots out of her bedroom toward the kitchen.
+
+6d	int. julie's kitchen - night
+
+	she gets a large knife. she listens. it sounds like somone's in the
+	living room. she steps through the kitchen door.
+
+	as she moves we see a shadow pass the other way down the hallway
+	toward her bedroom.
+
+6e	int. julie's living room - night
+
+	there's no one there.
+
+					julie (cont'd)
+			okay, calm down, imagination.
+
+	she relaxes until she sees that her front door is slightly ajar, light
+	from the hallway slanting through.
+
+					julie (cont'd)
+			i can't take this anymore. i can't.
+
+	holding the knife in front of her, she tiptoes to the hallway. there's
+	a soft rustling coning from her bedroom. she gets a flashlight out of
+	a drawer and starts down the hallway.
+
+					julie (cont'd)
+				(fatalistic)
+			let's just do it.
+
+	she moves faster toward her bedroom. she listens outside the doorway.
+	it sounds like someone's in the closet. she moves into the room.
+
+6f	int. julie's bedroom - night
+
+	there's a noise in the darkened closet. julie moves into position.
+
+	she turns the flashlight on and lunges for the closet.
+
+	int the closet
+
+	karla wilson, 19, all grace and attitude, is on tiptoes reaching for a
+	box of shoes. she screams.
+
+	julie screams. they both scream together. julie drops the knife and
+	flashlight.
+
+					karla
+			i thought you were out of town!
+
+					julie
+			what are you doing in my closet?
+
+	they hug, jumping up and down with relief.
+
+					karla
+			i thought you were out of town!
+
+					julie
+			what are you doing in my closet?
+
+					karla
+			i just wanted your black pants, but
+			i'm not ready to die for them!
+
+	julie turns on the light in the hallway. karla has her shoes in her
+	hand and black pants draped over her arm.
+
+					julie
+			that was heart attack time, karla.
+
+					karla
+			no. when i put these skinny pants on
+			my body...now, that's heart attack
+			time.
+
+	karla looks down and sees the knife. she picks it up with two
+	fingers --
+
+					karla (cont'd)
+			and we're going to put away the
+			utensils and you're coming with me.
+
+	julie flops down on her bed.
+
+					julie
+			i'm not going anywhere. i'm fat,
+			ugly, and depressed.
+
+					karla
+			yeah, right -- whatever.
+
+					julie
+			i think i just really hurt ray's
+			feelings.
+
+					karla
+				(keeping it upbeat)
+			listen to me, julie. ray's a great
+			guy, nothing against old ray, but
+			he's so...ray. i mean, he lives in
+			southport. will's a nice guy, too,
+			and he lives right down the street.
+
+	karla picks up the flashlight and goes into the closet.
+
+					julie
+			there's nothing between will and me.
+
+					karla (v.o.)
+			yet. nothing yet.
+
+	she emerges with clothes for julie. holds up one outfit.
+
+					karla (cont'd)
+			what we gotta do is keep moving. no
+			time to mope. i'm working at the
+			club tonight. and you, dancing queen,
+			are coming with me.
+
+					julie
+			no i'm not.
+
+	karla holds up another dress for julie -- strapless, sexy, the one.
+
+					karla
+			fine, then be fat, ugly, and
+			depressed.
+
+	karla is dancing around. julie laughs at her friend and takes the
+	dress when karla hands it to her.
+
+									cut to:
+

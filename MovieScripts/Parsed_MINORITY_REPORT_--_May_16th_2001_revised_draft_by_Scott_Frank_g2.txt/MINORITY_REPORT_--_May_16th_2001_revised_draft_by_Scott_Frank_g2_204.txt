@@ -1,0 +1,5 @@
+		int.  elevator - day
+		
+		as crow rides up.  he takes out a dented flask and takes a
+		long hit from it... draining it of the last drop.
+		

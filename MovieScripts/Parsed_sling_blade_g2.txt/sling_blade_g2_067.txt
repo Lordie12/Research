@@ -1,0 +1,10 @@
+	int. shed - day
+	
+	sunlight comes through the cracks in the wood. the shed has
+	nothing but dirt for a floor. a few tall patches of grass
+	shoot up between boxes and rusty lawnmowers. a few old garden
+	tools hang on the wall. in the center is a low circular spot
+	in the ground and a few tattered shreds of an old quilt.
+	karl stands looking at the hole for a moment, then turns and
+	walks out of the shed.
+	

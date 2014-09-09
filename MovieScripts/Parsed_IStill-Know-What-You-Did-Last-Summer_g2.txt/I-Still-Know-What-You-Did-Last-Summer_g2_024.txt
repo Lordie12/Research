@@ -1,0 +1,29 @@
+25	int. hospital emergency room - night
+
+	beep. beep. beep. ray is hooked up to a heart monitor. although he's
+	asleep, we can tell he's bruised and generally beaten up.
+
+	we rack to a doctor checking on him through the glass.
+
+25a	int. hospital room - night
+
+	we see a cop next to the doctor.
+
+					cop
+			he's beaten up pretty bad --
+
+					doctor
+			yes, but he seemed certain his friend
+			was killed out on the highway by
+			somebody named ben willis.
+				(hisitant)
+			he said he has a hook on his hand. he
+			said he was driving a bmw.
+
+	as the cop stares at him deadpan, the doctor realizes how rediculous
+	this must sound.
+
+25b	int. hospital room - night
+
+	close up: ray's eyes pop open. he's listening.
+

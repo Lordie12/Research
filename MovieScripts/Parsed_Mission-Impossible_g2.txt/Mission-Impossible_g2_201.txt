@@ -1,0 +1,14 @@
+     int. business car/tunnel - moving - day
+
+     as the train roars into the tunnel, the business car goes 
+     nearly dark and the message on max's computer screen changes 
+     one last time.  this time it says: 
+
+                connection terminated. 
+                    transfer lost.
+
+     max's face falls. 
+
+                          max
+                damn!
+

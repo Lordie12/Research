@@ -1,0 +1,20 @@
+51	ext. hotel pool - day
+
+	tyrell angrily makes his way past the outdoor pool bar as will
+	follows. tyrell spots a tray of empty bottles. he picks one up and
+	smashes it in half on the ground. he holds out the jagged bottle to
+	will.
+
+					tyrell
+			take this.
+
+					will
+			and do what with it?
+
+	tyrell breaks another bottle in half.
+
+					tyrell
+			julienne of pool boy.
+
+	they move toward the nearby pool house.
+

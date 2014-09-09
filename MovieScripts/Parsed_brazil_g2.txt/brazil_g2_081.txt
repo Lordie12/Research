@@ -1,0 +1,33 @@
+91  int.   travelling lorry			   later afternoon91
+	
+						sam
+			ok. what's in the parcel?
+	
+						jill
+			what parcel?
+	
+	sam nods knowingly in the direction of the parcel.
+	jill i don't know. christmas present.
+	sam picks it up.
+	
+						sam
+			it's heavy.
+	
+						jill
+			a heavy christmas present.
+	
+	he glances at her suspiciously.
+	
+						jill
+			open it if you don't trust me.
+	
+	sam hesitates and puts the parcel down.
+	
+						sam
+			i'd rather trust you.
+	
+	
+	jill gives him a quizzical look and smiles slightly, in
+	spite of herself. she turns away so that he won't notice.
+	
+	

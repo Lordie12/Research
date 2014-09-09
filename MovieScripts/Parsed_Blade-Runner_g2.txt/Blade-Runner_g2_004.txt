@@ -1,0 +1,5 @@
+        int. train - refreshment dispenser - night              5
+
+        deckard comes down the aisle, slips a coin into the
+        mechanism, receives a beer and returns to his seat.
+

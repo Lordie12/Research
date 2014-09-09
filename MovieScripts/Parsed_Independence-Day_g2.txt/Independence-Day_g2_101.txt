@@ -1,0 +1,7 @@
+	int. helicopter - pilot - continuous
+
+	the pilot adjusts his radio.
+
+				pilot
+		echo one, we are closing in.
+

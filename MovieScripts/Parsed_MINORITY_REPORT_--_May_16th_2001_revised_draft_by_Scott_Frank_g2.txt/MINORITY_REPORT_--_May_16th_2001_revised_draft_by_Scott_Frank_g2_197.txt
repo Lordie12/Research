@@ -1,0 +1,20 @@
+		int.  room - day
+		
+		anderton steps into the empty room, just a bed (made), a
+		night table and a dresser.  he pulls out a drawer: it's
+		empty.  turns on the bathroom light -- no personal effects --
+		turns it off.
+		
+		                    agatha
+		          he's gone.
+		
+		anderton stands in the room, thinking.  he looks out the open
+		door into the hallway.
+		
+		                    anderton
+		          wait a minute...
+		
+		anderton's pov - the room across the way
+		
+		the number on the door to this room is also 1006.
+		

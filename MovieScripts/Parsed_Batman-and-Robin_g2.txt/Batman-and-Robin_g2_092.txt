@@ -1,0 +1,27 @@
+321	int. arckham asylum - freeze's cell - night
+
+	freeze stands within the anti-thermic field, crafting a
+	tiny ice sculpture of his wife.  he lifts the miniature
+	gearworks from an alarm clock, places the ice sculpture
+	atop of it, the statuette beginning to turn.  he covers the
+	figure with a drinking glass.
+
+				guard(over)
+		hey icehead, you got a visitor.
+
+322	wider
+
+	a guard stands by the door.
+
+				guard
+		your sister's here to see you.
+
+323	freeze - close.  puzzled.
+
+				freeze
+				(to himself)
+		sister?
+
+	the second guard enters, followed by a woman in a cloak.
+	none other than poison ivy.
+

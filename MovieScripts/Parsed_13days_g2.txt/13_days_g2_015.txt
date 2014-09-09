@@ -1,0 +1,6 @@
+	int. mansion - continuous
+
+	the formal main building, the executive mansion.  he passes
+	the busts of presidents past, turns left into an elevator. 
+	the doors close.
+

@@ -1,0 +1,11 @@
+	int. kenny's room - continuous
+
+	kenny enters his hotel room.  an assistant waits with the
+	phone, hands it straight to kenny.
+
+				kenny
+			(to assistant)
+		tell pierre i need to talk to him.
+			(to phone)
+		bobby?
+

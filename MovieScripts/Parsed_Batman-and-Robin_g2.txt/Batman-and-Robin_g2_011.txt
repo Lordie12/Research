@@ -1,0 +1,30 @@
+66	int. capsule
+
+	batman is thrown to the floor by the powerful
+	acceleration.  freeze stays upright, protected by his
+	mighty suit.
+
+				batman
+		you were a great scientist once.
+		don't squander your genius on evil.
+
+				freeze
+		i hate being lectured.
+
+67	freeze throws batman, hard, into the bulkhead, uses his
+	pistol, to freeze batman's ankles and wrists to the wall
+	in chunks of ice.
+
+				freeze
+		watch the numbers, batman.  for they
+		are the harbingers of your doom.
+
+68	altimeter close.  10,000 feet and climbing fast.
+
+				freeze
+		can you feel it coming? the icy cold
+		of space.  at 30,000 feet your heart
+		will freeze and beat no more.
+
+	the altimeter close.  15,000 feet and rising.
+

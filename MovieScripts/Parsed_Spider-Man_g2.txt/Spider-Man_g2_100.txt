@@ -1,0 +1,5 @@
+	int. hallway - night
+
+	a shadow of a man can be seen hiding. peter does not
+	notice him.
+

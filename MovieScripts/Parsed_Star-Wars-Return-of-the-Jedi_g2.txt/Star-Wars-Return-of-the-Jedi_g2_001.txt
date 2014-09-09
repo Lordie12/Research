@@ -1,0 +1,15 @@
+2    int imperial shuttle - cockpit 
+the shuttle captain makes contact with the death star.
+
+shuttle captain
+command station, this is st 321. code clearance blue. we're starting 
+our approach. deactivate the security shield.
+
+death star controller	(filtered vo)
+the security deflector shield will be deactivated when we have 
+confirmation of your code transmission. stand by... you are clear to 
+proceed.
+
+shuttle captain
+we're starting our approach.
+

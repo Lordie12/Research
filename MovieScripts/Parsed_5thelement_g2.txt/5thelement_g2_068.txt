@@ -1,0 +1,27 @@
+69	int.  corridor.  zorg's  warehouse - day
+
+	close on: a pair of feet limping heavily.  a man comes alongside them.
+
+						right arm
+				excuse me sir, the council is worried about
+				the economy heating up.  they wondered if
+				it would be possible to fire 500...
+
+	they reach a door at the end of the corridor.  zorg enters a code.
+
+						zorg
+				fire 1000.
+
+						right arm
+				but... 500 is all they need, sir.
+
+	zorg turns slowly.  a small scar across run across his face, his eye
+stutters.
+	this is not a man to cross, or contradict.
+
+						right arm
+				1000! fine, sir!
+				sorry to have disturbed you.
+
+	the door opens...
+

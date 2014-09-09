@@ -1,0 +1,23 @@
+int.  cornwallis' headquarters - fort carolina - day
+
+a temporary hq has been set up in a commandeered
+farmhouse.  cornwallis stands uncomfortably while a tailor
+measures him and marks alterations on a partially
+completed uniform.  tarleton enters.
+
+				tarleton
+		general, a message from the
+		commander of the rebel militia.
+
+cornwallis reads the message.
+
+				cornwallis
+		it seems our swamp fox wants to have
+		a formal parley.
+
+				tarleton
+		are you going to meet with him?
+
+				cornwallis
+		most certainly.  arrange it.
+

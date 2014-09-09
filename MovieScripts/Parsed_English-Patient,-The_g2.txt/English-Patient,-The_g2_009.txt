@@ -1,0 +1,33 @@
+14	ext.    the monastery.    day.
+
+hana is investigating the monastery of st. anna, wandering through its 
+overgrown gardens, past a pond.  what sanctuary it seems to offer.
+
+
+15*.	int.    the monastery library.    day.
+
+hana explores via a gaping hole in a library where the walls have 
+collapsed from shelling.  the garden intrudes, ivy curls around the 
+shelves.  bloated books lie abandoned, and there's a piano tiled up on 
+one side.  hana presses the keys through the filthy tarpaulin which 
+covers it.  everywhere there are signs of a brief german occupation.
+
+
+15a*.	int.    monastery cloisters.    day.
+
+past the library is a cloisters, drenched with silver light.
+
+
+15b*.	int.    the monastery stairs.    day.
+
+hana goes upstairs, negotiating a huge void in the stone treads two 
+thirds of the way up.
+
+
+15c*.	int.    the patient's room.    day.
+
+she comes across a small chapel, with the remains of murals and an 
+altar pressed into service by the germans as a table.  hana finds an 
+old bed, and a mattress.
+
+

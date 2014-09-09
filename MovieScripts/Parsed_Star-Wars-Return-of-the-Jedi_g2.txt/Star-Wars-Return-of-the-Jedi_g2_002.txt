@@ -1,0 +1,19 @@
+3    int death star - control room
+
+operators move about among the control panels. a shield operator hits 
+switches beside a large screen, on which is a display of the death 
+star, the moon endor, and a bright web delineating the invisible 
+deflector shield.
+
+a control officer rushes over to the shield operator.
+
+officer
+inform the commander that lord vader's shuttle has arrived.
+
+operator
+yes, sir.
+
+the control officer moves to a view port and watches as the imperial 
+shuttle lands in the massive docking bay. a squad of imperial 
+stormtroopers moves into formation before the craft.
+

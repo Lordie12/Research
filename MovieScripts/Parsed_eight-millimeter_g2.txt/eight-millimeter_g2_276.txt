@@ -1,0 +1,5 @@
+     int.  supermarket aisle -- day
+
+     welles pushes a cart down one aisle.  he looks at his list,
+     takes a box of cereal off one shelf, puts it in the cart.
+

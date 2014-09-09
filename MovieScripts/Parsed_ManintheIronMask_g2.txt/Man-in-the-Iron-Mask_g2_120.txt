@@ -1,0 +1,80 @@
+int.  catacombs
+
+the three musketeers struggle through the catacombs, reach
+the chapel, and fall gasping to the floor.
+
+                     aramis
+          bloody hell...
+
+                     athos
+          we can't... stay here.  that traitor
+          d'artagnan... knows about this
+          place.
+
+                     porthos
+          can we eat... before we go?  this
+          excitement's given me an appetite.
+
+                     aramis
+          bread and wine... in that cupboard.
+
+porthos hauls himself to his feet and turns up the wick of
+the lantern.  the rising light reveals a note, stuck to the
+cupboard with the blade of a dagger.
+
+                     porthos
+          a note.  pinned with a dagger, like
+          the old days.
+
+he removes the note, and reads...
+
+                     porthos
+          "phillippe has been removed to the
+          bastille, to the lower dungeon.  at
+          midnight tonight i will order the
+          guard changed, and will delay the
+          replacements for ten minutes.  that
+          should give you ample time.  never
+          have i needed more to say:  one for
+          all, and all for one.  d'artagnan."
+
+                     athos
+          he lures us to capture.
+
+                     aramis
+          he seeks redemption.
+
+                     athos
+          you're a fool!
+
+                     aramis
+          perhaps.  but of d'artagnan i am
+          certain.  what he did tonight was
+          what he told us all along he would
+          do -- be faithful to his king.
+
+                     athos
+          so what has changed?
+
+                     aramis
+          perhaps he serves a different king.
+
+                     porthos
+          what choice is there?  if phillippe
+          is in the bastille, then to the
+          bastille we will go.
+
+                     athos
+          you are right.  but it is a trap.
+
+                     porthos
+          so what?  i'd rather die covered in
+          blood, than an old man, lying in my
+          own piss.
+
+                     aramis
+          then to the bastille.
+
+                     athos
+          to the bastille.  and death.
+

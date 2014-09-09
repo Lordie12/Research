@@ -1,0 +1,25 @@
+234	int.  diva's suite
+
+	loc rhod stands paralyzed in front of the flashing timer.  less than two
+minutes left.
+
+						loc rhod
+				maybe we oughta be going,
+				what do you think?
+
+						korben
+				not without leeloo.
+
+	loc rhod cannot take his eyes off the bomb.
+
+						loc rhod
+				like d-man, i hate to bother you but uh,
+				like, we're down to 2 minutes here...
+
+	korben breathes out, bothered.  he turns his attention to the bomb.
+
+						korben
+				it's the latest model.. i've never seen one
+				before... it works off a magnetic coded
+				card... let's see if i can rig it up.
+

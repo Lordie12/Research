@@ -1,0 +1,13 @@
+     int. casino
+
+     a blackjack table; a game is in progress, with several 
+     players.  mary patrick rushes up to the table.
+
+                               mary patrick
+               excuse me -- has anyone seen a nun?
+
+                               mary robert
+               a benedictine.
+
+     the croupier and the players stare at the two nuns. 
+

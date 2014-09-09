@@ -1,0 +1,12 @@
+257	ext. rooftop abyss
+
+	the batmobile is falling across the abyss like frozen
+	sculpture.  suddenly the windscreen explodes as batman is
+	catapulted through the glass like a torpedo, flying into
+	the air high above the busy city.
+
+257a	ext. lower rooftops
+
+	the frozen batmobile drops to the safety of the rooftops on
+	the other side of the abyss.
+

@@ -1,0 +1,6 @@
+int. stairwell
+
+-- andy places woody on the top of the stairwell banister
+allowing the doll to slide downstairs.  andy races ahead and
+catches him at the bottom.
+

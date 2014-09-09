@@ -1,0 +1,19 @@
+		ext.  hotel terrace - night
+		
+		burgess begins moving towards anderton.
+		
+		                    anderton
+		          what's the matter, lamar?  you see
+		          the problem, don't you?  if you
+		          don't kill me, it means the precogs
+		          were wrong and precrime is over. 
+		          if you do kill me, you go away,
+		          but... it proves the system works. 
+		          the precogs were right.
+		
+		burgess is now right in front of anderton, the gun inches
+		from anderton's chest.
+		
+		                    anderton
+		          so what do you do?
+		

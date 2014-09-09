@@ -1,0 +1,9 @@
+149	int. the outer corridor - night
+
+the manual door has been locked from inside.
+
+rhodes
+shoot it open!
+
+the soldiers follow orders, two of them firing at the lock.
+

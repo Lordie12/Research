@@ -1,0 +1,5 @@
+     int. stairwell
+
+     jack smashes the door open.  the stairwell's empty.  jack
+     runs up a flight of stairs, kicks open another door...
+

@@ -1,0 +1,9 @@
+int. rob and carrie's kitchen - day
+
+carrie is on the phone.  she pauses nervously, then speaks:
+
+		carrie
+	yes, joel.  it is true.  we weren't
+	supposed to say anything.  they say it's
+	like waking a sleepwalker.
+

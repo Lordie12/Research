@@ -1,0 +1,5 @@
+     int. cia computer room - day
+
+     the technician defaults the security systems outside the 
+     terminal room. 
+

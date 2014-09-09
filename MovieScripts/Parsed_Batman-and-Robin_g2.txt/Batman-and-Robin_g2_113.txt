@@ -1,0 +1,43 @@
+419	int. batcave - night
+
+	dark.  dormant.  the automatic activation sequence engages.
+	ambient lights come on.  computers flicker into life.
+
+	the giant batmobile pedestal begins to rise.  on it, no
+	car but a single figure standing now in the center of the
+	cave.  barbara.
+
+419a	barbara - close.	eyes wide with awe.
+
+	barbara walks to the main terminal of the batcomputer.
+	touches the console.  the alfred simulation appears on
+	screen.
+
+				barbara
+		uncle alfred?
+
+				alfred
+		in spirit only, i'm afraid.
+
+				barbara
+		the boys need help.
+
+420	the image of alfred stares at her a beat.  then smiles.
+
+				alfred
+		your mother would be proud.
+
+421	main screen - close.  flickers into life.  costume
+	schematics turn.
+
+				alfred
+		forgive my being personal, dear
+		girl, but i must know your size.
+
+421a	ext. blossom street turkish baths
+
+	robin arrives the entrance to the dark baths, lush,
+	inviting, mysterious.  he passes the giant bird signal
+	chained to the door, the spotlight shutting out as he
+	disappears inside.
+

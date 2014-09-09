@@ -1,0 +1,7 @@
+253	int.  cockpit  federated  warship
+
+						commander
+				it's not only advancing, but it's moving at
+				incredible speed! we're having trouble
+				following it.
+

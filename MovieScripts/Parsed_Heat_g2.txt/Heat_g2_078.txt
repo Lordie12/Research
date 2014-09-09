@@ -1,0 +1,5 @@
+int. pickup - driver
+
+panics now.   the dodge takes off, abandoning the man with
+the .22.
+

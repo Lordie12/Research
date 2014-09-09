@@ -46,7 +46,7 @@ def split_files(filename):
     # only update the vocabulary if we're not at scene 0 (beginning garbage)
     if scene_num != 0:
       tokenized = tokenize(line)
-      # create counter dictionary from this scene and add to the total 
+      # create counter dictionary from this scene and add to the total
       totalwordcounts.update(Counter(tokenized))
     # write the line
     f_write.write(line)
@@ -71,8 +71,8 @@ def write_xtab():
   for w in sorted(totalwordcounts, key=totalwordcounts.get, reverse=True):
     xtab.write(w + ' ')
   # for each txt file in parsed folder, write the vector
-  for item in sorted(os.listdir(folder)): 
-    if os.path.isfile(os.path.join(folder, item)): 
+  for item in sorted(os.listdir(folder)):
+    if os.path.isfile(os.path.join(folder, item)):
       fileName, fileExtension = os.path.splitext(item)
       # make sure we're only reading the scene files
       if fileExtension.lower() == '.txt' and not fileName == 'xtab':
@@ -86,17 +86,17 @@ def write_xtab():
         # write out all values as sparse matrix of counts
         for w in sorted(totalwordcounts, key=totalwordcounts.get, reverse=True):
           xtab.write(str(cur_words[w]) + ' ')
-          
+
   xtab.write('\n')
   xtab.close()
-  
+
 def write_allwords():
   allwords = open(folder + 'allwords.txt', 'w')
   # write totalwordcounts to xtab in descending value order
   for w in sorted(totalwordcounts, key=totalwordcounts.get, reverse=True):
     allwords.write(w + ' ' + str(totalwordcounts[w]) + '\n')
   allwords.close()
-    
+
 def main(argv):
   if not len(argv) == 1:
     print 'Usage: python script_parser.py [filename]'

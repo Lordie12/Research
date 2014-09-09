@@ -1,0 +1,12 @@
+135	int.  shuttle
+
+	the pilots are going through the pre-flight check list.
+
+						copilot
+				anti static pressure?
+
+						mechanic
+				primed.
+
+	the mechanic presses a series of buttons.
+

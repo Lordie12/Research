@@ -1,0 +1,5 @@
+     ext.  crawler/junk terrain
+
+     the crawler grinds slowly past a huge overturned boiler, its
+     cannon panning right, then left, then right.
+

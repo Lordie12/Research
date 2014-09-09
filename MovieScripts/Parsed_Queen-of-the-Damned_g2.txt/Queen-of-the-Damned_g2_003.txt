@@ -1,0 +1,7 @@
+6    int. tomb                                                   6
+
+     the band's sounds echo about the stone chamber, thrumming
+     a deep, life-giving pulse. suddenly, the lid of a
+     sarcophagus scrapes and slides to one side.
+
+

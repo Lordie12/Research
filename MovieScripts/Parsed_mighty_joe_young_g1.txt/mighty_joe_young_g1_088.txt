@@ -1,0 +1,39 @@
+int. bunker - at cage
+85
+cecily takes a key from her pocket and opens the door to
+joe's cage.
+jill
+come on, joe.  we're leaving.
+let's get you out of here.
+the open door has a stronger effect on joe than the
+sedatives in his system.  he clambers to his feet and
+follows jill out of the cage.
+(continued)
+90.
+85
+continued:
+85
+a.c. officer (o.s.)
+what the hell are you doing?
+they turn to see the officer has a rifle aimed at joe.
+he's terrified.  joe growls ominously.
+cecily
+i'm dr. banks, the head vet.  and
+i'm taking joe for a cat scan.
+a.c. officer
+i take my orders from mr. baker.
+put him back in the cage.  now.
+the officer trains his gun on joe.  joe looks at the
+officer menacingly and bares his huge fangs.
+gregg
+(friendly voice)
+officer, you don't want to point
+that gun at him, believe me.
+the officer suddenly grabs his neck, which now has a
+tranquilizer dart sticking out of it.
+jill lowers a tranq gun.
+jill
+(simply)
+he didn't believe you.
+the officer slumps to the ground.
+86

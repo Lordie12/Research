@@ -1,0 +1,22 @@
+ext. street
+49
+sid 6.7's vehicle reaches absolute gridlock.  nobody's
+going anywhere for a while.
+sid 6.7 slams on the brakes and abandons the car, leaving
+it right in the middle of the street.  a traffic cop with
+his weapon trained on sid 6.7 from a distance.
+traffic cop
+you better be a cop, pal!
+sid 6.7
+(raising his arms)
+my badge is in my jacket.  left
+pocket.
+traffic cop
+show me...
+sid 6.7 slowly reaches inside his jacket and fires his
+weapon through it.  he only gets a hole in his jacket.
+the traffic cop gets a hole through his chest.
+sid 6.7
+god, some people are stupid.
+he aims his weapon at parker's oncoming vehicle.
+49a

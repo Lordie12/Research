@@ -1,0 +1,6 @@
+ext. observer's hand - day
+
+drops the scorpion and picks up the weapon which changes instantly back 
+to the observer's skin tones.
+
+

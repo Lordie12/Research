@@ -1,0 +1,19 @@
+243	int.  zfx2o0  cockpit
+
+						voice (o.s.)
+				one minute to total evacuation...
+
+						loc rhod
+				you know how to fly this thing?
+
+						korben
+					(concentrating)
+				it's like a cab isn't it?
+
+						voice
+				30 seconds...
+
+						korben
+				anyone know how to release the lines
+				on this crate?
+

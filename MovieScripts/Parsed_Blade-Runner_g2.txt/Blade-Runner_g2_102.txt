@@ -1,0 +1,7 @@
+        int. stairwell - night                                  101
+
+        deckard arrives at the main floor landing, checks his
+        loads and continues up the stairs.  he's going to shoot
+        the next thing that moves and find out later if he was
+        right or wrong.
+

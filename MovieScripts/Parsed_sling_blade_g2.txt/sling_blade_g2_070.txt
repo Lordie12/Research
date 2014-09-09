@@ -1,0 +1,5 @@
+	int. kitchen - day
+	
+	the place is a mess. dirty dishes are piled in the sink and
+	on the table. it's not just clutter, but filth everywhere.
+	

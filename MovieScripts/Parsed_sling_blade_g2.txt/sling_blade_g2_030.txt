@@ -1,0 +1,43 @@
+	int. shop workroom - night
+	
+	the place is cluttered with mowers, edgers, weed-eaters, and
+	other equipment, most of it in pieces. a small cot is in a
+	little clearing in the corner by the bathroom. karl is
+	sweeping up oil with sawdust and a push broom while scooter
+	puts some tools away. bill comes to the door.
+	
+	                    bill
+	          all right then, i'll see y'all
+	          later. karl you done a good day's
+	          work. they right about you.
+	          scooter, he's gonna knock you out
+	          of a job if you're not careful.
+	          i'll see you tomorrow.
+	
+	                    scooter 
+	          wait up, i'll leave with you and
+	          lock up.
+	
+	                    bill 
+	          karl, they's a blanket up in under
+	          that cot and soap in the bathroom
+	          to clean up with. 
+	              (pause)
+	          now there's one more thing. the way
+	          we lock these doors at night, you
+	          can't get out. you didn't want to
+	          go anywhere, did you?
+	
+	                    karl 
+	          i don't reckon.
+	
+	                    bill 
+	          if it works out and all, maybe
+	          we'll get you a key so you can get
+	          out at night if you need to. see
+	          you later.
+	
+	they leave karl standing in the midst of the lawn mowers. he
+	sets the broom down and goes and sits on the cot. after a
+	moment, he gets back up and starts sweeping again.
+	

@@ -1,0 +1,32 @@
+	int. shop - day
+	
+	karl is tying the strap around his books. his sack of
+	toiletries is on the bed. bill cox comes in.
+	
+	                    bill 
+	          now, karl, you sure you want to go
+	          stay with these folks? you're
+	          welcome to keep on stayin here.
+	          it's workin' out real good.
+	
+	                    karl 
+	          that boy wants me to.
+	
+	                    bill 
+	          all right then. i'll see you bright
+	          and early. how you comin' along on
+	          that garden tiller?
+	
+	                    karl 
+	          i fixed it. hit's a workin' pretty
+	          good.
+	
+	                    bill 
+	          you done fixed it? i'll be damned.
+	          scooter told me it couldn't be
+	          fixed.
+	          'course scooter's about as shitless
+	          as one poor son-of-a-bitch can be.
+	          you done fixed it. i'll just be
+	          damned. see you tomorrow.
+	

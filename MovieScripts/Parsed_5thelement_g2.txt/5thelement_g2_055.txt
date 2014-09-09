@@ -1,0 +1,6 @@
+55	int.  ventilation duct  laboratory
+
+	the girl moves along unable to see what's ahead of her. she comes to a
+dead-end, a grill that leads outside.  she pushes it out and exits onto
+the ledge.
+

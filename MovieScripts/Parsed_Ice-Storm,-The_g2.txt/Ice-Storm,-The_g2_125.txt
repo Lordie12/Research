@@ -1,0 +1,6 @@
+int. libbets kitchen. night
+
+paul, after wandering a maze of halls, enters the kitchen,
+where he takes a six-pack out of the fridge and returns to
+the living room.
+

@@ -1,0 +1,14 @@
+     int. casino
+
+     we see two long rows of slot machines, with gamblers 
+     working every machine.
+
+     willy appears at one end of the row, scanning the area for 
+     christy.  he sees a nun crossing at the far end of the row, 
+     and she moves out of sight.  willy heads in that direction. 
+     someone hits a jackpot behind him, and he turns toward the 
+     sound.  as he does. he sees another nun crossing at the 
+     opposite end of the row of machines.  willy turns again --
+     now he sees three nuns crossing at the opposite end.  he 
+     looks confused, and doesn't know which way to turn.
+

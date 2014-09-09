@@ -1,0 +1,11 @@
+     int. basement - continuous
+
+     jack looks around.  triple-decker bunks clutter the
+     basement, as many as can fit into the space.
+
+                             jack
+                       (calling upstairs)
+                 tyler... ?  what's this for?
+
+     from upstairs, the sound of the doorbell.
+

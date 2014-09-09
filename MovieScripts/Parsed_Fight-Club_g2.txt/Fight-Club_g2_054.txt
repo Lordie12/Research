@@ -1,0 +1,17 @@
+     int. lobby
+
+     the doorman sees jack enter, gives a sad smile, shakes his
+     head.  jack starts for the elevator.
+
+                             doorman
+                 there's nothing up there.
+
+     jack presses the button.  the doorman moves next to him.
+
+                             doorman
+                 you can't go into the unit.  police
+                 orders.
+
+     the elevator doors open.  jack hesitates.  the doors close.
+     jack heads out the lobby doors.  the doorman follows...
+

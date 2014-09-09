@@ -1,0 +1,5 @@
+50	int: forest - day
+
+sarah, hoggle and ludo march through thick, overgrown forest. they do
+not know that they are being spied on by jareth's goblins.
+

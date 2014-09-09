@@ -1,0 +1,4 @@
+	int. elevator - continuous
+
+	kenny closes his eyes, sags against the wall, hating himself.
+

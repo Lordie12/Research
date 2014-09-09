@@ -1,0 +1,6 @@
+     int. taurus
+
+     stan runs across the hood of the taurus and just jumps
+     over the railing.
+
+

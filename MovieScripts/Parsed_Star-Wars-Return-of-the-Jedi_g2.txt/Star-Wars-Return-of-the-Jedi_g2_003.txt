@@ -1,0 +1,55 @@
+4    int death star - main docking bay
+
+the death star commander, moff jerjerrod, a tall, confident technocrat, 
+strides through the assembled troops to the base of the shuttle ramp. 
+the troops snap to attention; many are uneasy about the new arrival. 
+but the death star commander stands arrogantly tall.
+
+the exit hatch of the shuttle opens with a whoosh, revealing only 
+darkness. then, heavy footsteps and mechanical breathing. from this 
+black void appears darth vader, lord of the sith. vader looks over the 
+assemblage as he walks down the ramp.
+
+jerjerrod
+lord vader, this is an unexpected pleasure. we're honored by your 
+presence.
+
+vader
+you may dispense with the pleasantries, commander. i'm here to put you 
+back on
+schedule.
+
+the commander turns ashen and begins to shake.
+
+jerjerrod
+i assure you, lord vader, my men are working as fast as they can.
+
+vader
+perhaps i can find new ways to motivate them.
+
+jerjerrod
+i tell you, this station will be operational as planned.
+
+vader
+the emperor does not share your optimistic appraisal of the situation.
+
+jerjerrod
+but he asks the impossible. i need more men.
+
+vader
+then perhaps you can tell him when he arrives.
+
+jerjerrod	 (aghast)
+the emperor's coming here?
+
+vader
+that is correct, commander. and he is most displeased with your 
+apparent lack of progress.
+
+jerjerrod
+we shall double our efforts.
+
+vader
+i hope so, commander, for your sake. the emperor is not as forgiving as 
+i am.
+

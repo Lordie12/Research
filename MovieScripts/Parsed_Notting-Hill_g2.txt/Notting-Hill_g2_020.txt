@@ -1,0 +1,36 @@
+  int. bookshop - day
+
+  the next day.  william and martin quietly co-existing.  an annoy-
+  ing customer enters.  mr. smith.
+
+        mr. smith
+    do you have any books by dickens?
+
+        william
+    no, we're a travel bookshop.  we only
+    sell travel books.
+
+        mr. smith
+    oh right.  how about that new john
+    grisham thriller?
+
+        william
+    no, that's a novel too.
+
+        mr. smith
+    oh right.  have you got a copy of
+    'winnie the pooh'?
+
+  pause.
+
+        william
+    martin -- your customer.
+
+        martin
+    can i help you?
+
+  william looks up.  at that moment the entire window is suddenly
+  taken up by the huge side of a bus, obscuring the light -- and
+  entirely covered with a portrait of anna -- from her new film,
+  'helix.'
+

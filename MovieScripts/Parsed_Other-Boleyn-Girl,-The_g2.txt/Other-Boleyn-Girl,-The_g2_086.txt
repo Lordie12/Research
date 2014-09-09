@@ -1,0 +1,9 @@
+     int. corridors - court - day
+88                                                             88
+     `crash', the king, flanked by several of his most intimidating
+     courtiers, bursts through doors, and storms along a corridor.
+     it's an impressive sight..
+
+     people scatter to get out of the way.
+
+

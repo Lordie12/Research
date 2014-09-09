@@ -1,0 +1,5 @@
+		int.  hallway - the other spyders
+		
+		also begin emitting the same sound, stop, turn and head off
+		in the same direction.
+		

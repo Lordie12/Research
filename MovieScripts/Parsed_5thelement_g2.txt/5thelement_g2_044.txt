@@ -1,0 +1,6 @@
+44	int.  warship  cockpit
+
+	a mangalore sits at the controls of the warship. his terrifying features
+tell us what sort of welcome they can expect.  the pilot fires without
+warning.
+

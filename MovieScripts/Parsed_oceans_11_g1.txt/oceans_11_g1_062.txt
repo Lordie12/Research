@@ -1,0 +1,9 @@
+int. circuitry room
+76
+livingston's work here is almost done:  he clips a small
+mechanism (known in his industry as a "spider" -- it's
+small, black, antenna-less and hides in dark places) to a
+main conduit, then verifies a tiny receiver he holds is
+picking up the spider's feed.
+one last click into place...
+77

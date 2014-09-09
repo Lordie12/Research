@@ -1,0 +1,323 @@
+110	int.  korben's  apartment - day
+
+	c.u. the most disgusting dessert ever made.  korben looks at it shimmying
+on a plate as the thai serves it to him proudly.
+
+						thai
+				stewed jellyfish cake.. my speciality..
+
+	korben forces a weak, polite smile as the thai looks on expectantly.  the
+phone rings.
+
+						korben
+				saved by the bell.
+
+	korben rises to get his cigarettes, and answer the phone.
+
+						korben
+				...hello?
+
+						mother (v.o.)
+				you're the nastiest dirtbag i know in
+				this stinking city!
+
+						korben
+					(resigned)
+				hi ma...
+
+						mother (v.o.)
+				i've been playing twice a week for 20 years,
+				20 years i've been eating those shitty croquettes.
+
+	korben goes to light his cigarette.  there are only two matches left in
+the match box.
+	korben strikes one and it fizzles.
+
+						mother (v.o.)
+				you wouldn't even eat one to help your
+				poor mother, and you win the big prize?
+				know something? the whole thing makes
+				me sick!
+
+	the thai starts to clean up.  just as korben goes to strike the second
+match..
+
+						mother (v.o.)
+				are you listening to me, you ingrate!
+
+						korben
+					(resigned)
+				yes ma..
+
+	korben sighs and puts the match back in the box.
+
+	korben enters his code on the keypad the thai is holding.
+
+						korben
+					(to the thai)
+				go on... this is gonna take a while!
+
+the thai casts oft.  korben closes the window.
+
+						korben
+				other than that... you all right?
+
+						mother (v.o.)
+				...and now you're making fun of me?
+				i'm warning you! if you don't take me
+				after all these years of sacrifice, i'll
+				never forgive you!!
+
+	the thai flies off.  in the hall, the cat meows-for more food.
+
+						korben
+					(to the cat)
+				i'm coming!. ma, what're you talking
+				about?
+
+						mother (v.o.)
+				i get it! you want to make me beg,
+				is that it?
+
+						korben
+				all i want is an explanation! i just got
+				in, i lost my job. i smashed my cab.
+				i got mugged, but other than that
+				everything's peachy, ma, thanks for asking!!
+				now settle down and explain to me calmly..
+
+	a message drops in his tube.  the red light goes on.
+
+						mother (v.o.)
+				you just won a trip, you dolt!
+				ten days in fhloston paradise for two!
+
+						korben
+				ma. if i'd won, i'd know about it.
+				someone would have notified me.
+
+						mother (v.o.)
+				they've been blaring out your name on
+				the radio for the last hour, blockhead!
+
+	he eyeballs the message still in the tube.  the doorbell rings.-
+
+						korben
+				ma.. it's the door. i'll call you back.
+
+	korben hangs up before his mother can say anything and heads for the
+door.  before he gets there it opens, general munro enters followed by a
+captain and a major.
+	major iceborg is a woman. all she needs to become a man is a mustache.
+	munro opens a file.
+
+						munro
+					(clipped)
+				major dallas, if our calculations are correct
+				you still have 57 hours owed to the federal
+				army on your enlistment which is more than
+				you will need for a mission of the utmost
+				importance.
+
+						korben
+				what mission?
+
+						munro
+				to save the world.
+
+						korben
+				where have i heard this song before?
+
+						munro
+				you're to leave immediately for fhloston
+				paradise. retrieve four stones from the
+				diva plavalaguna. and bring them back with
+				the utmost discretion as possible.
+				any questions'?
+
+						korben
+					(a little bewildered)
+				just one... why me?
+
+						munro
+				three reasons... one: as part of the elite
+				special forces unit of the federated army
+				you are an expert in the use of all weapons
+				and spacecraft needed for this mission.
+
+	munro pulls out a long list of documents.
+
+						munro
+				two: of all the members of your unit
+				you were the most highly decorated.
+
+						korben
+				and the third one?
+
+						munro
+				you're the only one left alive...
+
+	munro removes the message korben hasn't bothered to look at.
+
+						munro
+				don't you open your messages?
+
+						korben
+				i've had enough good news for today
+
+						munro
+					(by rote)
+				you have won the annual gemini contest
+				and a trip to fhloston paradise. for two.
+				congratulations.
+				here are your tickets.
+
+	he hands korben the tickets.  korben gets it.
+
+						korben
+				you rigged the contest?
+
+	munro nods.
+
+						munro
+				major iceborg will accompany you...
+				as your wife...
+
+	the idea of taking a trip with iceborg makes him sick.
+
+						korben
+					(sarcastic)
+				you couldn't come up with something
+				a little more discreet?
+
+						munro
+				old tricks are the best tricks eh?
+
+						korben
+				i'm not going.
+
+						munro
+				why not?
+
+						korben
+				one reason... i want to stay the only
+				one left alive.
+
+110a	int.  korben's  hall
+
+	leeloo and cornelius search for korben's apartment. leeloo carries the
+card korben gave her.  cornelius finds the apartment, and yanks the.
+number off the door.  he waves leeloo over as his hand goes to the bell.
+
+110b	int.  korben's  apartment
+
+	the doorbell rings.
+
+						korben
+				...scuse me.
+
+	korben goes to the door and looks out the peephole: the beautiful leeloo.
+	korben panics, overcome with happiness.
+
+						korben
+				...shit!
+
+						munro
+					(worried)
+				what is it?
+
+	korben has two seconds to make up something to get rid of munro.
+
+						korben
+				it's my wife.
+
+						munro
+				i thought you were divorced.
+
+						korben
+				i mean my future.. my ex.. my future ex..
+				if she sees you here i'm finished.  she hates
+				you guys. it's what killed us in the first place.
+				please...
+
+	he puts them in the fridge, shoving the jellyfish cake in iceborg's
+hands.
+
+						korben
+				...sorry, general, but we've got no choice!
+				it'll only take a minute! let me set up
+				another meeting and i'll be back.
+
+						munro
+				three of us will never fit in there!
+
+						korben
+					(pushing him)
+				oh, yes you will...
+
+	korben slams the fridge door.  the doorbell rings again.
+
+						korben
+				...coming!
+
+	he whips through his place in ten seconds, gathers up things laying
+about,
+	shuts drawers, rolls up his laundry in the folding bed. he brushes his
+hair back
+	and opens the door with a big smile only to discover a gun stuck between
+his
+	eyes held by cornelius.
+
+						leeloo
+				apipoulai!
+
+						korben
+				i suppose that means "hi" ?
+
+						cornelius
+				i'm sorry to have to resort to such
+				methods, but we heard about your
+				good luck on he radio and we need
+				the tickets to fhloston.
+
+						korben
+				is that the usual way priests go on
+				vacation?
+
+						cornelius
+				we're not going on vacation..we're
+				on a mission..
+
+						korben
+				what kind of mission?
+
+						cornelius
+					(sincere)
+				we have to save the world.
+
+						korben
+					(skeptical)
+				good luck..
+
+						cornelius
+				of course.
+
+						korben
+				father, i was in the army for awhile
+				and every time they told us we were
+				on a mission to save the world the
+				only thing that changed was i lost a
+				lot of friends. so thanks for the offer..
+				but no thanks.
+
+	cornelius is disappointed.  leeloo looks crestfallen.
+
+						korben
+				i'm sorry..
+
+						voice
+				this is a police control action..
+
+	everyone freezes as the whole building resounds with the electronic
+voice.
+

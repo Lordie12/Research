@@ -1,0 +1,6 @@
+     int. chopper
+
+     the chopper turns to face the ball just as it hits the
+     plexiglas window and bounces off, not exploding. the pilots
+     look perplexed. the ball hits the ground and explodes.
+

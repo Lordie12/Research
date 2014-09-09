@@ -1,0 +1,9 @@
+	int. otto's garage - day
+
+	otto shows freb how to disarm an alarm system by groundingout a
+	tail-light with a wire to a mini-battery...
+
+	this dead-shorts the lights, shorts-out the alarm system, which
+	chirps for a sustained second and then kills itself. the door
+	locks pop open ... otto grins...
+
