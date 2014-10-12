@@ -1,0 +1,13 @@
+61	int. drilling truck - control capsule
+	a bank of control panels are set inside the giant glass
+	head of the drill.  batman falls in to find freeze standing
+	at the main console.
+
+				batman
+		stop the insanity.
+
+				freeze
+		nice of you to drop in.
+
+	freeze hits a button.  a tremendous roar.
+

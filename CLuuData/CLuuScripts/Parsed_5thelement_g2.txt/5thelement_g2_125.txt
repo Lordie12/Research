@@ -1,0 +1,25 @@
+126	int.  cockpit  fhloston  space  shuttle
+
+	three crew members prepare for liftoff.
+
+						copilot
+					(on the radio)
+				molecular axis authorization. vector 130.
+				destination fhloston.
+
+	stewardess 1 enters the cockpit.
+
+						stewardess 1
+				zone 1. 217 locked. the sleep regulator is ok.
+
+						pilot
+					(checking her out)
+				thanks, miss.
+
+	the stewardess leaves with a smile.  a red light flashes on the vast
+control panel.
+
+						mechanic
+				tell the ground crew we've got parasites
+				in the landing gear.
+

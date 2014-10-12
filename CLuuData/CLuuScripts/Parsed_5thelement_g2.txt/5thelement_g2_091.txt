@@ -1,0 +1,2 @@
+92	int.  room - day - omit
+

@@ -1,0 +1,57 @@
+3	int.batcave
+	batman - close.  emerges from his costume vault.
+	wider
+	deeper excavation has doubled the size of the cavern.
+	
+	new state-of-the-art computing systems flash.  
+	surveillance screens monitor news and police frequencies.
+	crime's worst nightmare.
+	
+	batman strides towards the rising steam-obscured pedestal
+	which bears the sleek, redesigned batmobile.
+	
+	robin appears in the door of his costume vault, dressed in
+	the black and red of his nightwing costume.
+	
+	two dark avengers stand suited, ready to take back the night.
+
+				batman
+		nice suit.  and today you are?
+
+				robin
+		nightwing.  scourge of darkest evil.
+
+				batman
+		this is all about fashion for you, isn't it?
+
+				robin
+		it's the gear.  chicks love the gear.
+
+	alfred steps forward, out of the shadows.
+
+				alfred
+		do call if you're going to be late for dinner, sir.
+
+
+4	turbos - close.  roar.  the batmobile shoots away through
+	the arches of the cave access tunnel.
+
+5	the compass to of the batmobile service pedestal splits
+	wide like the opening petals of a flower, revealing a
+	sleek, turbo-charged motorcycle.  meet robin's bike:  the
+	redbird.
+
+				alfred
+		drive carefully, master wing.
+
+				robin
+		don't wait up, al.
+
+6	the redbird's turbo - close.  explodes into life.
+	the powerful bike shoots after the batmobile.
+
+7	alfred watches them go.
+
+	then, he relaxes, lets his weight
+	fall against the main console, a man not as well as he seems.
+

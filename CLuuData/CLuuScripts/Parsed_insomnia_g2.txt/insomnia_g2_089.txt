@@ -1,0 +1,6 @@
+             int. hallway - apartments - day
+
+             will heads down a narrow hallway.  tiled floor.  passes door
+             "a."  stops at the next one, "b."  knocks.  hears nothing but
+             the muted tv from apartment "a."  pulls out his gloves.
+

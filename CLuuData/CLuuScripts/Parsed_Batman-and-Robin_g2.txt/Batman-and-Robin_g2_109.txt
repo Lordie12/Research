@@ -1,0 +1,154 @@
+404	ext. police hq - roof - night
+
+	a giant door swings open.  bane and ivy emerge onto the
+	roof.
+
+				ivy
+		let there be light.
+
+	bane walks to he dormant batsignal, tears it from its
+	shackles.
+
+404a	int. wayne manor - barbara's room - night
+
+	barbara enters, lost in grief.  she sits, turns alfred's
+	envelope over in her hand.  a long beat.  she withdraws a
+	single, silver cd.
+
+				barbara
+		only family can be trusted?
+
+	barbara slides the disk into her computer.
+
+				computer
+		access denied.  protected files.
+
+				barbara
+		perhaps you didn't give me your
+		genes.  but you gave me your heart.
+
+	barbara begins hacking the disk, trying to break the code.
+
+406a	int.-wayne manor-hallway-night
+
+	bruce, still in his tux, enters, sits at the main batcomputer
+	console, distraught, starting in to the darkness of the cave.
+
+407a	a younger alfred stands with an adolescent bruce, working
+	together over the original batsuit prototype.
+
+407b	bruce - close.  as the images dissipate to memory.
+
+				bruce
+		alfred, old friend, i could use
+		your help right now.
+
+				alfred (over)
+		right here, sir.
+
+408	bruce spins, stunned.  a monitor flickers into life.
+	the words computer simulation flash under an image of
+	alfred.
+
+				alfred
+		i anticipated a moment might arrive
+		where i became...incapacitated.  as
+		such, i programmed my brain algorithms
+		into the batcomputer and created a
+		virtual simulation.
+
+	bruce stares a beat.  then he smiles.
+
+				bruce
+		it's good to see you.
+
+				alfred
+		what seems to be the problem?
+
+				bruce
+		women.
+
+				alfred
+		that, sir, does not compute.
+
+				bruce
+		first ivy had an intoxicating effect
+		on both dick and me.  tonight my
+		feelings spread to someone else.
+
+				alfred
+		specify, please.
+
+				bruce
+		pamela isley.  i was so attracted to
+		her i couldn't reason clearly.  i
+		still can't.  she used to work for
+		wayne enterprises.  find a file.
+
+				alfred
+		coming on line now, sir.
+
+	a spinning isley appears on the monitor.
+
+				bruce
+		what was her area of research?
+
+	study and report titles scroll up the side of the image.
+
+				alfred
+		advanced botany.  dna splicing.
+		recombinant animal plant patterns.
+		pheromone extractions.
+
+				bruce
+		pheromones?
+
+				alfred
+		glandular secretions from animals.
+		scents that create powerful
+		emotions.  fear.  rage...
+
+				bruce
+		passion.  of course.  find the photo
+		of ivy after the flower ball.
+
+	a spinning ivy appears beside the spinning isley.
+
+				bruce
+		deconstruct and resolve.
+
+	schematics of various features, finger and retina prints,
+	height, weight, are highlighted and compared.  all match.
+
+				bruce
+		amazing what a good wig and contact
+		lenses can do.  and i thought clark
+		kent got away with murder just
+		wearing those glasses.
+
+	suddenly alert panels start flashing.  alarms sound.
+
+				bruce
+		what is it?
+
+				alfred
+		it appears, sir, that someone has
+		stolen the batsignal.
+
+408a	int. wayne manor - night
+
+	barbara is still hacking away at the disk.
+
+				computer
+		access code accepted.
+
+				barbara
+		this better be one hell of a
+		secret.
+
+	she hits a key. a pictures begin to reflect in the dark of
+	her eye.
+
+				barbara
+		oh my god.
+

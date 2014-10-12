@@ -1,0 +1,13 @@
+232	int.  main  hall
+
+	the lights flicker.
+
+						voice (o.s.)
+				this is a type a alert. for security reasons
+				the hotel must be evacuated. please proceed
+				calmly to the lifeboats located in the main
+				hallways.
+
+	a wave of panic engulfs the hall.  the cops are unable to hold back the
+crowd as it stampedes to the exits.
+

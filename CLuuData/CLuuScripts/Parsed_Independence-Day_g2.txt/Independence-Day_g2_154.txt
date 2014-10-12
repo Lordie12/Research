@@ -1,0 +1,16 @@
+	int. el toro - air tower - same
+
+	a radar operator spots something on his screens.  he turns to
+	captain watson.
+
+				operator
+		we have incoming.
+
+				watson
+		friendly?
+
+				operator
+		i don't think so.
+
+	watson hits an alarm which roars.
+

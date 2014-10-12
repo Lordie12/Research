@@ -1,0 +1,7 @@
+     int. cia - computer room - day
+
+     ethan types in the contends, presses enter and the screen 
+     displays a comforting message: 
+
+                downloading
+

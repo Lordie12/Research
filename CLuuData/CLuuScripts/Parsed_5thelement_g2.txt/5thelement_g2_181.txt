@@ -1,0 +1,17 @@
+184	int.  control  room  fhloston  paradise
+
+						captain
+				commander, i have a ship with a main
+				malfunction. he requests permission to
+				dock for repairs.
+
+						commander
+				did you check out his registration number?
+
+						captain
+				everything's in order.
+
+						commander
+				put him in the docking garage and inform
+				the police.
+

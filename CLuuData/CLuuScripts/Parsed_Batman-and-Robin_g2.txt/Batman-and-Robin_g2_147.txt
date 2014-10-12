@@ -1,0 +1,49 @@
+547	int. observatory - telescope
+
+	batman flips himself back up onto the wildly spinning
+	telescope, advancing on freeze and the control console.
+
+				batman
+		millions will die so you can save
+		on air conditioning.  isn't that
+		taking self help a little too far?
+
+548	freeze draws his pistol.
+
+				freeze
+		we aim to...
+				(fires)
+		...freeze.
+
+	batman deflects the blast with his suit armor.
+
+				freeze
+		that's new.  let's swing.
+
+550	freeze smashes the control joystick to the stop, the
+	telescope's spin accelerating, swinging towards...
+
+551	the two scientists have finally melted, stand drenched
+	on the tower platform, the massive telescope now careening
+	towards them.
+
+				scientist
+		this just isn't my day.
+
+551a	the telescope smashes directly into the tower platform.
+	the platform begins to topple.
+
+551b				associate
+		up, up and away.
+
+551c	as the platform falls crashing onto the floor below, the
+	two phds leap, landing safely on the swinging telescope,
+	hanging on to the tensioning bar for dear life.
+
+551d				scientist
+		phds rule!
+
+551e	freeze is thrown by the impact of the telescope hitting
+	the tower into the telescope platform rail, his gun falling
+	to his feet.
+

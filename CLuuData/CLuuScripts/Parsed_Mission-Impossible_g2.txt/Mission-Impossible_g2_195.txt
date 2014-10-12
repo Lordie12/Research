@@ -1,0 +1,5 @@
+     int. helicopter - day
+
+     krieger is at the controls.  he sees the approaching tunnel 
+     as well. 
+

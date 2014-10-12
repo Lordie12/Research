@@ -1,0 +1,7 @@
+     int.  gattaca - work-out observation room.  day.
+
+     from a mezzanine floor above the work-out room, lamar, the
+     medical officer, monitors computer read-outs displaying the
+     pace and pulse of the runners on each treadmill machine.
+
+

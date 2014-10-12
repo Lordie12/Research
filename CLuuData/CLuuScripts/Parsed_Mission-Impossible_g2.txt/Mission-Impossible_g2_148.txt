@@ -1,0 +1,5 @@
+     int. cia corridor/guard station - day                             
+
+     the technician makes his way back down the corridor, toward 
+     the computer room. 
+

@@ -1,0 +1,35 @@
+580	ext. observatory
+
+	batgrapples - close.  sink into the arms of the giant
+	sculpture holding up the observatory just as the telescope
+	plummets past.
+
+580a	ext. observatory - ice ledge
+
+	robin shakes off the blow, looks up to see batgirl fending
+	off bane with a fast series of punches and kicks.  she might
+	as well be hitting steel.
+
+580b				batgirl
+				(to robin)
+		don't worry.  i've got him.
+
+	just then bane slams her into an ice wall by the throat, rears
+	back with his fist, about to deliver the killing blow.
+
+				robin
+		no.  i've got him.
+
+580c	robin leaps, ripping off the tubes leading from bane's
+	injector pack to his skull, venom spraying wildly into the
+	air.
+
+580d	bane hits the snow, writing, as the venom effect is
+	reversed.  his muscles shrink, his form diminishing until
+	he is again a scrawny prisoner, struggling in the folds of
+	his costume.
+
+580e				robin
+		you should get that suit taken in.
+		no one's buying baggy anymore.
+

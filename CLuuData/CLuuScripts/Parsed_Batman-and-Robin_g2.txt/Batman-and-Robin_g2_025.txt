@@ -1,0 +1,20 @@
+126	int. corridor - walking
+
+	woodrue is escorting a nervous pam back towards her lab.
+
+				woodrue
+		...our original sponsor had no
+		stomach for military applications.
+		he cut the funding for our work -
+
+				pamela
+		our work?
+
+				woodrue
+		without your research, i could never
+		have come this far.  join me.  the two
+		of us, entwined, side by side...
+
+	they have arrived at pam's workshop.  woodrue opens the
+	door.
+

@@ -1,0 +1,5 @@
+	int. hallway - continuous
+
+	zing sprints down an employee hallway, through a doorway and
+	down some stairs.  carter and lee in pursuit.
+

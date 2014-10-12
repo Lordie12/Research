@@ -1,0 +1,6 @@
+30	ext.  outside  spaceship
+
+	the missile explodes from the ship and penetrates its target.  the
+explosion is swallowed like a fizzy pill in a small glass of water.
+nothing happens.  and then the mass grows larger.
+

@@ -1,0 +1,8 @@
+     int.  crawler
+
+     the gunner works a servomotor, aiming a cannon, as he peers
+     through a scope.
+
+     through the scope, surrounded by digital readouts, we see two
+     tiny running figures...
+

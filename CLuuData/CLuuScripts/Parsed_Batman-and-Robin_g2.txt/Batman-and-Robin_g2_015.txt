@@ -1,0 +1,56 @@
+73	int. capsule
+
+74	the controls, the glass nose-cone, the capsule itself are
+	all frosting over.  the hatch opens.  robin drops in.
+
+				robin
+		i was just hanging around.
+
+				batman
+		i thought you were going to stay in
+		the museum and round up the thugs.
+
+				robin
+		how about, nice to see you?  glad
+		you're here to save my life.
+
+75	robin pulls a laser from his utility belt, flash melts
+	one of his ice-shackles.
+
+				batman
+		when we get home, we're having a
+		little communication workshop.
+
+	robin flash metls the other ice gauntlet.  batman is free.
+
+				robin
+		is it cold in here or is it just me?
+
+76	altimeter - close.  20,000 and rising.  ice is forming
+	everywhere.
+
+				batman
+		got to make sure this rocket doesn't
+		turn gotham into a crater.
+
+77	batman whips a bat-shaped charge, throws it onto the
+	ceiling.  an armed light on the charge flashes green.
+
+				robin
+		now what?  we call a taxi?
+
+78	batman grabs a handle marked caution: explosive bolts.
+	robin smiles, grabs a similar handle on the opposing metal
+	door.
+
+				batman
+		watch the first step.
+
+				robin
+		surf's up.
+
+79	both pull the release handles, leaping onto the capsule
+	doors as the explosive bolts blow them into space.
+
+80	the batcharge light - close.  goes red.
+

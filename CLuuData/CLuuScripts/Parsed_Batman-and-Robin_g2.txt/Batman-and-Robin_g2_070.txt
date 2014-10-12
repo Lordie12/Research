@@ -1,0 +1,7 @@
+254	int. batmobile
+
+	the controls are frozen.  a monitor flashes: systems
+	failure.
+
+255	batman - pov.  the windscreen is covering with ice.
+

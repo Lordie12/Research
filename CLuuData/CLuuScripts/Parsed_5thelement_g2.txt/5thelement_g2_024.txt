@@ -1,0 +1,8 @@
+24	int.  spaceship
+
+						technician
+				the probe will attain its objective in
+				five seconds.
+
+	staedert moves closer to the ship's window.
+

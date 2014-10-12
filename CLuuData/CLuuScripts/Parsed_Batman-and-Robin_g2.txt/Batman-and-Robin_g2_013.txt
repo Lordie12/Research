@@ -1,0 +1,20 @@
+70	int. capsule
+
+	freeze steps into a glide-wing backpack mounted on the wall.
+
+				freeze
+		after you have frozen, your icy tomb
+		will plummet back to gotham.
+
+				batman
+		freeze, you're mad.  this capsule
+		will slaughter thousands.
+
+	freeze releases the door behind him, the sky whipping past
+	beyond.
+
+				freeze
+		ain't it grand?  freeze well.
+
+	freeze leaps out into the night.
+

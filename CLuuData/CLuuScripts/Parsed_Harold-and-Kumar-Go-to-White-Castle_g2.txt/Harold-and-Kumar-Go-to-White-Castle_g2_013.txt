@@ -1,0 +1,5 @@
+          14   int. elevator                                                  14
+               harold and maria stand silently while the elevator goes up.
+               it's clear harold wants to say something, but he doesn't have
+               the courage. they reach their floor and exit the elevator.
+

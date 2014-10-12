@@ -31,7 +31,7 @@ class CA(object):
         # row and column marginal totals of P as vectors
         r = self.P.sum(axis = 1)
         c = self.P.sum(axis = 0).T
-
+        
         # diagonal matrices of row/column sums
         D_r_rsq = np.diag(1./ np.sqrt(r.A1))
         D_c_rsq = np.diag(1./ np.sqrt(c.A1))
@@ -45,7 +45,7 @@ class CA(object):
         V = V.T
 
         # principal coordinates of rows
-        F = D_r_rsq * U * D_a
+        F = D_r_rsq * U * D_a 
 
         # principal coordinates of columns
         G = D_c_rsq * V * D_a
@@ -68,11 +68,8 @@ class CA(object):
         self.inertia = inertia
         self.eigenvals = np.diag(D_a)**2
         
-        Del = D_a
-        F = np.around(self.X * Del, decimals=4)
-        print F
-
-
+        return self.G * -1
+'''      
 X = np.array([[7836, 13112, 6026],
                   [53655, 102383, 42413],
                   [115615, 184541, 59226],
@@ -80,4 +77,6 @@ X = np.array([[7836, 13112, 6026],
                   [38177, 105101, 12670],
                   [46371, 58367, 14299]])
 
-CA(X)
+ca = CA(X.T)
+print ca.ComputeCA()
+'''

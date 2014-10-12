@@ -1,0 +1,69 @@
+http://www.dailyscript.com/scripts/rush_hour_2.html
+
+
+
+
+<!--
+if (window!= top)
+top.location.href=location.href
+// -->
+
+rush hour 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					rush hour 2
+
+					by
+
+					jeff nathanson
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+106	int. boiler room
+	frozen.  at the terminus of the tunnel.  a frozen boiler
+	stands in the center of the icy moat of the building's

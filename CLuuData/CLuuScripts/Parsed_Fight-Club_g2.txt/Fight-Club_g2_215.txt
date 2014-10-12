@@ -1,0 +1,5 @@
+     int. stairwell
+
+     jack races down, three steps at a time, dragging his
+     suitcase - boom, boom, boom - behind him...
+

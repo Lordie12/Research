@@ -1,0 +1,4 @@
+     int.  living quarters
+
+     harry sleeps on his bunk.  the door to the room is closed.
+

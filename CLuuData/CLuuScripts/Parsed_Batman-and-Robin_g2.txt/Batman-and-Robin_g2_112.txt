@@ -1,0 +1,49 @@
+416	int. observatory - tower platform
+
+	the scientist and his associate stand amidst the debris
+	from the party, testing the telescope.  (over) a tremendous
+	smashing.
+
+	on the floor below freeze and bane enter.
+
+				freeze
+		hi.  sorry about the door.  is the
+		party over?
+
+	bane begins pulling charges from his satchel and setting
+	them around the room.
+
+				scientist
+		who the hell is this nutball?
+
+417	freeze points up, fires a cryonic blast at him, turning
+	him to ice.
+
+				freeze
+		that's mr. nutball to you.  half a
+		set of bookends.
+			(to the associate)
+		you.  go like this.
+
+	freeze pantomimes the scientist's frozen expression of
+	terror for the associate.  the associate, terrified,
+	imitates freeze's move.
+
+				freeze
+		no.  move your hands up.  higher.
+		now a hint more fear.  excellent.
+
+418	freeze fires another blast, freezing the associate in
+	the same position as the scientist.
+
+				freeze
+		a matched pair.  sometimes i exceed
+		even my wildest expectations.
+
+	freeze smiles at the mighty telescope.
+
+				freeze
+		if revenge is a dish best served
+		cold, then put on your sunday
+		finest.  it's time to feast.
+

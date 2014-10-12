@@ -1,0 +1,5 @@
+int. hallway - day
+
+joel looks for an office number.  he finds it.  the plaque on
+the door reads lacuna ltd.  joel enters.
+

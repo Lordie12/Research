@@ -1,0 +1,14 @@
+int. lobby. day
+
+benedict greets paul in the lobby.
+
+                        benedict
+            paul, we would like to speak to you in
+            your office.
+
+                        paul
+            we, who is we?
+
+                        benedict
+            a delegation.
+

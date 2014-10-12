@@ -1,0 +1,5 @@
+	int. stables - morning
+
+	pilgrim bursts through the stall and runs out the stables 
+	into a blinding white morning.
+

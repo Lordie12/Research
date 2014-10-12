@@ -1,0 +1,11 @@
+78   int. hunting shack - day                                         78
+
+     a few flakes of snow have begun to drift down. the
+     postman sits at the window -- starts to play tic-tac-toe
+     in the frost. but then it dawns on him:
+
+                                the postman
+                  you can't play tic-tac-toe with
+                  yourself.
+
+

@@ -1,0 +1,27 @@
+int. bag end kitchen -- night
+
+close on: the ring lies on frodo's simple kitchen table.
+
+                    gandalf
+          this is the one ring forged by the dark
+          lord, sauron, in the fires of mt
+          doom...taken by isildur from the hand of
+          sauron himself.
+
+close on: frodo...stunned
+
+                    frodo
+              (quiet realization)
+          bilbo found it...in gollom's cave.
+
+                    gandalf
+          for sixty years the ring lay quiet in
+          bilbo's keeping, prolonging his life,
+          delaying old age...but no longer, frodo.
+          evil is stirring in mordor. the ring has
+          awoken. it has heard its master's call.
+                    (more)
+
+                                                    (continued)
+
+                                                            28.

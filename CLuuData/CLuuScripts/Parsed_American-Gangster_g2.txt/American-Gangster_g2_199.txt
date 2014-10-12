@@ -1,0 +1,7 @@
+282   int. airport hangar - later                                    282     
+
+      the plane has been brought into a hangar where it's being
+      taken apart like a car stripped by thieves. inside the
+      cabin, seats are removed and inspected, carpeting pulled up,
+      panels unscrewed, lavatories dismantled.
+

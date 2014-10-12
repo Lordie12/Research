@@ -1,0 +1,33 @@
+222	int.  police  station  hallway - fhloston  paradise
+
+	the last of the mangalores have barricaded themselves in the back of the
+station and shoot at anything that tries to enter.  korben joins the
+policemen already there.
+
+						cop 1
+				hey, who are you?
+
+						korben
+				the winner of the gemini croquette contest.
+
+	korben goes to the door and peeks around the corner.  loc rhod arrives.
+
+						korben
+				seven to the left. five to the right.
+
+						cop
+				what's he doing?
+
+	korben leans around the corner and fires rapidly.
+
+						korben
+				six to the left. one to the right.
+
+						loc rhod
+				he's on vacation.
+
+						korben
+					(reloading)
+				we got to find the leader. mangalores
+				don't fight without a leader.
+

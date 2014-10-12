@@ -1,0 +1,28 @@
+100	int. industrial basement
+
+	a long submarine-like corridor
+
+				robin
+		cool.  can we do that again?
+
+101	batman and robin race towards freeze who is fleeing down
+	the other end of the corridor.  he points his gun at the
+	ceiling.  fires.
+
+102	the sprinkler system pipes explode, forming a mighty,
+	intense blizzard in the wind-tunnel.
+
+103				batman
+		sudden temperature drop.  watch out
+		for the...
+
+104	a blast of wind roars down the tunnel, slamming the
+	doors, sending snow and ice whipping towards them
+
+				batman
+		wind.
+
+105	batman and robin whip their capes over their faces, push
+	forward, fighting the storm, going through the doors one
+	by one.
+

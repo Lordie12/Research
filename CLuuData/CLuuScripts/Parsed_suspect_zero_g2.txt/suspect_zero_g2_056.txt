@@ -1,0 +1,5 @@
+57   int. tulane - behavioral sciences building - same             57
+
+     mackelway exits an elevator on the "b-1 level." corridors
+     octopus their way from these elevators, confusing us...
+

@@ -1,0 +1,6 @@
+180	int. hallway - continuous
+
+	barbara walks to her room.  she pauses, waiting for the
+	light under alfred's door to go out.  then she disappears
+	inside.
+

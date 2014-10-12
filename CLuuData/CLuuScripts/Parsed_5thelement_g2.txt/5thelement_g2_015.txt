@@ -1,0 +1,4 @@
+15	int.  temple  room - day
+
+	the room fills with sand.  the priest's body is soon buried.
+

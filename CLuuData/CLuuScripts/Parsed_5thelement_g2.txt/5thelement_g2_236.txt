@@ -1,0 +1,10 @@
+239	int.  fhloston  paradise  landing  dock  garage
+
+	korben, carrying leeloo, cornelius and loc rhod are in the garage.
+
+						voice (o.s.)
+				two minutes to complete evacuation...
+
+	korben bursts the lock on the first ship he finds and enters followed by
+cornelius and loc rhod.  the zfx200.
+

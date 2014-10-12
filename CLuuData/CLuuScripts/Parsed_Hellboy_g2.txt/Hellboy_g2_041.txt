@@ -1,0 +1,5 @@
+               int. open elevator - day
+
+               he's in a vast underground area with other elevators moving 
+               up and down in the distance.
+

@@ -1,0 +1,27 @@
+134	int. back staircase - walking
+
+	bruce and alfred travel the winding stair that leads from
+	the batcave to the top of the house.
+
+				bruce
+		he's over-eager, impulsive.  i can't
+		trust him not to get hurt.
+
+				alfred
+		perhaps the truth is you don't
+		really trust anyone.
+
+				bruce
+		don't tell me you're on his side.
+		again.
+
+				alfred
+		despite all your talents, you
+		are still a novice in the ways of family.
+		dick follows the same ends as you but
+		gets there by his own course.  you
+		must learn to trust him.  for that
+		is the nature of family.
+
+	they step through a doorway into...
+

@@ -1,0 +1,4 @@
+233	int.  corridor
+
+	zorg marches down the corridor shooting everyone in his path.
+

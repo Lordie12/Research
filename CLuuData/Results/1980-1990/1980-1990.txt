@@ -1,0 +1,38 @@
+START OF COMPONENT #1
+
+sci-fi                   1000.0
+fantastic                921.397776833
+danger                   878.953955416
+suspenseful              878.953955416
+mad_scientist            878.953955416
+strong_violent_content   313.872698666
+horror                   313.872698666
+race_against_time        220.113871803
+
+/-------END OF COMPONENT/--------
+
+START OF COMPONENT #2
+
+chases_and_races         1000.0
+mistaken_identity        1000.0
+rescue                   1000.0
+clever                   1000.0
+frame_up                 -0.0
+
+/-------END OF COMPONENT/--------
+
+START OF COMPONENT #3
+
+bittersweet              1000.0
+usa                      792.517213974
+culture_clash            792.517213974
+redemption               792.517213974
+american_civil_war       442.125301668
+hollywood_tone           442.125301668
+drama                    3.25647721023e-12
+sentimental              3.15141409875e-12
+sincere                  3.04430779775e-12
+prestigious_awards       3.01189134977e-12
+
+/-------END OF COMPONENT/--------
+

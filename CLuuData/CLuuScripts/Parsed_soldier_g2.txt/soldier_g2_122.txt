@@ -1,0 +1,9 @@
+     int.  crawler
+
+     caine 607 and the gunner both see the tiny figure waving at them
+     a quarter mile away, trying to get their attention.
+
+     as caine 607 adjusts their course to the left, the gunner's
+     servomotor whines as he aims, peering through the scope at the 
+     helpless figure of hawkins.
+

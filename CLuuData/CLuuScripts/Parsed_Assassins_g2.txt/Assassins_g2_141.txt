@@ -1,0 +1,27 @@
+     int. bank
+
+     the official walks over to rath with a number of papers to
+     sign.
+
+                             official
+               your signature, senor.  everything
+               is ready.
+
+     rath signs them, but does not get up.
+
+                             official
+               excellent, senor.  if you could
+               follow me?
+
+                             rath
+               i'm sorry, but i am waiting for an
+               associate.  can you hold everything
+               for me until he arrives?
+
+                             official
+               of course, senor.
+
+                             rath
+               thank you.
+
+

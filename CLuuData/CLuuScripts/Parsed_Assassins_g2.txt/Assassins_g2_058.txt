@@ -1,0 +1,10 @@
+     int. elevator
+
+     as the elevator rises, we begin to hear a sound, a
+     familiar sound.
+
+     cramped in the corner is bain.  he is playing "tetris,"
+     wearing dark sunglasses and a walkman pumping speed metal
+     into his ears.
+
+

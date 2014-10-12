@@ -1,0 +1,95 @@
+      int. bridge - night
+
+      the room is bathed in blue light as the crew monitors the indomita-
+      ble's command and control systems.
+
+      at the vertical glass map, the ship's course has been charted from
+      hong kong, south, down around singapore, then north, where the yellow
+      blinking dot indicates it's currently in the strait of malacca.
+
+      standing in front of the map, however, the navigation officer seems
+      perplexed. he's comparing what's on the screen to a piece of paper
+      in his hand. something is wrong.
+
+                              navigation officer
+                 ... this doesn't make sense. what's
+                 our heading now?
+
+      the helmsman looks down at his compass/auto-pilot.
+
+      insert compass/auto-pilot - moving from west to north - then holding
+      on a north position.
+
+                              helmsman
+                 zero one three. due north.
+
+      the two officers share a look. something is odd, but -
+
+                              helmsman
+                 we're on course again.
+
+      just then, the first officer enters from the exterior bridge.
+
+                              first officer
+                 can't see a damn thing in this fog.
+                       (calling out)
+                 rating: what have we got?
+
+      he joins the rating and communication's officers at their scopes.
+
+                              rating
+                 a passenger ferry and two freighters
+                 broadcasting on low-band -
+
+                              communications
+                 and two small fishing boats about 30k
+                 north. no radar, but we've
+                 identified their engine signatures.
+
+      as the first officer takes this in:
+
+                              helmsman (o.s.)
+                 damn. it's doing it again.
+
+                              first officer
+                       (joining him)
+                 what's wrong?
+
+                              helmsman
+                 about every ninety seconds, the auto-
+                 pilot jogs us to the west.
+
+      he points down to the compass/auto-pilot, swinging west...
+
+                              helmsman
+                 then re-sets us to the north.
+
+      the compass reaches dead west - then starts to swing back north.
+
+                              helmsman (cont'd)
+                 the captain wants us on the east side
+                 of the channel. ...cross current?
+
+                              first officer
+                 not in the strait.
+                       (to the navigator)
+                 how's our position?
+
+                              navigating officer
+                 according to the satellite, we're
+                 exactly on course.
+
+                              first officer
+                 did you check the auto-pilot?
+
+                              helmsman
+                 the back-up does the same thing.
+
+                              first officer
+                 check it again. what about the global
+                 positioning satellite? could there be
+                 something wrong with the signal?
+
+                              gps officer
+                 two words: im-possible.
+

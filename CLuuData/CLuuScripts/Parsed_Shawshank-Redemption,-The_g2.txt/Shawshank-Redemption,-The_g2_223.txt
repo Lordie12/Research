@@ -1,0 +1,5 @@
+276	int -- bus -- day 276 
+
+	red rides the bus, clutching the seat before him, gripped by 
+	terror of speed and motion. 
+

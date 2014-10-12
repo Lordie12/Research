@@ -1,0 +1,38 @@
+267	int.  chapel
+
+	korben leans over leeloo.
+
+						korben
+				leeloo? the stones! we have to open
+				them! how does it work?
+
+						leeloo
+					(feeble)
+				the wind blows... the fire burns...
+
+						korben
+				i know all that, leeloo! i'm talking
+				about the stones.
+
+						leeloo
+				...the rain falls...
+
+	korben is desperate.  leeloo's too weak, he won't get anything more out
+of her.
+	he darts over to a stone and turns it over and over.
+
+						korben
+				the rain falls... the wind blows?
+
+	loc rhod stands in front of his stone looking at korben.
+
+						korben
+				try and figure out how this fucking thing
+				opens, instead of staring at me like that!
+
+	loc rhod starts feeling the stone all around.
+
+						loc rhod
+					(afraid)
+				i'm looking, i'm looking.
+

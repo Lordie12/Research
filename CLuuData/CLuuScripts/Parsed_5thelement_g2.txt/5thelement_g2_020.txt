@@ -1,0 +1,20 @@
+20	int.  spaceship  control  room
+
+	cu of a digital control screen.  three planets projecting three straight
+lines that crisscross at one point.  identical to the one observed by the
+professor on the temple wall.  general staedert looks out through the
+ship's window at one of the three huge planets in eclipse.
+
+						staedert
+				don't you have anything?  not even
+				a temperature?
+
+						captain
+				the thermo-analyzers have jammed.
+				one of them reads over a million degrees,
+				the other's at minus 5000...
+				never seen anything like it.
+
+						technician
+				it's taking shape.
+

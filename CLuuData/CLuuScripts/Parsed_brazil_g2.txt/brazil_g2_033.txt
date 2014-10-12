@@ -1,0 +1,6 @@
+42  int.   buttle's staircase			 day		   42
+	
+	sam runs up the stairs to the floor above and finds
+	himself in -
+	
+	

@@ -1,0 +1,4 @@
+     int.  habitat hallway
+
+     a long corridor -- looking into the cafeteria... 
+

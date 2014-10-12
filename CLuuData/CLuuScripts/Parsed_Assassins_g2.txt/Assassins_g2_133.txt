@@ -1,0 +1,39 @@
+     int. bank
+
+     a bank official walks over to the window, carrying a
+     printed receipt, with a very bright smile.
+
+                             official
+               senor rath, we have received your
+               transfer.
+
+     he hands rath the receipt.  he glances at it, checking the
+     zeros.  there are seven of them.
+
+                             rath
+               good.  now i'll need to close this
+               account.  i'd like you to ready the
+               paperwork.
+
+     the smile fades.
+
+                             official
+               you wish to close this account
+               today?
+
+                             rath
+               that's correct.
+
+                             official
+               how would you like the funds?
+
+                             rath
+               american currency.
+
+                             official
+               this will take some time.
+
+                             rath
+               i have all day.
+
+

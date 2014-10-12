@@ -1,0 +1,23 @@
+     int. bank
+
+                             rath
+               good.
+
+     rath is wearing a well-tailored, gray silk suit and dark
+     sunglasses.  in his hand is a very large briefcase.  he
+     crosses the checkered floor to the teller windows.
+
+                             teller
+               may i help you?
+
+                             rath
+               yes.  could you check on a transfer
+               for me?
+
+                             teller
+               your name, or account?
+
+                             rath
+               rath.  robert rath.
+
+

@@ -1,0 +1,6 @@
+     int.  corridors/settlement - night
+
+     thick smoke clogs the narrow corridors as red winds through the
+     maze of corridors, coughing desperately.  he can hear voices
+     ahead.
+

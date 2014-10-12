@@ -1,0 +1,6 @@
+     int. truck driven by troy
+
+     flying debris smashes the windshield. troy instinctively
+     jerks the wheel and the truck flips onto its side and slides
+     across the sand.
+

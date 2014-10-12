@@ -1,0 +1,8 @@
+154	int.  cockpit
+
+	the pilot maneuvers the ship into it's docking area.
+
+						pilot
+				docking activated.
+				you can let the passengers out.
+

@@ -1,0 +1,6 @@
+39     int. supermarket - check-out counter - night                      39
+
+       a pretty cashier (rosie) empties marco's basket: bottled
+       water, three romance novels, a bottle of no-doz, a bag of
+       tomatoes and two dozen boxes of instant noodles.
+

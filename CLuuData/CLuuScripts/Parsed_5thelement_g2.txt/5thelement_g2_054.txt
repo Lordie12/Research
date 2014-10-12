@@ -1,0 +1,11 @@
+54	int.  corridor  laboratory
+
+	the girl runs through a maze of corridors looking for a way out.  a squad
+of security guards appear in front of her and open fire without warning. the
+girl takes a leap, grabs an air vent, kicks it out and dives into the air
+shaft.  the cops try and jump up to the vent, but none can reach it.
+
+						chief
+				get me a chair or a stepladder the rest of you
+				go through the main ventilation!
+

@@ -1,0 +1,24 @@
+68   int. hallway - u.s. robotics - continuous                      68
+
+     calvin. heading down a hallway. a door slides open.      and
+     lanning steps out. followed by a technician robot...
+
+                          calvin
+                find anything, doctor?
+
+                                                                 57.
+
+
+                          lanning
+                    (shaking his head)
+                nothing. the interior's just like
+                any other ns-2. except for a
+                secondary battery hogenmiller must
+                have used as extra back-up.
+                    (looks at watch)
+                we'll just need a nominal profile.
+
+     calvin nods.
+
+                                               cut back to:
+

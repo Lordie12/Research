@@ -1,0 +1,40 @@
+585	int.  observatory
+
+	batman flips in through the telescope slat, followed
+	immediately by batgirl and robin, all landing together on
+	the observatory floor.
+
+				robin
+		winded, old timer?
+
+				batman
+		don't make me kill you in front
+		of the girl.
+
+				batgirl
+		it's midnight.  the telescope's gone.
+		there's no way to thaw the city.
+
+				batman
+		theoretically, the satellites could
+		be positioned to thaw the city
+		directly.  but it would take a
+		computer genius.
+
+				robin
+		i'm on it.
+
+	robin clears the rubble from a fallen console, begins to type.
+	nothing.  the equipment is dead.
+
+				batgirl
+			(shouldering him aside)
+		no.  i'm on it.
+
+	she quick patches a couple of broken wires, the console
+	lighting up, whirring to life.  begins hacking.
+
+				batgirl
+		ms.  genius.  madame genius.  her
+		geniusness.  which sounds better?
+

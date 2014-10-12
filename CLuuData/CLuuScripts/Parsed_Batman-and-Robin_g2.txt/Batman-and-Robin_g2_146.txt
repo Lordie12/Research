@@ -1,0 +1,11 @@
+542	ext. observatory
+
+	batgirl is plummeting towards the city below.  robin is
+543	falling a couple of feet above her.  he fires a bat tether
+	over his head.
+
+544	robin's grapple secures in a glacier-like overhang.
+
+545	robin reaches down for batgirl as batgirl reaches up
+	towards him.
+
