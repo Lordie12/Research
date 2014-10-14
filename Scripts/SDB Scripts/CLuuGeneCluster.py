@@ -11,13 +11,28 @@ import community as C
 import numpy as NP
 import matplotlib.pyplot as PLT
 import os
-import operator
 
 file_url = '/Users/Lanfear/Desktop/Research/CLuuData/CLuuScriptsGeneData/moviegenes.txt'
 res_url = '/Users/Lanfear/Desktop/Research/CLuuData/Results/'
 
 start_year = 2000
 end_year = 2010
+pcent = 0.9
+
+'''
+/----------------------------------\
+'''
+def percentile(N, P):
+    """
+    Find the percentile of a list of values
+
+    @parameter N - A list of values.  N must be sorted.
+    @parameter P - A float value from 0.0 to 1.0
+
+    @return - The percentile of the values.
+    """
+    n = int(round(P * len(N) + 0.5))
+    return N[n-1]
 '''
 /----------------------------------\
 '''
@@ -78,8 +93,10 @@ def get_components_of_G(adjmat, res, gtoidict, itogdict):
         for row in cList[c]:
             for col in cList[c]:
                 try:
-                    G.add_edges_from([(itogdict[row], itogdict[col])], weight = adjmat[row, col])
+                    G.add_edges_from([(itogdict[row], itogdict[col])],
+                                      weight = adjmat[row, col])
                 except IndexError:
+                    #Should never happen, not sure why this happens in few time window cases
                     continue
                 
         CompGraphs.append(G)
@@ -94,31 +111,48 @@ def get_components_of_G(adjmat, res, gtoidict, itogdict):
         mode = 'w+'
     else:
         mode = 'a+'
-    f = open(file_path, mode)      
+    #f = open(file_path, mode)      
         
-    colors = ['y', 'r', 'm', 'g', 'c']
     for comp in range(len(CompGraphs)):
         PLT.figure(comp + 1, figsize = (15, 15))
         PLT.title('Component #%d %d to %d' % ((comp + 1), start_year, end_year))
+        PLT.xlim(0,1)
+        PLT.ylim(0,1)
 
+        G = CompGraphs[comp]
         #Scale nodes by their EVC values        
-        EVC = NX.eigenvector_centrality_numpy(CompGraphs[comp])
-        scale = 1000 / max(EVC.values())
+        EVC = NX.eigenvector_centrality_numpy(G)
+        scale = 4000 / max(EVC.values())
+        layout = NX.random_layout(G)
         
-        NX.draw(CompGraphs[comp], NX.spring_layout(CompGraphs[comp], scale = 3.5, iterations = 100), 
-                node_size = [scale * EVC[k] for k in CompGraphs[comp].nodes()], font_size = 12, alpha = 0.25, 
-                             edge_color = colors[comp], with_labels=True)
+        NX.draw(G, layout, node_size = [scale * EVC[k] for k in G.nodes()], 
+                font_size = 15, alpha = 0.20, 
+                edge_color = 'c', with_labels=False)
         
+        labels = {}
+        #Here we label only those influential nodes which are > some percentile
+        #value compared to the rest
+        ScaledEVC = {k:scale * EVC[k] for k in EVC.keys()}
+        pcentval = percentile(sorted(ScaledEVC.values()), pcent)
+        for node in G.nodes():
+            if ScaledEVC[node] >= pcentval:
+                labels[node] = node
+        
+        NX.draw_networkx_labels(G, layout, labels, font_size=15, 
+                                font_color='r', font_weight = 'bold')
+
         PLT.savefig(folder_path + 'Comp#%d' % comp + '.png', bbox_inches='tight')
-        
+
+        #Save an EVC sorted list of genes in a text file
+        '''        
         EVCToWrite = sorted(EVC.items(), key=operator.itemgetter(1), reverse=True)
-        
         f.write('START OF COMPONENT #%d\n\n' % (comp + 1))
         for item in EVCToWrite:
             f.write('%-25s' % item[0] + str(scale * item[1]) + '\n')
         f.write('\n/-------END OF COMPONENT/--------\n\n')
     
     f.close()
+    '''
         
 '''
 /----------------------------------\
