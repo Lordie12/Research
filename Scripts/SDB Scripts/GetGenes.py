@@ -7,12 +7,13 @@ Created on Sun Oct  5 09:08:33 2014
 """
 import urllib2
 import getopt, BeautifulSoup
+import collections
 import json, csv
 
 base_url = 'http://www.jinni.com/movies/'
 file_url = '/Users/Lanfear/Desktop/Research/CLuuData/CLuuScriptsGeneData/moviegenes.txt'
 movieinfopath = '/Users/Lanfear/Desktop/Research/CLuuData/Data/Movie Results (Cleaned) - Final Training Set - 44 - 3rd dim.csv'
-genedict = {}
+genedict = collections.OrderedDict()
 
 class GetGenes:
     
