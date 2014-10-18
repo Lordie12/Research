@@ -141,7 +141,7 @@ def get_components_of_G(adjmat, res, gtoidict, itogdict):
         NX.draw_networkx_labels(G, layout, labels, font_size=15, 
                                 font_color='r', font_weight = 'bold')
 
-        PLT.savefig(folder_path + 'Comp#%d' % comp + '.png', bbox_inches='tight')
+        #PLT.savefig(folder_path + 'Comp#%d' % comp + '.png', bbox_inches='tight')
 
         #Save an EVC sorted list of genes in a text file
         '''        
@@ -178,6 +178,7 @@ def main():
     G = fill_Graph(genedict, count, gtoidict, itogdict)
     mat = NX.to_numpy_matrix(G)
     res = C.best_partition(G)      
+    print res    
     
     get_components_of_G(mat, res, gtoidict, itogdict)    
 

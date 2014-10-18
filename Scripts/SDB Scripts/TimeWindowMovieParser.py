@@ -28,21 +28,47 @@ def produce_population(genedict):
     geneItems = genedict.items()
     popList = [geneItems[index] for index in randList]
     return popList
+
+'''
+/----------------------------------\
+'''
+def compute_local_clustering(genelist, T250, commGraphs):
+    '''
+    First part computes clustering coefficient of a subset of nodes delta
+    in the set
+    Second part computes communities in T250 and calculates the third term
+    '''
+    vertexList = {k:[] for k in range(0, len(commGraphs.keys()))}    
+    for comm in commGraphs:
+        for gene in genelist:
+            if gene in commGraphs[comm].nodes():
+                vertexList[comm].append(gene)
+        
+    k = 0
+    delta = 0
+    for comm in vertexList.keys():
+        if len(vertexList[comm]) > 0:
+            delta += NX.transitivity(NX.subgraph(commGraphs[comm], vertexList[comm]))
+            k += 1
+    
+    return delta / float(k)
     
 '''
 /----------------------------------\
 '''
-def calc_fitness_x(currPop, EVCTop, EVCBot, gtoidict, itogdict):
-    
+def calc_fitness_x(currPop, EVCTop, EVCBot, gtoidict, itogdict,
+                   TopGraph, commGraphs):
     fitness = {}
     count = 0
     for pop in currPop:
         fitness[count] = {}
         fitness[count]['Genes'] = pop[1]['Genes']
         currFitness = 0
+        delta = compute_local_clustering(pop[1]['Genes'], TopGraph, commGraphs)
         for gene in pop[1]['Genes']:
             #Compute fitness according to equation
             currFitness += 2 * EVCTop[gtoidict[gene]] - EVCBot[gtoidict[gene]]
+            + delta
             #Have to add community detection restricting to number of communities
             #difficult to do in python, implementation does not exist as of yet
         fitness[count]['Fitness'] = currFitness
@@ -55,45 +81,46 @@ def calc_fitness_x(currPop, EVCTop, EVCBot, gtoidict, itogdict):
 '''
 def filter_genes(geneList):
     fitnessList = [row['Fitness'] for row in geneList]
-    print fitnessList
+    mShift = min(fitnessList)
+    if mShift < 0:
+        mShift = mShift * -1
+        for row in geneList:
+            row['Fitness'] += mShift
 
 '''
 /----------------------------------\
 '''
-def get_new_dict(Graphs):
-    newdict = {'gtoi': {'Top': {}, 'Bot': {}}, 'itog': {'Top': {}, 'Bot': {}}}
+def split_graph_into_communities(OrigGraph, CommVector):
+    comms = {k:[] for k in range(0, max(CommVector.values()) + 1)}
+    for node in CommVector:
+        comms[CommVector[node]].append(node)
+
+    Graphs = {}    
+    for cNum in comms.keys():
+        Graphs[cNum] = NX.subgraph(OrigGraph, comms[cNum])
     
-    for gType in ['Top', 'Bot']:
-        count = 0
-        for gene in Graphs[gType].nodes():
-            newdict['gtoi'][gType][gene] = count
-            newdict['itog'][gType][gene] = count
-            count += 1
-    
-    return newdict    
-    
+    return Graphs
+
 '''
 /----------------------------------\
 '''
-def perform_GA(Graphs, gtoidict, itogdict, genedict):
+def perform_GA(Graphs, commGraphs, gtoidict, itogdict, genedict):
     '''
-    Perform the GA algorithm here
+    Perform the GA algorithm here, Graphs has the original graphs with all 
+    Nodes in both top and bottom networks, commGraphs contains only the
+    specific communities needed for the third part of the equation
     '''
     EVCTop = NX.eigenvector_centrality_numpy(Graphs['Top'])
     EVCBot = NX.eigenvector_centrality_numpy(Graphs['Bot'])
     
     randPop = produce_population(genedict)    
     
-    '''
-    We need this because we now have a new node mapping per graph,
-    need this to main EVC array consistency
-    '''
-    #newdict = get_new_dict(Graphs)
-    #gtoidict = newdict['gtoi']
-    #itogdict = newdict['itog']
+    communities = split_graph_into_communities(commGraphs['Top'], 
+                   C.best_partition(commGraphs['Top']))
     
     while (phi > 0):
-        geneList = calc_fitness_x(randPop, EVCTop, EVCBot, gtoidict, itogdict)
+        geneList = calc_fitness_x(randPop, EVCTop, EVCBot, gtoidict, itogdict,
+                                 commGraphs['Top'], communities)
         filterList = filter_genes(geneList.values())
         break
 
@@ -120,7 +147,6 @@ def to_graphical_form(gtoidict, itogdict, genedict):
             for gene2 in genedict[movie]['Genes']:
                 if gene1 == gene2:
                     continue
-                
                 adjGraphs[cat][gtoidict[gene1]][gtoidict[gene2]] += 1
                 adjGraphs[cat][gtoidict[gene2]][gtoidict[gene1]] += 1
 
@@ -132,7 +158,11 @@ def to_graphical_form(gtoidict, itogdict, genedict):
                 Graphs[gType].add_edges_from([(itogdict[row], 
                                 itogdict[col])], weight = adjGraphs[gType][row][col])
 
-    perform_GA(adjGraphs, gtoidict, itogdict, genedict)
+    fullAdjGraph = {}
+    for gType in ['Top', 'Bot']:
+        fullAdjGraph[gType] = NX.from_numpy_matrix(adjGraphs[gType])
+
+    perform_GA(fullAdjGraph, Graphs, gtoidict, itogdict, genedict)
     
 '''
 /----------------------------------\
@@ -156,12 +186,10 @@ def main():
     gtoidict = collections.OrderedDict()
     itogdict = collections.OrderedDict()
     keylist = [gene for gene in sorted(tempdict.keys())]    
-    
     for gene in keylist:
         gtoidict[gene] = 0
     
     count = 0
-    
     for gene in gtoidict.keys():
         gtoidict[gene] = count
         itogdict[count] = gene
