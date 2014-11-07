@@ -14,7 +14,6 @@ import community as C
 
 sample = '/Users/Lanfear/Desktop/text.txt'
 window_url = '/Users/Lanfear/Desktop/Research/CLuuData/TimeWindowResults/TimeWindow1990-2000.csv'
-gml_path = '/Users/Lanfear/Desktop/graph.gml'
 initial_pop = 120
 phi = 10
 pc = 0.72

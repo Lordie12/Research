@@ -8,7 +8,7 @@ Created on Sun Oct  5 09:08:33 2014
 import urllib2
 import getopt, BeautifulSoup
 import collections
-import json, csv
+import json, csv, re
 
 base_url = 'http://www.jinni.com/movies/'
 file_url = '/Users/Lanfear/Desktop/Research/CLuuData/CLuuScriptsGeneData/moviegenes.txt'
@@ -16,7 +16,6 @@ movieinfopath = '/Users/Lanfear/Desktop/Research/CLuuData/Data/Movie Results (Cl
 genedict = collections.OrderedDict()
 
 class GetGenes:
-    
     def __init__(self):
         pass
     
@@ -31,7 +30,16 @@ class GetGenes:
         
         return genelist
 
-    def Get_Genes(self, url, mName):
+    def Get_Genes(self, mName):
+        #Remove all non-alphanumeric, non-dot and non-space characters
+        newName = re.sub(r'[^a-zA-Z0-9\. ]','', mName)
+        #Replace dots with spaces
+        newName = newName.replace('.', ' ')
+        #Strip extraneous spaces
+        newName = newName.rstrip(' ')
+        #Add the name to the url
+        url = base_url + newName.replace(' ', '-')
+
         response = urllib2.urlopen(url)
         html = response.read()
 
@@ -50,8 +58,9 @@ class GetGenes:
             html = html[ : html.find('right_genomeTitleColor Audience')] + temphtml
     
         tempname = mName.replace('-', ' ')
-        genedict[tempname] = {}
-        genedict[tempname]['Genes'] = self.Parse_Genes(html)
+        #genedict[tempname] = {}
+        #genedict[tempname]['Genes'] = self.Parse_Genes(html)
+        return self.Parse_Genes(html)
         
     def Get_Dict(self):
         return genedict

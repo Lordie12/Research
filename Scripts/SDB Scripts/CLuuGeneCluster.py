@@ -144,15 +144,13 @@ def get_components_of_G(adjmat, res, gtoidict, itogdict):
         #PLT.savefig(folder_path + 'Comp#%d' % comp + '.png', bbox_inches='tight')
 
         #Save an EVC sorted list of genes in a text file
-        '''        
         EVCToWrite = sorted(EVC.items(), key=operator.itemgetter(1), reverse=True)
         f.write('START OF COMPONENT #%d\n\n' % (comp + 1))
         for item in EVCToWrite:
             f.write('%-25s' % item[0] + str(scale * item[1]) + '\n')
         f.write('\n/-------END OF COMPONENT/--------\n\n')
-    
+
     f.close()
-    '''
         
 '''
 /----------------------------------\
@@ -178,7 +176,6 @@ def main():
     G = fill_Graph(genedict, count, gtoidict, itogdict)
     mat = NX.to_numpy_matrix(G)
     res = C.best_partition(G)      
-    print res    
     
     get_components_of_G(mat, res, gtoidict, itogdict)    
 
