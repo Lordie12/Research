@@ -12,7 +12,7 @@ import json, csv, re
 
 base_url = 'http://www.jinni.com/movies/'
 file_url = '/Users/Lanfear/Desktop/Research/CLuuData/CLuuScriptsGeneData/moviegenes.txt'
-movieinfopath = '/Users/Lanfear/Desktop/Research/CLuuData/Data/Movie Results (Cleaned) - Final Training Set - 44 - 3rd dim.csv'
+movieinfopath = '/Users/Lanfear/Desktop/Research/CLuuData/CLuuResults/mresult.csv'
 genedict = collections.OrderedDict()
 
 class GetGenes:
@@ -27,7 +27,6 @@ class GetGenes:
         for link in soup.findAll("a"):
             attrs = link.get("href")
             genelist.append(str(attrs[attrs.rfind('=') + 1:]))
-        
         return genelist
 
     def Get_Genes(self, mName):
@@ -58,9 +57,9 @@ class GetGenes:
             html = html[ : html.find('right_genomeTitleColor Audience')] + temphtml
     
         tempname = mName.replace('-', ' ')
-        #genedict[tempname] = {}
-        #genedict[tempname]['Genes'] = self.Parse_Genes(html)
-        return self.Parse_Genes(html)
+        genedict[tempname] = {}
+        genedict[tempname]['Genes'] = self.Parse_Genes(html)
+        #return self.Parse_Genes(html)
         
     def Get_Dict(self):
         return genedict
@@ -89,18 +88,19 @@ if __name__ == '__main__':
     #main(sys.argv[1:])
     movierawdata = list(csv.reader(open(movieinfopath, 'rU'), dialect=csv.excel_tab,
                         delimiter=','))[1:]
-    movierawdata = [row[0:3] for row in movierawdata]
+    movierawdata = [row[0:7] for row in movierawdata]
     G = GetGenes()
     for row in movierawdata:
         mName = row[0].replace(' ', '-')
         print mName
-        try:
-            G.Get_Genes(base_url + mName, mName)
-        except:
-            print 'YOU MAD BRO? SHOULD NEVER SEE THIS'
+        #try:
+        G.Get_Genes(mName)
+        #except:
+            #print 'YOU MAD BRO? SHOULD NEVER SEE THIS'
         
         genedict[row[0]]['Year'] = row[1]
         genedict[row[0]]['Genre'] = row[2]
+        genedict[row[0]]['ROI'] = row[6]
     
     json.dump(genedict, open(file_url, 'w'))
-    print movierawdata
+    print genedict
