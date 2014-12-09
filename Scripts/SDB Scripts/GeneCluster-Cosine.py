@@ -14,10 +14,13 @@ import math as M
 import csv
 from collections import OrderedDict as OD
 
-movie_data_url = '/Users/Lanfear/Desktop/Research/CLuuData/TimeWindowResults/moviewindow'
-cl_movie_url = '/Users/Lanfear/Desktop/Research/CLuuData/CLuuScriptsGeneData/moviegenes.txt'
+movie_data_url = ('/Users/Lanfear/Desktop/Research/CLuuData/'
+                  'TimeWindowResults/moviewindow')
+cl_movie_url = ('/Users/Lanfear/Desktop/Research/CLuuData/'
+                'CLuuScriptsGeneData/moviegenes.txt')
 res_url = '/Users/Lanfear/Desktop/Research/CLuuData/Results/'
-filter_url = '/Users/Lanfear/Desktop/Research/CLuuData/CLuuResults/filtergenes.txt'
+filter_url = ('/Users/Lanfear/Desktop/Research/CLuuData/'
+              'CLuuResults/filtergenes.txt')
 pcentile = 0.90
 use_weighted_roi = False
 rating_sort = False
@@ -105,9 +108,9 @@ def compute_cosine(tGene, sGene, sMovie, EVCDict, filtergenes):
     dr2 = 0.0
     for gene in tGene:
         if gene in sGene:
-            #Skip the iteration if we are to filter out the post production 
+            #Skip the iteration if we are to filter out the post production
             #gene
-            if filter_genes == True and gene in filtergenes:
+            if filter_genes is True and gene in filtergenes:
                 continue
             try:
                 nr += EVCDict[gene.lower()]
@@ -117,7 +120,7 @@ def compute_cosine(tGene, sGene, sMovie, EVCDict, filtergenes):
                     continue
 
     try:
-        return dict(Movie=sMovie, 
+        return dict(Movie=sMovie,
                     Sim=M.sqrt(nr) / ((M.sqrt(dr1)) * M.sqrt(dr2)))
     except:
         return None
@@ -132,15 +135,15 @@ def compute_ROI(cl, cluster_set, weight=False):
     totwt = 0.0
     for tup in cl:
         wt = 1
-        if weight == True:
+        if weight is True:
             wt = tup['Sim']
         ROI += cluster_set[tup['Movie']]['ROI'] * wt
         totwt += wt
     return ROI / totwt
 
 
-def compute_cosine_similarity(movie, cluster_set, genedict,\
-            EVCDict, filtergenes):
+def compute_cosine_similarity(movie, cluster_set, genedict,
+                              EVCDict, filtergenes):
     cosine_list = []
     '''
     Compute the distance between a movie in genedict with every movie
@@ -148,20 +151,21 @@ def compute_cosine_similarity(movie, cluster_set, genedict,\
     movies and take an average of their ROIs and report that as the
     ROI of the current genedict movie
     '''
-    for m in cluster_set:        
+    for m in cluster_set:
         if cluster_set[m]['Rating'] > 6:
             Mtype = 'Top100'
         else:
             Mtype = 'Bot100'
-            
-        res = compute_cosine(genedict[movie]['Genes'], cluster_set[m]['Genes'], 
+
+        res = compute_cosine(genedict[movie]['Genes'], cluster_set[m]['Genes'],
                              m, EVCDict[Mtype], filtergenes)
-        
+
         if res is not None:
             cosine_list.append(res)
 
-    cosine_list = sorted(cosine_list, key=lambda k: k['Sim']) 
+    cosine_list = sorted(cosine_list, key=lambda k: k['Sim'])
     pTile = [cosine_list[k]['Sim'] for k in range(len(cosine_list))]
+    return NP.mean(pTile)
     return cosine_list[percentile(pTile, pcentile):]
 
 
@@ -177,8 +181,8 @@ def MSE(mean, ROIDict):
     for movie in ROIDict:
         mse += (ROIDict[movie] - mean) ** 2
     return mse / len(ROIDict.keys())
-    
-    
+
+
 def MAE(mean, ROIDict):
     mae = 0.0
     for movie in ROIDict:
@@ -206,7 +210,7 @@ def main():
     ROIDict = {}
 
     #Filter all gene dictionaries to the movies within 1980 - 1990
-    genedict = {k:genedict[k] for k in genedict.keys() if 
+    genedict = {k: genedict[k] for k in genedict.keys() if
                 int(genedict[k]['Year']) >= start_year and
                 int(genedict[k]['Year']) <= end_year}
 
@@ -221,20 +225,20 @@ def main():
         count += 1
 
     #Split into top 100 movies and bottom 100 movies
-    if (rating_sort == True):
+    if (rating_sort is True):
         top100_cluster = OD(IT.islice(cluster_set.items(), 0, 100))
         bot100_cluster = OD(IT.islice(cluster_set.items(), 100, 200))
-        
+
     else:
-        #Here we sort by ROIs and not ratings        
-        keys = sorted(cluster_set, key=lambda k: cluster_set[k]['ROI']) 
+        #Here we sort by ROIs and not ratings
+        keys = sorted(cluster_set, key=lambda k: cluster_set[k]['ROI'])
         sdict = OD()
         for key in keys:
-            sdict[key]= cluster_set[key]
-            
+            sdict[key] = cluster_set[key]
+
         top100_cluster = OD(IT.islice(sdict.items(), 0, 100))
         bot100_cluster = OD(IT.islice(sdict.items(), 100, 200))
-        
+
     G = {}
     G['Top100'] = fill_Graph(top100_cluster, count, gtoidict, itogdict)
     G['Bot100'] = fill_Graph(bot100_cluster, count, gtoidict, itogdict)
@@ -260,11 +264,17 @@ def main():
             EVCDict[gname].update(NX.eigenvector_centrality_numpy(
                 G[gname], commGraphs[gname][subgraph]))
 
+    newd = {}
     for movie in genedict:
-        cl = compute_cosine_similarity(movie, cluster_set, genedict,\
-            EVCDict, filtergenes)
-        ROIDict[movie] = compute_ROI(cl, cluster_set, use_weighted_roi)
+        newd[movie] = {}
+        newd[movie]['cos'] = compute_cosine_similarity(movie, cluster_set,
+                                                       genedict, EVCDict,
+                                                       filtergenes)
+        newd[movie]['ROI'] = genedict[movie]['ROI']
+        #ROIDict[movie] = compute_ROI(cl, cluster_set, use_weighted_roi)
 
+    json.dump(newd, open('/Users/Lanfear/Desktop/Sample.txt', 'w'))
+    return
     meanROI = mean(genedict)
     mse = MSE(meanROI, ROIDict)
     mae = MAE(meanROI, ROIDict)
