@@ -15,8 +15,7 @@ TrainPath = ('/Users/Lanfear/Desktop/Research/CLuuData/'
              'CLuuResults/FinalTrainSet1stDim.csv')
 HoldoutPath = ('/Users/Lanfear/Desktop/Research/CLuuData/CLuuResults/'
                'FinalHoldoutSet.csv')
-max_d = 7
-mss = 2
+
 numTrees = 50
 numTests = 1000
 
@@ -52,6 +51,7 @@ R2List = OrderedDict()
 R2List['TrainROI'] = []
 R2List['TestROI'] = []
 
+print 'Running Tests: '
 for i in range(numTests):
     classifier = BaggingRegressor(base_estimator=DecisionTreeRegressor(),
                                   n_estimators=numTrees,
