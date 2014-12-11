@@ -7,8 +7,9 @@ Created on Sat Dec  6 12:58:06 2014
 
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import BaggingRegressor
-from sklearn.metrics import r2_score
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 from collections import OrderedDict
+from numpy import mean, var
 import csv
 
 TrainPath = ('/Users/Lanfear/Desktop/Research/CLuuData/'
@@ -17,7 +18,10 @@ HoldoutPath = ('/Users/Lanfear/Desktop/Research/CLuuData/CLuuResults/'
                'FinalHoldoutSet.csv')
 
 numTrees = 50
+# Number of tests carried out
 numTests = 1000
+# Can be optimized for R2, MSE, MAE or Var
+optimize_for = 'R2'
 
 
 def parse_csv(path):
@@ -48,10 +52,27 @@ testfeatures = [Testset[k]['Features'] for k in Testset]
 testROI = [Testset[k]['AROI'] for k in Testset]
 
 R2List = OrderedDict()
-R2List['TrainROI'] = []
-R2List['TestROI'] = []
+# R2List['TrainROI'] = []
+R2List['TestR2'] = []
 
-print 'Running Tests: '
+MeanList = OrderedDict()
+MeanList['TrainMean'] = mean(trainROI)
+MeanList['TestMean'] = mean(testROI)
+MeanList['PredictMean'] = []
+
+VarList = OrderedDict()
+VarList['TrainVar'] = var(trainROI)
+VarList['TestVar'] = var(testROI)
+VarList['PredictVar'] = []
+
+MSEList = OrderedDict()
+MSEList['TestMSE'] = []
+
+MAEList = OrderedDict()
+MAEList['TestMAE'] = []
+
+print 'Test optimized for', optimize_for
+print 'Running Tests '
 for i in range(numTests):
     classifier = BaggingRegressor(base_estimator=DecisionTreeRegressor(),
                                   n_estimators=numTrees,
@@ -59,16 +80,38 @@ for i in range(numTests):
                                   max_features=int(1))
 
     classifier.fit(trainfeatures, trainROI)
-    predictROI = {}
-    predictROI['Training'] = classifier.predict(trainfeatures)
-    predictROI['Test'] = classifier.predict(testfeatures)
+    # Compute the predicted ROIs and store them in an array
+    predictROI = classifier.predict(testfeatures)
 
-    R2 = {}
-    R2['Train'] = r2_score(trainROI, predictROI['Training'])
-    R2['Test'] = r2_score(testROI, predictROI['Test'])
+    # Compute statistical metrics ROI, MSE, MAE, Mean and Variance
+    R2List['TestR2'].append(r2_score(testROI, predictROI))
+    MSEList['TestMSE'].append(mean_squared_error(testROI, predictROI))
+    MAEList['TestMAE'].append(mean_absolute_error(testROI, predictROI))
+    MeanList['PredictMean'].append(mean(predictROI))
+    VarList['PredictVar'].append(var(predictROI))
 
-    R2List['TrainROI'].append(R2['Train'])
-    R2List['TestROI'].append(R2['Test'])
+# print 'Best Test ROI: ', max(R2List['TestROI'])
+# print 'Best Test MSE: ', min(MSEList['TestMSE'])
+# print 'Best Test MAE: ', min(MAEList['TestMAE'])
+# print 'Test Means: ', MeanList['TestMean']
+# print 'Test Variance: ', VarList['TestVar']
 
-print 'Best Train ROI: ', max(R2List['TrainROI'])
-print 'Best Test ROI: ', max(R2List['TestROI'])
+if (optimize_for == 'R2'):
+    currIndex = R2List['TestR2'].index(max(R2List['TestR2']))
+elif (optimize_for == 'MSE'):
+    currIndex = MSEList['TestMSE'].index(min(MSEList['TestMSE']))
+elif (optimize_for == 'MAE'):
+    currIndex = MAEList['TestMAE'].index(min(MAEList['TestMAE']))
+elif (optimize_for == 'Var'):
+    currIndex = VarList['PredictVar'].index(max(VarList['PredictVar']))
+
+print 'Train Means    : ', MeanList['TrainMean']
+print 'Train Var      : ', VarList['TrainVar']
+print 'Test Mean      : ', MeanList['TestMean']
+print 'Test Var       : ', VarList['TestVar']
+print 'Mean R2        :', mean(R2List['TestR2'])
+print 'R2             : ', R2List['TestR2'][currIndex]
+print 'MSE            : ', MSEList['TestMSE'][currIndex]
+print 'MAE            : ', MAEList['TestMAE'][currIndex]
+print 'Prediction Mean: ', MeanList['PredictMean'][currIndex]
+print 'Prediction Var : ', VarList['PredictVar'][currIndex]

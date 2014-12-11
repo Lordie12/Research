@@ -48,11 +48,11 @@ def weightedAvg(w1, w2):
 
 
 def GenSamples(Samples):
-    trainSamples = []
+    SampleSet = []
     for i in xrange(Samples):
         res = weightedAvg(weightw1, weightw2)
-        trainSamples.append(res)
-    return trainSamples
+        SampleSet.append(res)
+    return SampleSet
 
 
 def extractFeatures(inputList):
@@ -64,10 +64,13 @@ def extractPred(inputList):
 
 
 def runTests():
+
+    # Generate the training samples, extract training features and target
     trainSamples = GenSamples(numSamples)
     trainFeatures = extractFeatures(trainSamples)
     trainPred = extractPred(trainSamples)
 
+    # Generate the test samples, extracr test features and target
     testSamples = GenSamples(numTestSamples)
     testFeatures = extractFeatures(testSamples)
     testPred = extractPred(testSamples)
@@ -99,9 +102,5 @@ def runTests():
     print 'Best Train ROI: ', max(R2List['TrainROI'])
     print 'Best Test ROI: ', max(R2List['TestROI'])
 
-
-def main():
-    runTests()
-
 if __name__ == '__main__':
-    main()
+    runTests()
