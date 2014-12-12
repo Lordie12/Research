@@ -12,6 +12,7 @@ import numpy as NP
 import itertools as IT
 import math as M
 import csv
+from sys import exit
 from collections import OrderedDict as OD
 
 movie_data_url = ('/Users/Lanfear/Desktop/Research/CLuuData/'
@@ -108,20 +109,23 @@ def compute_cosine(tGene, sGene, sMovie, EVCDict, filtergenes):
     dr2 = 0.0
     for gene in tGene:
         if gene in sGene:
-            #Skip the iteration if we are to filter out the post production
-            #gene
+            # Skip the iteration if we are to filter out the post production
+            # gene
             if filter_genes is True and gene in filtergenes:
                 continue
             try:
-                nr += EVCDict[gene.lower()]
+                # Sigma Ai * Bi
+                nr += EVCDict[gene.lower()] * 1
+                # Sum Ai ** 2
                 dr1 += EVCDict[gene.lower()] ** 2
+                # Sum Bi ** 2
                 dr2 += 1
             except:
                     continue
 
     try:
         return dict(Movie=sMovie,
-                    Sim=M.sqrt(nr) / ((M.sqrt(dr1)) * M.sqrt(dr2)))
+                    Sim=nr / ((M.sqrt(dr1)) * M.sqrt(dr2)))
     except:
         return None
 
@@ -135,8 +139,8 @@ def compute_ROI(cl, cluster_set, weight=False):
     totwt = 0.0
     for tup in cl:
         wt = 1
-        if weight is True:
-            wt = tup['Sim']
+        # if weight is True:
+            # wt = tup['Sim']
         ROI += cluster_set[tup['Movie']]['ROI'] * wt
         totwt += wt
     return ROI / totwt
@@ -147,17 +151,17 @@ def compute_cosine_similarity(movie, cluster_set, genedict,
     cosine_list = []
     '''
     Compute the distance between a movie in genedict with every movie
-    in EVC Dict which is our training set, find out the top 10 %tile
+    in genedict which is our training set, find out the top 10 %tile
     movies and take an average of their ROIs and report that as the
     ROI of the current genedict movie
     '''
-    for m in cluster_set:
-        if cluster_set[m]['Rating'] > 6:
-            Mtype = 'Top100'
-        else:
-            Mtype = 'Bot100'
+    for m in genedict:
+        # if genedict[m]['Rating'] > 6:
+        Mtype = 'Top100'
+        # else:
+            # Mtype = 'Bot100'
 
-        res = compute_cosine(genedict[movie]['Genes'], cluster_set[m]['Genes'],
+        res = compute_cosine(genedict[movie]['Genes'], genedict[m]['Genes'],
                              m, EVCDict[Mtype], filtergenes)
 
         if res is not None:
@@ -165,8 +169,12 @@ def compute_cosine_similarity(movie, cluster_set, genedict,
 
     cosine_list = sorted(cosine_list, key=lambda k: k['Sim'])
     pTile = [cosine_list[k]['Sim'] for k in range(len(cosine_list))]
-    return NP.mean(pTile)
-    return cosine_list[percentile(pTile, pcentile):]
+    # return cosine_list[percentile(pTile, pcentile):]
+    # Compute cosine distance of top 5 and bottom 5 movies (most information)
+    return (pTile[0] + pTile[1] + pTile[2] + pTile[3] + pTile[4]
+            + pTile[len(pTile) - 1] + pTile[len(pTile) - 2] +
+            pTile[len(pTile) - 3] + pTile[len(pTile) - 4] +
+            pTile[len(pTile) - 1]) / float(10)
 
 
 def mean(genedict):
@@ -210,9 +218,9 @@ def main():
     ROIDict = {}
 
     #Filter all gene dictionaries to the movies within 1980 - 1990
-    genedict = {k: genedict[k] for k in genedict.keys() if
-                int(genedict[k]['Year']) >= start_year and
-                int(genedict[k]['Year']) <= end_year}
+    # genedict = {k: genedict[k] for k in genedict.keys() if
+                # int(genedict[k]['Year']) >= start_year and
+                # int(genedict[k]['Year']) <= end_year}
 
     for movie in cluster_set.keys():
         for gene in cluster_set[movie]['Genes']:
@@ -270,10 +278,9 @@ def main():
         newd[movie]['cos'] = compute_cosine_similarity(movie, cluster_set,
                                                        genedict, EVCDict,
                                                        filtergenes)
-        newd[movie]['ROI'] = genedict[movie]['ROI']
         #ROIDict[movie] = compute_ROI(cl, cluster_set, use_weighted_roi)
 
-    json.dump(newd, open('/Users/Lanfear/Desktop/Sample.txt', 'w'))
+    json.dump(newd, open('/Users/Lanfear/Desktop/TrainCosine.txt', 'w'))
     return
     meanROI = mean(genedict)
     mse = MSE(meanROI, ROIDict)

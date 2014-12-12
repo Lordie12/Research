@@ -10,45 +10,78 @@ from sklearn.ensemble import BaggingRegressor
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 from collections import OrderedDict
 from numpy import mean, var
+from json import load
 import csv
 
 TrainPath = ('/Users/Lanfear/Desktop/Research/CLuuData/'
              'CLuuResults/FinalTrainSet1stDim.csv')
 HoldoutPath = ('/Users/Lanfear/Desktop/Research/CLuuData/CLuuResults/'
                'FinalHoldoutSet.csv')
+TrainCos = ('/Users/Lanfear/Desktop/TrainCosine.txt')
+HoldoutCos = ('/Users/Lanfear/Desktop/HoldoutCosine.txt')
 
 numTrees = 50
 # Number of tests carried out
-numTests = 1000
+numTests = 2000
 # Can be optimized for R2, MSE, MAE or Var
 optimize_for = 'R2'
+# Use cosine distance or not?
+include_cosine = False
 
 
 def parse_csv(path):
+    '''
+    Parses a csv file and returns a dictionary of movies
+    '''
     movierawdata = list(csv.reader(open(path, 'rU'), dialect=csv.excel_tab,
                         delimiter=','))[1:]
     tempDict = OrderedDict()
     for row in movierawdata:
         tempDict[row[0]] = {}
-        tempDict[row[0]]['Features'] = row[8:]
-        tempDict[row[0]]['AROI'] = float(row[6])
         tempDict[row[0]]['Year'] = int(row[1])
         tempDict[row[0]]['Genre'] = str(row[2])
-
+        tempDict[row[0]]['AROI'] = float(row[6])
+        tempDict[row[0]]['Features'] = row[8:]
     return tempDict
+
+
+def parse_cosine(path):
+    return load(open(path, 'r'))
 
 Trainset = parse_csv(TrainPath)
 Testset = parse_csv(HoldoutPath)
+TrainCosine = parse_cosine(TrainCos)
+HoldoutCosine = parse_cosine(HoldoutCos)
+AvgTrain = mean([TrainCosine[k]['cos'] for k in TrainCosine])
+AvgHoldout = mean([HoldoutCosine[k]['cos'] for k in HoldoutCosine])
 
 numSamples = len(Trainset)
-#The training features
+
+# Append the 45th cosine similarity index if include_cosine is true
+if (include_cosine is True):
+    for key in TrainCosine.keys():
+        Trainset[key]['Features'].append(str(TrainCosine[key]['cos']))
+    for key in Trainset.keys():
+        if (len(Trainset[key]['Features']) < 45):
+            Trainset[key]['Features'].append(str(AvgTrain))
+
+    for key in HoldoutCosine.keys():
+        Testset[key]['Features'].append(str(HoldoutCosine[key]['cos']))
+    for key in Testset.keys():
+        if (len(Testset[key]['Features']) < 45):
+            Testset[key]['Features'].append(str(AvgHoldout))
+
+
+# The training features
 trainfeatures = [Trainset[k]['Features'] for k in Trainset]
-#The actual ROI of movies
+
+# The actual ROI of movies
 trainROI = [Trainset[k]['AROI'] for k in Trainset]
 
-#The testing features
+# The testing features
 testfeatures = [Testset[k]['Features'] for k in Testset]
-#The test ROI
+
+# The test ROI
 testROI = [Testset[k]['AROI'] for k in Testset]
 
 R2List = OrderedDict()
