@@ -17,8 +17,8 @@ TrainPath = ('/Users/Lanfear/Desktop/Research/CLuuData/'
              'CLuuResults/FinalTrainSet1stDim.csv')
 HoldoutPath = ('/Users/Lanfear/Desktop/Research/CLuuData/CLuuResults/'
                'FinalHoldoutSet.csv')
-TrainCos = ('/Users/Lanfear/Desktop/TrainCosine.txt')
-HoldoutCos = ('/Users/Lanfear/Desktop/HoldoutCosine.txt')
+TrainCos = ('/Users/Lanfear/Desktop/Research/CLuuData/CLuuResults/TrainCosine.txt')
+HoldoutCos = ('/Users/Lanfear/Desktop/Research/CLuuData/CLuuResults/HoldoutCosine.txt')
 
 numTrees = 50
 # Number of tests carried out
@@ -26,7 +26,7 @@ numTests = 2000
 # Can be optimized for R2, MSE, MAE or Var
 optimize_for = 'R2'
 # Use cosine distance or not?
-include_cosine = False
+include_cosine = True
 
 
 def parse_csv(path):
