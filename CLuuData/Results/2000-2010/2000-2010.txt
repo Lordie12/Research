@@ -180,7 +180,7 @@ strong_violent_content   33.1798805153
 special_effects          33.1798805153
 based_on_short_story     33.116134436
 escapades                33.116134436
-inventions_and_discoveries33.116134436
+inventions_and_discoveries 33.116134436
 supernatural             32.1484537099
 france                   32.1484537099
 undercover               31.6400791428

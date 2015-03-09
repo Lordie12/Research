@@ -1,0 +1,9 @@
+OriginalWithoutCosine measures:
+My Predictions:
+0.780864197531 0.590240641711 0.617424242424
+OriginalWithCosine measures:
+My Predictions:
+0.822222222222 0.692513368984 0.724550066013
+ReducedWithCosine measures:
+My Predictions:
+0.821428571429 0.775178253119 0.79249249249211

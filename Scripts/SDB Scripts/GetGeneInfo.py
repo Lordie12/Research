@@ -72,12 +72,12 @@ def get_budget_from_soup(soup):
                         text=re.compile(r'Budget:'))
 
     if (len(cond)) == 0:
-        #No budget information found, exit
+        # No budget information found, exit
         raise Exception('Budget not found')
 
     budget = str(cond[0].next).strip(' ')
     if budget.startswith('$') is False:
-        #Budget not in USD
+        # Budget not in USD
         raise Exception('Budget not in $$$')
     return int(budget.replace(',', '')[1:])
 

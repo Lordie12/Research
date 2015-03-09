@@ -1,0 +1,46 @@
+3 Clusters
+['Comedy', 'Thriller', 'Action', 'Action', 'Action', 'Comedy', 'Comedy', 'Drama', 'Action', 'Comedy', 'Action', 'Action', 'Comedy', 'Thriller', 'Action', 'Action', 'Thriller', 'Thriller'] 
+
+['Action', 'Action', 'Drama', 'Drama', 'Action', 'Drama', 'Action', 'Drama', 'Comedy', 'Action', 'Thriller', 'Drama', 'Horror', 'Thriller', 'Thriller', 'Comedy', 'Comedy', 'Drama', 'Horror', 'Comedy', 'Drama', 'Action', 'Horror', 'Action', 'Drama', 'Horror', 'Action', 'Thriller', 'Thriller', 'Horror', 'Comedy', 'Horror', 'Drama', 'Thriller', 'Thriller', 'Action', 'Action', 'Comedy', 'Comedy', 'Comedy', 'Drama', 'Action', 'Drama', 'Comedy', 'Drama', 'Thriller', 'Horror', 'Thriller', 'Action', 'Drama', 'Action'] 
+
+['Drama', 'Drama', 'Drama', 'Action', 'Drama', 'Comedy'] 
+Silhouette score - 0.162896455589
+
+
+4 Clusters
+['Comedy', 'Thriller', 'Action', 'Action', 'Comedy', 'Comedy', 'Drama', 'Comedy', 'Action', 'Action', 'Comedy', 'Thriller', 'Action', 'Thriller'] 
+
+['Action', 'Action', 'Drama', 'Drama', 'Action', 'Comedy', 'Drama', 'Horror', 'Thriller', 'Thriller', 'Drama', 'Comedy', 'Comedy', 'Drama', 'Action', 'Action', 'Drama', 'Horror', 'Action', 'Thriller', 'Thriller', 'Action', 'Drama', 'Comedy', 'Drama', 'Thriller', 'Comedy', 'Action', 'Drama'] 
+
+['Drama', 'Action', 'Drama', 'Action', 'Thriller', 'Comedy', 'Drama', 'Horror', 'Action', 'Horror', 'Drama', 'Action', 'Thriller', 'Horror', 'Comedy', 'Horror', 'Drama', 'Thriller', 'Action', 'Comedy', 'Comedy', 'Comedy', 'Action', 'Drama', 'Action', 'Horror', 'Thriller', 'Thriller', 'Action'] 
+
+['Drama', 'Action', 'Drama'] 
+Silhouette Score - 0.0818610330062
+
+
+5 Clusters
+['Action', 'Drama', 'Drama', 'Comedy', 'Action', 'Thriller', 'Drama', 'Thriller', 'Comedy', 'Drama', 'Horror', 'Drama', 'Action', 'Action', 'Horror', 'Drama', 'Horror', 'Action', 'Thriller', 'Action', 'Thriller', 'Horror', 'Comedy', 'Horror', 'Drama', 'Thriller', 'Thriller', 'Action', 'Action', 'Comedy', 'Comedy', 'Comedy', 'Drama', 'Action', 'Drama', 'Thriller', 'Action', 'Horror', 'Thriller', 'Action'] 
+
+['Drama'] 
+
+['Comedy', 'Thriller', 'Action', 'Action', 'Comedy', 'Comedy', 'Drama', 'Comedy', 'Action', 'Action', 'Comedy', 'Thriller', 'Action', 'Thriller', 'Thriller'] 
+
+['Action', 'Action', 'Drama', 'Thriller', 'Comedy', 'Comedy', 'Drama', 'Action', 'Drama'] 
+
+['Drama', 'Action', 'Horror', 'Drama', 'Action', 'Drama', 'Action', 'Comedy', 'Drama', 'Comedy'] 
+Silhouette Score - 0.101868430209
+
+
+6 Clusters
+['Thriller', 'Action', 'Action', 'Thriller', 'Comedy', 'Action', 'Drama', 'Action', 'Action'] 
+
+['Action', 'Drama', 'Action', 'Drama', 'Action', 'Comedy', 'Action', 'Drama', 'Thriller', 'Comedy', 'Drama', 'Horror', 'Drama', 'Action', 'Drama', 'Horror', 'Action', 'Thriller', 'Horror', 'Horror', 'Thriller', 'Comedy', 'Drama', 'Drama', 'Thriller', 'Horror', 'Action', 'Drama'] 
+
+['Horror', 'Drama', 'Action', 'Drama', 'Action', 'Comedy', 'Drama', 'Comedy'] 
+
+['Action', 'Drama', 'Drama', 'Thriller', 'Comedy', 'Comedy', 'Horror', 'Comedy', 'Drama', 'Thriller', 'Action', 'Comedy', 'Comedy', 'Action', 'Thriller', 'Thriller'] 
+
+['Drama'] 
+
+['Comedy', 'Thriller', 'Action', 'Action', 'Comedy', 'Comedy', 'Drama', 'Action', 'Action', 'Comedy', 'Thriller', 'Action', 'Thriller'] 
+Silhouette Score - 0.0703529711747

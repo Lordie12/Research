@@ -5,12 +5,12 @@ Created on Thu Jun 19 22:44:23 2014
 @author: Lanfear
 """
 import numpy as np
-import scipy as sp
 from numpy.linalg import svd
 
+
 class CA(object):
-    """Correspondence Analysis Implementation
-    Notes
+    """
+    Correspondence Analysis Implementation Notes
     -----
     The implementation follows that presented in 'Correspondence
     Analysis in R, with Two- and Three-dimensional Graphics: The ca
@@ -29,12 +29,12 @@ class CA(object):
 
     def ComputeCA(self):
         # row and column marginal totals of P as vectors
-        r = self.P.sum(axis = 1)
-        c = self.P.sum(axis = 0).T
-        
+        r = self.P.sum(axis=1)
+        c = self.P.sum(axis=0).T
+
         # diagonal matrices of row/column sums
-        D_r_rsq = np.diag(1./ np.sqrt(r.A1))
-        D_c_rsq = np.diag(1./ np.sqrt(c.A1))
+        D_r_rsq = np.diag(1./np.sqrt(r.A1))
+        D_c_rsq = np.diag(1./np.sqrt(c.A1))
 
         # the matrix of standarized residuals
         S = D_r_rsq * (self.P - r * c.T) * D_c_rsq
@@ -45,7 +45,7 @@ class CA(object):
         V = V.T
 
         # principal coordinates of rows
-        F = D_r_rsq * U * D_a 
+        F = D_r_rsq * U * D_a
 
         # principal coordinates of columns
         G = D_c_rsq * V * D_a
@@ -57,8 +57,8 @@ class CA(object):
         Y = D_c_rsq * V
 
         # the total variance of the data matrix
-        inertia = sum([(self.P[i,j] - r[i,0] * c[j,0])**2 / (r[i,0] * c[j,0])
-                       for i in range(self.N.shape[0])
+        inertia = sum([(self.P[i, j] - r[i, 0] * c[j, 0]) ** 2 /
+                      (r[i, 0] * c[j, 0]) for i in range(self.N.shape[0])
                        for j in range(self.N.shape[1])])
 
         self.F = F.A
@@ -67,9 +67,9 @@ class CA(object):
         self.Y = Y.A
         self.inertia = inertia
         self.eigenvals = np.diag(D_a)**2
-        
+
         return self.G * -1
-'''      
+'''
 X = np.array([[7836, 13112, 6026],
                   [53655, 102383, 42413],
                   [115615, 184541, 59226],

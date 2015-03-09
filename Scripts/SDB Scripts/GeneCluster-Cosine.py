@@ -5,27 +5,22 @@ Created on Fri Nov  7 11:14:15 2014
 @author: Lanfear
 """
 
-import json
-import networkx as NX
-import community as C
-import numpy as NP
-import itertools as IT
-import math as M
 import csv
-from sys import exit
+import json
+import math as M
+import numpy as NP
+import community as C
+import itertools as IT
+import networkx as NX
+
 from collections import OrderedDict as OD
+from sklearn.metrics.pairwise import pairwise_distances
 
 movie_data_url = ('/Users/Lanfear/Desktop/Research/CLuuData/'
                   'TimeWindowResults/moviewindow')
 cl_movie_url = ('/Users/Lanfear/Desktop/Research/CLuuData/'
                 'CLuuScriptsGeneData/moviegenes.txt')
 res_url = '/Users/Lanfear/Desktop/Research/CLuuData/Results/'
-filter_url = ('/Users/Lanfear/Desktop/Research/CLuuData/'
-              'CLuuResults/filtergenes.txt')
-pcentile = 0.90
-use_weighted_roi = False
-rating_sort = False
-filter_genes = True
 
 start_year = 2000
 end_year = 2010
@@ -51,7 +46,7 @@ def fill_Graph(genedict, count, gtoidict, itogdict):
     for movie in genedict.keys():
         for gene1 in genedict[movie]['Genes']:
             for gene2 in genedict[movie]['Genes']:
-                #Create co-occurrence network
+                # Create co-occurrence network
                 gene1 = str(gene1).lower()
                 gene2 = str(gene2).lower()
 
@@ -61,7 +56,7 @@ def fill_Graph(genedict, count, gtoidict, itogdict):
                 adj[gtoidict[gene1]][gtoidict[gene2]] += 1
                 adj[gtoidict[gene2]][gtoidict[gene1]] += 1
 
-    #create the graph with named edges
+    # Create the graph with named edges
     for row in range(len(adj)):
         for col in range(len(adj[0])):
             if (adj[row][col] == 0):
@@ -103,33 +98,6 @@ def get_c_from_partition(commArray):
     return nodelist
 
 
-def compute_cosine(tGene, sGene, sMovie, EVCDict, filtergenes):
-    nr = 0.0
-    dr1 = 0.0
-    dr2 = 0.0
-    for gene in tGene:
-        if gene in sGene:
-            # Skip the iteration if we are to filter out the post production
-            # gene
-            if filter_genes is True and gene in filtergenes:
-                continue
-            try:
-                # Sigma Ai * Bi
-                nr += EVCDict[gene.lower()] * 1
-                # Sum Ai ** 2
-                dr1 += EVCDict[gene.lower()] ** 2
-                # Sum Bi ** 2
-                dr2 += 1
-            except:
-                    continue
-
-    try:
-        return dict(Movie=sMovie,
-                    Sim=nr / ((M.sqrt(dr1)) * M.sqrt(dr2)))
-    except:
-        return None
-
-
 def compute_ROI(cl, cluster_set, weight=False):
     '''
     Compute unweighted ROI average for now,
@@ -146,60 +114,42 @@ def compute_ROI(cl, cluster_set, weight=False):
     return ROI / totwt
 
 
-def compute_cosine_similarity(movie, cluster_set, genedict,
-                              EVCDict, filtergenes):
-    cosine_list = []
+def compute_cosine_similarity(movie, genedict,
+                              EVCDict, geneList):
     '''
     Compute the distance between a movie in genedict with every movie
-    in genedict which is our training set, find out the top 10 %tile
-    movies and take an average of their ROIs and report that as the
-    ROI of the current genedict movie
+    in genedict which is our training set, find out the ROI of top 2
+    and bottom 2 movies and take an average of their ROIs and report
+    that as the ROI of the current genedict movie
     '''
-    for m in genedict:
-        # if genedict[m]['Rating'] > 6:
-        Mtype = 'Top100'
-        # else:
-            # Mtype = 'Bot100'
 
-        res = compute_cosine(genedict[movie]['Genes'], genedict[m]['Genes'],
-                             m, EVCDict[Mtype], filtergenes)
+    movieGenes = sorted(list(genedict[movie]['Genes']))
 
-        if res is not None:
-            cosine_list.append(res)
+    # Stores a list of EVC values for genome elements in the top communities
+    topBaseArray = [0] * len(geneList)
+    for i, gene in enumerate(geneList):
+        if gene in EVCDict['Top100'].keys():
+            topBaseArray[i] = 1
 
-    cosine_list = sorted(cosine_list, key=lambda k: k['Sim'])
-    pTile = [cosine_list[k]['Sim'] for k in range(len(cosine_list))]
-    # return cosine_list[percentile(pTile, pcentile):]
-    # Compute cosine distance of top 5 and bottom 5 movies (most information)
-    return (pTile[0] + pTile[1] + pTile[2] + pTile[3] + pTile[4]
-            + pTile[len(pTile) - 1] + pTile[len(pTile) - 2] +
-            pTile[len(pTile) - 3] + pTile[len(pTile) - 4] +
-            pTile[len(pTile) - 1]) / float(10)
+    topArray = [0] * len(geneList)
+    for i, gene in enumerate(geneList):
+        if gene in movieGenes and gene in EVCDict['Top100']:
+            topArray[i] = EVCDict['Top100'][gene]
 
+    pos = pairwise_distances(topBaseArray, topArray, 'cosine')[0][0]
 
-def mean(genedict):
-    m = 0.0
-    for movie in genedict:
-        m += float(genedict[movie]['ROI'])
-    return m / len(genedict.keys())
+    botBaseArray = [0] * len(geneList)
+    for i, gene in enumerate(geneList):
+        if gene in EVCDict['Bot100'].keys():
+            botBaseArray[i] = 1
 
+    botArray = [0] * len(geneList)
+    for i, gene in enumerate(geneList):
+        if gene in movieGenes and gene in EVCDict['Bot100']:
+            botArray[i] = EVCDict['Bot100'][gene]
 
-def MSE(mean, ROIDict):
-    mse = 0.0
-    for movie in ROIDict:
-        mse += (ROIDict[movie] - mean) ** 2
-    return mse / len(ROIDict.keys())
-
-
-def MAE(mean, ROIDict):
-    mae = 0.0
-    for movie in ROIDict:
-        mae += abs(ROIDict[movie] - mean)
-    return mae / len(ROIDict.keys())
-
-
-def R2(mse, mae):
-    return 1 - (mse / float(mae))
+    neg = pairwise_distances(botBaseArray, botArray, 'cosine')[0][0]
+    return round(100 * (pos - neg) / 2.0, 6)
 
 
 def main():
@@ -208,19 +158,12 @@ def main():
     cluster_set = convert_raw_to_dict(moviedata)
 
     genedict = json.load(open(cl_movie_url, 'r'))
-    filtergenes = json.load(open(filter_url, 'r'))
     tempdict = {}
     gtoidict = {}
     itogdict = {}
     EVCDict = {}
     EVCDict['Top100'] = {}
     EVCDict['Bot100'] = {}
-    ROIDict = {}
-
-    #Filter all gene dictionaries to the movies within 1980 - 1990
-    # genedict = {k: genedict[k] for k in genedict.keys() if
-                # int(genedict[k]['Year']) >= start_year and
-                # int(genedict[k]['Year']) <= end_year}
 
     for movie in cluster_set.keys():
         for gene in cluster_set[movie]['Genes']:
@@ -232,20 +175,8 @@ def main():
         itogdict[count] = gene
         count += 1
 
-    #Split into top 100 movies and bottom 100 movies
-    if (rating_sort is True):
-        top100_cluster = OD(IT.islice(cluster_set.items(), 0, 100))
-        bot100_cluster = OD(IT.islice(cluster_set.items(), 100, 200))
-
-    else:
-        #Here we sort by ROIs and not ratings
-        keys = sorted(cluster_set, key=lambda k: cluster_set[k]['ROI'])
-        sdict = OD()
-        for key in keys:
-            sdict[key] = cluster_set[key]
-
-        top100_cluster = OD(IT.islice(sdict.items(), 0, 100))
-        bot100_cluster = OD(IT.islice(sdict.items(), 100, 200))
+    top100_cluster = OD(IT.islice(cluster_set.items(), 0, 100))
+    bot100_cluster = OD(IT.islice(cluster_set.items(), 100, 200))
 
     G = {}
     G['Top100'] = fill_Graph(top100_cluster, count, gtoidict, itogdict)
@@ -254,43 +185,36 @@ def main():
     nlistt100 = get_c_from_partition(C.best_partition(G['Top100']))
     nlistb100 = get_c_from_partition(C.best_partition(G['Bot100']))
 
-    #Get the individual community NX graphs from the original
+    # Get the individual community NX graphs from the original
     commGraphs = {}
     commGraphs['Top100'] = []
     commGraphs['Bot100'] = []
     for index in range(len(nlistt100)):
         commGraphs['Top100'].append(NX.subgraph(G['Top100'], nlistt100[index]))
     for index in range(len(nlistb100)):
-        commGraphs['Bot100'].append(NX.subgraph(G['Bot100'], nlistt100[index]))
+        commGraphs['Bot100'].append(NX.subgraph(G['Bot100'], nlistb100[index]))
 
     sampledict = {}
     sampledict['Top100'] = {}
     sampledict['Bot100'] = {}
-    #We finally have the eigenvector values
+    # We finally have the eigenvector values
     for gname in ['Top100', 'Bot100']:
         for subgraph in range(len(commGraphs[gname])):
             EVCDict[gname].update(NX.eigenvector_centrality_numpy(
                 G[gname], commGraphs[gname][subgraph]))
 
     newd = {}
+    geneList = sorted(list(set(EVCDict['Top100'].keys()) |
+                      set(EVCDict['Bot100'].keys())))
+
     for movie in genedict:
         newd[movie] = {}
-        newd[movie]['cos'] = compute_cosine_similarity(movie, cluster_set,
-                                                       genedict, EVCDict,
-                                                       filtergenes)
-        #ROIDict[movie] = compute_ROI(cl, cluster_set, use_weighted_roi)
+        newd[movie]['cos'] = compute_cosine_similarity(movie,
+                                                       genedict,
+                                                       EVCDict,
+                                                       geneList)
 
     json.dump(newd, open('/Users/Lanfear/Desktop/TrainCosine.txt', 'w'))
-    return
-    meanROI = mean(genedict)
-    mse = MSE(meanROI, ROIDict)
-    mae = MAE(meanROI, ROIDict)
-    print 'MSE ' + str(start_year) + ' - ' + str(end_year) + ': ' +\
-        str(round(mse, 6))
-    print 'MAE ' + str(start_year) + ' - ' + str(end_year) + ': ' +\
-        str(round(mae, 6))
-    print 'R2 ' + str(start_year) + ' - ' + str(end_year) + ': ' +\
-        str(round(R2(mse, mae), 6))
 
 
 if __name__ == '__main__':

@@ -7,17 +7,18 @@ Created on Tue Oct  7 22:50:58 2014
 
 import collections
 import numpy as np
-import networkx as nx
-import matplotlib.pyplot as plt
+# import networkx as nx
+# import matplotlib.pyplot as plt
 
 movieinfo_url = '/Users/Lanfear/Desktop/Research/SDBData/movies_gene_data.txt'
+
 
 def topbotmatrix(gtoi, itog, mdict):
     #Build adjacency matrix of top-250 and bottom-100 movies
     adj = np.zeros((668, 668), dtype=int)
     for mname in mdict:
         genelist = mdict[mname]
-        
+
         for i in range(len(genelist)):
             for j in range(len(genelist)):
                 if i == j:
@@ -28,29 +29,30 @@ def topbotmatrix(gtoi, itog, mdict):
                     adj[row][col] += 1
                     adj[col][row] += 1
 
+
 def main():
 
-    moviedict = {}    
+    moviedict = {}
     tempdict = {}
     f = open(movieinfo_url, 'r')
     for line in f:
         moviename = line[:line.find('[')].rstrip()
-        genelist = line[line.find('[')+1 : line.find(']')].replace("'", '').replace(" ", '').split(',')
+        genelist = line[line.find('[')+1: line.find(']')]\
+            .replace("'", '').replace(" ", '').split(',')
         moviedict[moviename] = genelist
-        
+
         for gene in genelist:
             tempdict[gene] = 0
-    
+
     gtoidict = collections.OrderedDict()
     itogdict = collections.OrderedDict()
-    keylist = [gene.lower() for gene in sorted(tempdict.keys())]    
-    
-    
+    keylist = [gene.lower() for gene in sorted(tempdict.keys())]
+
     for gene in keylist:
         gtoidict[gene] = 0
-    
+
     count = 0
-    
+
     for gene in gtoidict.keys():
         gtoidict[gene] = count
         itogdict[count] = gene
